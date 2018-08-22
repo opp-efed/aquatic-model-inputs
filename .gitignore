@@ -1,3 +1,20 @@
+# Data files
+bin/Input/LakeMorphometry/*
+bin/Input/MetData/*
+bin/Intermediate/Combinations/*
+bin/Intermediate/CustomNHD/*
+bin/Intermediate/CustomSSURGO/*
+bin/Intermediate/ProcessedSoils/*
+bin/Intermediate/ProjectedLayers/CDL/*
+bin/Intermediate/ProjectedLayers/NHD_Catchments/*
+bin/Intermediate/ProjectedLayers/SSURGO/*
+bin/Intermediate/ProjectedLayers/WeatherGrid/*
+bin/Production/HydroFiles/*
+bin/Production/RecipeFiles/*
+bin/Production/ScenarioMatrices/*
+bin/Production/WeatherFiles/*
+dev/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

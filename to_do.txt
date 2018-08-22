@@ -1,0 +1,3 @@
+# Check that 'mode' works properly through whole stack
+# Generate met grid in generate_weather
+# Add scenario selection and metfile selection scripts
