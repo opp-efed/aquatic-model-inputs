@@ -10,12 +10,26 @@ def read_cdf(path):
     return xr.open_dataset(path).to_dataframe()
 
 
-def map_stations(precip_path, sample_year=1990):
+def map_stations(precip_path, bounds=None, sample_year=1990):
     """ Use a representative precip file to assess the number of precipitation stations """
-    precip_table = read_cdf(precip_path.format(sample_year))
+
+    # Read file and adjust longitude
+    precip_table = read_cdf(precip_path.format(sample_year)).reset_index()
+    precip_table['lon'] -= 360
+
+    # Filter out points by geography and completeness
+    # This line probably not necessary once we're working with global, right?
+    precip_table = precip_table.groupby(['lat', 'lon']).filter(lambda x: x['precip'].sum() > 0)
+    if bounds is not None:
+        precip_table = \
+            precip_table[(precip_table.lat >= bounds[0]) & (precip_table.lat <= bounds[1]) &
+                         (precip_table.lon >= bounds[2]) & (precip_table.lon <= bounds[3])]
+
+    # Sort values and add an index
     precip_table = \
-        precip_table.reset_index().groupby(['lat', 'lon']).filter(lambda x: x['precip'].sum() > 0)
-    return precip_table[['lat', 'lon']].drop_duplicates()
+        precip_table[['lat', 'lon']].drop_duplicates().sort_values(['lat', 'lon'])
+
+    return precip_table.reset_index(drop=True)
 
 
 class WeatherCube(object):
@@ -93,7 +107,6 @@ class WeatherCube(object):
             # Loop through each date and perform interpolation
             print("\tPreforming daily interpolation...")
             for i, (date, ncep_group) in enumerate(ncep_table.groupby('date')):
-
                 daily_precip = precip_table[precip_table.time == date]
 
                 # Interpolate NCEP data to resolution of precip data
@@ -154,8 +167,8 @@ class WeatherCube(object):
 
     def read_precip(self, year, precip_path):
         precip_table = read_cdf(precip_path.format(year)).reset_index()
-        precip_table = self.precip_points.merge(precip_table, how='left', on=['lat', 'lon'])
         precip_table['lon'] -= 360
+        precip_table = self.precip_points.merge(precip_table, how='left', on=['lat', 'lon'])
         return precip_table
 
     def write_key(self):
@@ -175,27 +188,24 @@ class WeatherCube(object):
 
 
 def main():
-    from paths import met_data_path
+    from paths import met_data_path, met_grid_path
 
     ncep_vars = ["tmin.2m", "tmax.2m", "air.2m", "dswrf.ntat", "uwnd.10m", "vwnd.10m"]
-    ncep_path = os.path.join(met_data_path, "{}.gauss.{}.nc")
-    precip_path = os.path.join(met_data_path, "precip.V1.0.{}.nc")
+    ncep_path = os.path.join(met_data_path, "{}.gauss.{}.nc")  # var, year
+    precip_path = os.path.join(met_data_path, "precip.V1.0.{}.nc")  # year
 
     # Specify run parameters
     years = range(1961, 1963)
     overwrite = True
     bounds = [20, 60, -130, -60]  # min lat, max lat, min long, max long
 
-    # Get the coordinates for all precip stations being used
-    precip_points = map_stations(precip_path, overwrite=overwrite)
+    # Get the coordinates for all precip stations being used and write to file
+    precip_points = map_stations(precip_path, bounds)
+    precip_points.to_csv(met_grid_path, index_label='weather_grid')
+    exit()
 
     # Process all weather and store to memory
-    if True:
-        WeatherCube(years, ncep_vars, ncep_path, precip_path, bounds, precip_points, overwrite)
-    else:
-        a = WeatherCube()
-        print(a.fetch(0))
-        exit(5678)
+    WeatherCube(years, ncep_vars, ncep_path, precip_path, bounds, precip_points, overwrite)
 
 
 if __name__ == '__main__':

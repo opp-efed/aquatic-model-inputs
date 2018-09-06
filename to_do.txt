@@ -1,3 +1,2 @@
 # Check that 'mode' works properly through whole stack
-# Generate met grid in generate_weather
-# Add scenario selection and metfile selection scripts
+# Add  metfile selection to select_pwc_inputs

@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
+from utilities import fields
+
 
 class RegionSoils(object):
     def __init__(self, region, states, ssurgo, out_path):
@@ -11,6 +13,9 @@ class RegionSoils(object):
         self.states = states
         self.ssurgo = ssurgo
         self.out_path = out_path
+
+        # Refresh fields
+        fields.refresh()
 
         # Read data from SSURGO
         print("\tReading raw soils data...")
@@ -23,7 +28,7 @@ class RegionSoils(object):
         self.adjust_data()
 
         print("\tExtending horizons...")
-        self.max_horizons = self.sort_horizons()
+        self.sort_horizons()
 
         print("\tAdding soil attributes...")
         self.soil_attribution()
@@ -76,8 +81,7 @@ class RegionSoils(object):
         return aggregation_map
 
     def depth_weighting(self):
-        from utilities import fields
-        from parameters import depth_bins
+        from parameters import depth_bins, max_horizons
 
         # Get the root name of depth weighted fields
         depth_fields = {f.split("_")[0] for f in fields.fetch('depth_weight')}
@@ -88,7 +92,7 @@ class RegionSoils(object):
             bin_table = np.zeros((self.soil_table.shape[0], len(depth_fields)))
 
             # Perform depth weighting on each horizon
-            for i in range(self.max_horizons):
+            for i in range(max_horizons):
                 # Set field names for horizon
                 top_field, bottom_field = 'horizon_top_{}'.format(i + 1), 'horizon_bottom_{}'.format(i + 1)
                 value_fields = ["{}_{}".format(f, i + 1) for f in depth_fields]
@@ -97,7 +101,7 @@ class RegionSoils(object):
                 horizon_bottom, horizon_top = self.soil_table[bottom_field], self.soil_table[top_field]
                 overlap = (horizon_bottom.clip(upper=bin_bottom) - horizon_top.clip(lower=bin_top)).clip(0)
                 ratio = (overlap / (horizon_bottom - horizon_top)).fillna(0)
-                bin_table += self.soil_table[value_fields].fillna(0).mul(ratio, axis=0).as_matrix()
+                bin_table += self.soil_table[value_fields].fillna(0).mul(ratio, axis=0).values
 
             # Add columns
             bin_table = \
@@ -110,7 +114,6 @@ class RegionSoils(object):
         self.soil_table = pd.concat([self.soil_table] + depth_weighted, axis=1)
 
     def read_tables(self):
-        from utilities import fields
 
         horizon_tables, component_tables = [], []
         for state in self.states:
@@ -130,29 +133,36 @@ class RegionSoils(object):
         return combined
 
     def sort_horizons(self):
-        from utilities import fields
+        from parameters import max_horizons
 
         # Get number of horizons for each map unit
-        horizon_counts = self.soil_table.groupby('cokey').cumcount() + 1  # horizon count
+        grouped = self.soil_table.groupby('cokey')
+        horizon_counts = grouped.cumcount() + 1  # horizon count
+        self.soil_table = \
+            self.soil_table.merge(grouped.size().reset_index(name="n_horizons"), on='cokey')
 
         # Get fields to be extended by horizon
         horizontal_fields = fields.fetch('horizontal') + ['kwfact']
 
         # Extend columns of data for multiple horizons
-        horizontal_data = self.soil_table[['cokey'] + horizontal_fields]
-        a = horizontal_data.set_index(['cokey', horizon_counts])
+        horizontal_data = \
+            self.soil_table[['cokey'] + horizontal_fields] \
+                .set_index(['cokey', horizon_counts]).unstack().sort_index(1, level=1)
 
-        b = a.unstack()
-
-        horizontal_data = b.sort_index(1, level=1)
         horizontal_data.columns = ['_'.join(map(str, i)) for i in horizontal_data.columns]
         horizontal_data = horizontal_data.reset_index()
 
-        # Fold horizontal data back into soil table
-        keep_fields = [f for f in self.soil_table.columns if f not in horizontal_fields]
-        self.soil_table = self.soil_table[keep_fields].drop_duplicates().merge(horizontal_data, on='cokey')
+        # Add dummy fields (TODO - better way than this?)
+        for field in fields.fetch('horizontal'):
+            for i in range(horizon_counts.max(), max_horizons):
+                horizontal_data["{}_{}".format(field, i + 1)] = np.nan
 
-        return horizon_counts.max()
+        # Fold horizontal data back into soil table
+        print(self.soil_table.columns.values)
+        keep_fields = [f for f in self.soil_table.columns if f not in horizontal_fields]
+        print(keep_fields)
+        self.soil_table = \
+            self.soil_table[keep_fields].drop_duplicates().merge(horizontal_data, on='cokey')
 
     def select_components(self):
         """  Identify component to be used for each map unit """
@@ -172,7 +182,7 @@ class RegionSoils(object):
         """ Merge soil table with params and get hydrologic soil group (hsg) and USLE values """
 
         def calculate_uslels(df):
-            from parameters import uslels_matrix
+            from utilities import uslels_matrix
 
             row = (uslels_matrix.index.values.astype(np.int32) < df.slope).sum()
             col = (uslels_matrix.columns.values.astype(np.int32) < df.slope_length).sum()
@@ -204,11 +214,11 @@ class RegionSoils(object):
         self.soil_table.loc[(self.soil_table.horizon_top_1 > 1) | (self.soil_table.horizon_top_1 < 0), 'kwfact'] = \
             np.nan
         self.soil_table.loc[self.soil_table.desgnmaster_1 == 'R', 'kwfact'] = np.nan
-        for field in ['kwfact_{}'.format(i + 1) for i in range(self.max_horizons)]:  # Delete horizon kwfact fields
-            del self.soil_table[field]
+        for field in self.soil_table.columns.values:
+            if 'kwfact_' in field:
+                del self.soil_table[field]
 
     def write_to_file(self, modify=None, aggregation_map=None, perform_qc=True):
-        from utilities import fields
 
         # Reset output fields
         fields.refresh()
@@ -217,15 +227,15 @@ class RegionSoils(object):
         if modify == 'aggregated':
             fields.expand('depth')
             out_fields = fields.fetch("sam_ssurgo") + ['aggregation_key']
-            mode = "SAM_aggregated"
+            mode = "sam_aggregated"
         elif modify == 'depth_weighted':
             fields.expand('depth')
             out_fields = fields.fetch("sam_ssurgo") + ['mukey']
-            mode = "SAM_unaggregated"
+            mode = "sam_unaggregated"
         elif modify is not None:
             raise Exception("Invalid output type {} given, must be 'aggregated', 'depth_weighted', or None")
         else:
-            fields.expand('horizon', self.max_horizons)
+            fields.expand('horizon')
             mode = "PWC"
             out_fields = fields.fetch("pwc_ssurgo")
 
@@ -274,7 +284,7 @@ def main():
     for region in regions:
         print("Processing Region {} soils...".format(region))
         states = states_nhd[region]
-        RegionSoils(region, states, ssurgo, processed_ssurgo_path)
+        RegionSoils(region, states, ssurgo, processed_soil_path)
 
 
 main()

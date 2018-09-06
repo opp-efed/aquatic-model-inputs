@@ -1,0 +1,135 @@
+cdl,cdl_desc,gen_class,gen_class_desc,label_group_desc,label_group_desc_corr,label_group
+1,Corn,10,Corn,Cereal Grains,Cereal Grains,15B
+2,Cotton,20,Cotton,not listed,Oilseed,20C
+3,Rice,30,Rice,Cereal Grains,Cereal Grains,15C
+4,Sorghum,80,Other grains,Cereal Grains,Cereal Grains,15B
+5,Soybeans,40,Soybeans,"Vegetables, Legume",Legumes,6
+6,Sunflower,90,Other row crops,not listed,Oilseed,20B
+10,Peanuts,90,Other row crops,not listed,Non-CFR Crops,
+11,Tobacco,90,Other row crops,not listed,Non-CFR Crops,
+12,Sweet Corn,60,Vegetables and ground fruit,Cereal Grains,Cereal Grains,15B
+13,Pop or Orn Corn,60,Vegetables and ground fruit,Cereal Grains,Cereal Grains,15B
+14,Mint,60,Vegetables and ground fruit,Herbs and Spices,Herb,25
+21,Barley,80,Other grains,Cereal Grains,Cereal Grains,15A
+22,Durum Wheat,22,Wheat,Cereal Grains,Cereal Grains,15A
+23,Spring Wheat,23,Wheat,Cereal Grains,Cereal Grains,15A
+24,Winter Wheat,24,Wheat,Cereal Grains,Cereal Grains,15A
+25,Other Small Grains,80,Other grains,Cereal Grains,Cereal Grains,15A
+26,Dbl Crop WinWht/Soybeans,45,Soybeans/Wheat,2 separate crops,,15A/6
+27,Rye,80,Other grains,Cereal Grains,Cereal Grains,15A
+28,Oats,80,Other grains,Cereal Grains,Cereal Grains,15A
+29,Millet,80,Other grains,Cereal Grains,Cereal Grains,15B
+30,Speltz,80,Other grains,Cereal Grains,Cereal Grains,15A
+31,Canola,80,Other grains,Oilseed,Oilseed,20A
+32,Flaxseed,80,Other grains,Oilseed,Oilseed,20A
+33,Safflower,80,Other grains,Oilseed,Oilseed,20B
+34,Rape Seed,80,Other grains,Oilseed,Oilseed,20A
+35,Mustard,60,Vegetables and ground fruit,"Vegetables, Brassica","Vegetables, Brassica Leafy",4-16B
+36,Alfalfa,110,Pasture/hay/forage,Nongrass Animal Feeds,Nongrass Animal Feeds,18
+37,Other Hay/Non Alfalfa,110,Pasture/hay/forage,Nongrass Animal Feeds,Nongrass Animal Feeds,17
+38,Camelina,80,Other grains,Oilseed,Oilseed,20A
+39,Buckwheat,80,Other grains,Cereal Grains,Cereal Grains,15A
+41,Sugarbeets,90,Other row crops,"Vegetables, Root and Tuber","Vegetables, Root and Tuber",1A
+42,Dry Beans,60,Vegetables and ground fruit,"Vegetables, Legume","Vegetables, Legume",6C
+43,Potatoes,60,Vegetables and ground fruit,"Vegetables, Root and Tuber","Vegetables, Root and Tuber",1C
+44,Other Crops,100,Other crops,Mixed,Mixed,
+45,Sugarcane,80,Other grains,not listed,Non-CFR Crops,
+46,Sweet Potatoes,60,Vegetables and ground fruit,"Vegetables, Root and Tuber","Vegetables, Root and Tuber",1D
+48,Watermelons,60,Vegetables and ground fruit,"Vegetables, Cucurbit","Vegetables, Cucurbit",9A
+49,Onions,60,Vegetables and ground fruit,"Vegetables, Bulb","Vegetables, Bulb",3-07A
+50,Cucumbers,60,Vegetables and ground fruit,"Vegetables, Cucurbit","Vegetables, Cucurbit",9B
+51,Chick Peas,60,Vegetables and ground fruit,"Vegetables, Legume","Vegetables, Legume",6C
+52,Lentils,60,Vegetables and ground fruit,"Vegetables, Legume","Vegetables, Legume",6C
+53,Peas,60,Vegetables and ground fruit,"Vegetables, Legume","Vegetables, Legume","6A, 6B, 6C"
+54,Tomatoes,60,Vegetables and ground fruit,"Vegetables, Fruiting","Vegetables, Fruiting",8-10A
+55,Caneberries,61,Vegetables and ground fruit,Berries and Small Fruit,Berries and Small Fruit,13-07A
+56,Hops,90,Other row crops,not listed,Non-CFR Crops,
+57,Herbs,60,Vegetables and ground fruit,Herbs and Spices,Herbs and Spices,19
+58,Clover/Wildflowers,110,Other crops,Nongrass Animal Feeds??,Nongrass Animal Feeds??,
+59,Sod/Grass Seed,110,Other crops,na,na,
+60,Switchgrass,110,Pasture/hay/forage,Nongrass Animal Feeds,Nongrass Animal Feeds,17
+61,Fallow/Idle Cropland,100,Other crops,,,
+62,Pasture/Grass,110,Pasture/hay/forage,na,na,17
+63,Forest,140,Forest,,,
+64,Shrubland,160,Shrubland,,,
+65,Barren,200,Miscellaneous land,,,
+66,Cherries,70,Orchards and grapes,Stone Fruit,Stone Fruit,12-12A
+67,Peaches,70,Orchards and grapes,Stone Fruit,Stone Fruit,12-12B
+68,Apples,70,Orchards and grapes,Pome Fruit,Pome Fruit,11-10'
+69,Grapes,70,Orchards and grapes,Berries and Small Fruit,Berries and Small Fruit,13-07F
+70,Christmas Trees,75,Other trees,Not a food crop,,
+71,Other Tree Crops,70,Orchards and grapes,Mixed,,
+72,Citrus,70,Orchards and grapes,Citrus Fruits,Citrus Fruits,
+73,unidentified,200,Miscellaneous land,,,
+74,Pecans,70,Orchards and grapes,Tree Nuts,Tree Nuts,14-12
+75,Almonds,70,Orchards and grapes,Tree Nuts,Tree Nuts,14-12
+76,Walnuts,70,Orchards and grapes,Tree Nuts,Tree Nuts,14-12
+77,Pears,70,Orchards and grapes,Pome Fruit,Pome Fruit,11-10'
+81,Clouds/No Data,200,Miscellaneous land,,,
+82,Developed,123,Developed - unspec,,,
+83,Water,180,Water,,,
+87,Wetlands,195,Wetlands - herbaceous,,,
+88,Nonag/Undefined,200,Miscellaneous land,,,
+92,Aquaculture,100,Other crops,not listed,not listed,
+111,Open Water,180,Water,,,
+112,Perennial Ice/Snow ,200,Miscellaneous land,,,
+121,Developed/Open Space,121,Developed - open,,,
+122,Developed/Low Intensity,122,Developed - low,,,
+123,Developed/Med Intensity,123,Developed - med,,,
+124,Developed/High Intensity,124,Developed - high,,,
+131,Barren,200,Miscellaneous land,,,
+141,Deciduous Forest,140,Forest,,,
+142,Evergreen Forest,140,Forest,,,
+143,Mixed Forest,140,Forest,,,
+152,Shrubland,160,Shrubland,,,
+171,no longer in use,110,Pasture/hay/forage,na,na,
+176,Grassland/Pasture,110,Pasture/hay/forage,na,na,17
+181,no longer in use,110,Pasture/hay/forage,na,na,
+190,Woody Wetlands,190,Wetlands - woods,,,
+195,Herbaceous Wetlands,195,Wetlands - herbaceous,,,
+204,Pistachios,70,Orchards and grapes,Tree Nuts,Tree Nuts,14-12
+205,Triticale,80,Other grains,Cereal Grains,Cereal Grains,15A
+206,Carrots,60,Vegetables and ground fruit,"Vegetables, Root and Tuber","Vegetables, Root and Tuber",1A
+207,Asparagus,60,Vegetables and ground fruit,not listed,Stalk and Stem,22A
+208,Garlic,60,Vegetables and ground fruit,"Vegetables, Bulb","Vegetables, Bulb",3-07A
+209,Cantaloupes,60,Vegetables and ground fruit,"Vegetables, Cucurbit","Vegetables, Cucurbit",9A
+210,Prunes,70,Orchards and grapes,Stone Fruit,Stone Fruit,12-12C
+211,Olives,70,Orchards and grapes,not listed,"Tropical fruit, edible peel",23A
+212,Oranges,70,Orchards and grapes,Citrus Fruits,Citrus Fruits,10-10A
+213,Honeydew Melons,60,Vegetables and ground fruit,"Vegetables, Cucurbit","Vegetables, Cucurbit",9A
+214,Broccoli,60,Vegetables and ground fruit,"Vegetables, Brassica","Vegetables, Brassica",5-16'
+216,Peppers,60,Vegetables and ground fruit,"Vegetables, Fruiting","Vegetables, Fruiting","8-10B, 8-10C"
+217,Pomegranates,70,Orchards and grapes,"Fruit, not sure how to classify","Tropical Fruit, inedible peel",24B
+218,Nectarines,70,Orchards and grapes,Stone Fruit,Stone Fruit,12-12B
+219,Greens,60,Vegetables and ground fruit,"Vegetables, Leafy","Vegetables, Leafy",4-16A
+220,Plums,70,Orchards and grapes,Stone Fruit,Stone Fruit,12-12C
+221,Strawberries,61,Vegetables and ground fruit,Berries and Small Fruit,Berries and Small Fruit,13-07G
+222,Squash,60,Vegetables and ground fruit,"Vegetables, Cucurbit","Vegetables, Cucurbit",9B
+223,Apricots,70,Orchards and grapes,Stone Fruit,Stone Fruit,12-12C
+224,Vetch,110,Pasture/hay/forage,Nongrass Animal Feeds,Nongrass Animal Feeds,18
+225,Dbl Crop WinWht/Corn,15,Corn/Wheat,2 separate crops,,15A/ 15B
+226,Dbl Crop Oats/Corn,18,Corn/Grains,2 separate crops,,15A/ 15B
+227,Lettuce,60,Vegetables and ground fruit,"Vegetables, Leafy","Vegetables, Leafy",4-16A
+229,Pumpkins,60,Vegetables and ground fruit,"Vegetables, Cucurbit","Vegetables, Cucurbit",9B
+230,Dbl Crop Lettuce/Durum Wht,56,Wheat/Vegetables,2 separate crops,,4-16A/15A
+231,Dbl Crop Lettuce/Cantaloupe,60,Vegetables and ground fruit,2 separate crops,,4-16A/9A
+232,Dbl Crop Lettuce/Cotton,26,Cotton/Vegetables,2 separate crops,,4-16A/ 20C
+233,Dbl Crop Lettuce/Barley,68,Vegetables/Grains,2 separate crops,,4-16A/15A
+234,Dbl Crop Durum Wht/Sorghum,58,Wheat/Grains,2 separate crops,,15A/15B
+235,Dbl Crop Barley/Sorghum,80,Other grains,Cereal Grains,Cereal Grains,15A/15B
+236,Dbl Crop WinWht/Sorghum,58,Wheat/Grains,2 separate crops,,15A/15B
+237,Dbl Crop Barley/Corn,18,Corn/Grains,2 separate crops,,15A/ 15B
+238,Dbl Crop WinWht/Cotton,25,Cotton/Wheat,2 separate crops,,20C/15A
+239,Dbl Crop Soybeans/Cotton,42,Soybeans/Cotton,2 separate crops,,6/20A
+240,Dbl Crop Soybeans/Oats,48,Soybeans/Grains,2 separate crops,,6/15A
+241,Dbl Crop Corn/Soybeans,14,Corn/Soybeans,2 separate crops,,15B/6
+242,Blueberries,61,Vegetables and ground fruit,Berries and Small Fruit,Berries and Small Fruit,"13-07B, 13-07G"
+243,Cabbage,60,Vegetables and ground fruit,"Vegetables, Brassica","Vegetables, Brassica",5-16'
+244,Cauliflower,60,Vegetables and ground fruit,"Vegetables, Brassica","Vegetables, Brassica",5-16'
+245,Celery,60,Vegetables and ground fruit,"Vegetables, Leafy","Vegetables, Stem and Stalk",22B
+246,Radishes,60,Vegetables and ground fruit,"Vegetables, Root and Tuber","Vegetables, Root and Tuber",1A
+247,Turnips,60,Vegetables and ground fruit,"Vegetables, Root and Tuber","Vegetables, Root and Tuber",1A
+248,Eggplants,60,Vegetables and ground fruit,"Vegetables, Fruiting","Vegetables, Fruiting","8-10B, 8-10C"
+249,Gourds,60,Vegetables and ground fruit,"Vegetables, Cucurbit","Vegetables, Cucurbit",9B
+250,Cranberries,61,Vegetables and ground fruit,Berries and Small Fruit,Berries and Small Fruit,13-07H
+254,Dbl Crop Barley/Soybeans,48,Soybeans/Grains,2 separate crops,,15A/6

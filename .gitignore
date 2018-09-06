@@ -1,6 +1,8 @@
+.idea
 # Data files
 bin/Input/LakeMorphometry/*
 bin/Input/MetData/*
+bin/Input/Political/*
 bin/Intermediate/Combinations/*
 bin/Intermediate/CustomNHD/*
 bin/Intermediate/CustomSSURGO/*
@@ -9,10 +11,13 @@ bin/Intermediate/ProjectedLayers/CDL/*
 bin/Intermediate/ProjectedLayers/NHD_Catchments/*
 bin/Intermediate/ProjectedLayers/SSURGO/*
 bin/Intermediate/ProjectedLayers/WeatherGrid/*
+bin/Intermediate/Weather/*
 bin/Production/HydroFiles/*
 bin/Production/RecipeFiles/*
 bin/Production/ScenarioMatrices/*
 bin/Production/WeatherFiles/*
+bin/Production/PwcScenarios/*
+
 dev/*
 
 # Byte-compiled / optimized / DLL files

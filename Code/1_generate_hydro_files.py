@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 from utilities import Navigator, read_dbf, fields
-
+import gdal
 
 class NHDTable(object):
     def __init__(self, path):

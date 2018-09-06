@@ -1,6 +1,7 @@
 import numpy as np
 import os
 from utilities import read_dbf, read_gdb
+import pandas as pd
 
 
 class CustomSSURGO(object):
@@ -9,7 +10,7 @@ class CustomSSURGO(object):
         from parameters import states
 
         self.in_folder = ssurgo_path
-        self.out_folder = output_path
+        self.out_folder = output_path.format()
         self.overwrite = overwrite
         self.fields = fields
 
@@ -122,14 +123,14 @@ class CustomNHDPlus(object):
 
 
 def main():
-    from paths import soil_path, nhd_path, processed_ssurgo_path, condensed_nhd_path
+    from paths import soil_path, nhd_path, condensed_soil_path, condensed_nhd_path
 
     process_ssurgo = False
     process_nhd = True
     overwrite = True
 
     if process_ssurgo:
-        CustomSSURGO(soil_path, processed_ssurgo_path, overwrite)
+        CustomSSURGO(soil_path, condensed_soil_path, overwrite)
 
     if process_nhd:
         CustomNHDPlus(nhd_path, condensed_nhd_path, overwrite)

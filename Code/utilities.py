@@ -2,15 +2,13 @@ import os
 import numpy as np
 import pandas as pd
 
-from paths import fields_and_qc_path
+from paths import uslels_path, fields_and_qc_path
+""" Functions and classes utilized by multiple scripts """
 
 
 class FieldMatrix(object):
-    def __init__(self, path=None, matrix=None):
-        self.path = path
-        self.matrix = matrix
-        print("PATH: " + str(path))
-        print("OSDIR: " + str(os.listdir()))
+    def __init__(self):
+        self.path = fields_and_qc_path
         self.refresh()
 
         self.extended_monthly = False
@@ -23,18 +21,17 @@ class FieldMatrix(object):
         if fields is None:
             data_types = self.matrix.data_type
         else:
-            index_col = "sam_name" if not old_fields else "external_name"
+            index_col = "internal_name" if not old_fields else "external_name"
             data_types = self.matrix.set_index(index_col).loc[fields].data_type.values
         return np.array(list(map(eval, data_types)))
 
-    def expand(self, mode='depth', input_n=0):
+    def expand(self, mode='depth'):
 
-        from parameters import depth_bins, erom_months
-
+        from parameters import depth_bins, erom_months, max_horizons
         try:
             condition, select_field, numbers = \
                 {'depth': ('depth_weighted', 'depth_weight', depth_bins),
-                 'horizon': ('horizons_expanded', 'horizontal', range(1, input_n + 1)),
+                 'horizon': ('horizons_expanded', 'horizontal', range(1, max_horizons + 1)),
                  'monthly': ('extended_monthly', 'monthly', erom_months)}[mode]
 
         except KeyError as e:
@@ -49,13 +46,13 @@ class FieldMatrix(object):
             for _, row in self.matrix[self.matrix[select_field] == 1].iterrows():
                 for i in numbers:
                     new_row = row.copy()
-                    new_row['sam_name'] = row.sam_name + "_" + str(i)
+                    new_row['internal_name'] = row.internal_name + "_" + str(i)
                     new_row[condition] = 1
                     new_rows.append(new_row)
 
             # Filter out the old rows and add the new ones
-            self.matrix = self.matrix[~self.matrix.sam_name.isin(self.fetch(select_field))]
-            self.matrix = pd.concat([self.matrix, pd.concat(new_rows, axis=1).T], axis=0)
+            self.matrix = self.matrix[~self.matrix.internal_name.isin(self.fetch(select_field))]
+            self.matrix = pd.concat([self.matrix, pd.concat(new_rows, axis=1).T], axis=0, sort=False)
 
             # Record that the duplication has occurred
             setattr(self, condition, True)
@@ -65,7 +62,10 @@ class FieldMatrix(object):
             if item in self.matrix[column].values:
                 return self.matrix[self.matrix[column] == item][field].tolist()
         if item in self.matrix.columns:
-            return self.matrix[self.matrix[item] == 1][field].tolist()
+            selected = self.matrix[self.matrix[item] > 0]
+            if selected[item].max() > 1:
+                selected = selected.sort_values(item)
+            return selected[field].tolist()
         else:
             print("Unrecognized sub-table '{}'".format(item))
 
@@ -73,12 +73,12 @@ class FieldMatrix(object):
         return self.fetch_field(item, 'external_name')
 
     def fetch(self, item):
-        return self.fetch_field(item, 'sam_name')
+        return self.fetch_field(item, 'internal_name')
 
     @property
     def convert(self):
         if self._convert is None:
-            self._convert = {row.external_name: row.sam_name for _, row in self.matrix.iterrows()}
+            self._convert = {row.external_name: row.internal_name for _, row in self.matrix.iterrows()}
         return self._convert
 
     @property
@@ -87,7 +87,7 @@ class FieldMatrix(object):
             qc_fields = ['range_min', 'range_max', 'range_flag',
                          'general_min', 'general_max', 'general_flag',
                          'blank_flag', 'fill_value']
-            self._qc_table = self.matrix.set_index('sam_name')[qc_fields].dropna(subset=qc_fields, how='all')
+            self._qc_table = self.matrix.set_index('internal_name')[qc_fields].dropna(subset=qc_fields, how='all')
         return self._qc_table
 
     def perform_qc(self, other, outfile=None, verbose=False):
@@ -120,7 +120,7 @@ class FieldMatrix(object):
 
     @property
     def fill_value(self):
-        return self.matrix.set_index('sam_name').fill_value.dropna()
+        return self.matrix.set_index('internal_name').fill_value.dropna()
 
     def refresh(self):
         # Read the fields/QC matrix
@@ -180,6 +180,33 @@ class Navigator(object):
         return output[0] if len(output) == 1 else output
 
 
+class CropMatrix(pd.DataFrame):
+    def __init__(self):
+        # TODO: is it necessary to have CropParams and other internally-controlled tables in fields matrix?
+        super().__init__(self.merge_tables())
+
+    @staticmethod
+    def merge_tables():
+        from paths import crop_params_path, crop_group_path, genclass_params_path
+        matrix = pd.read_csv(crop_group_path)
+        matrix = matrix.merge(pd.read_csv(crop_group_path))
+        matrix = matrix.merge(pd.read_csv(crop_params_path), on='cdl')
+        # self = self.merge(
+        #    pd.read_csv(crop_dates_path)[fields.fetch_old('CropDates')].rename(columns=fields.convert), on='gen_class')
+        matrix = matrix.merge(
+            pd.read_csv(genclass_params_path), on='gen_class', suffixes=("_cdl", "_gen"))
+        return matrix
+
+    @property
+    def double_crops(self):
+        double_cropped = self.matrix[~pd.isnull(self.matrix.double_crop_a)]
+        return double_cropped[['cdl', 'double_crop_a', 'double_crop_b']].astype(np.int16).rename(
+            columns={"double_crop_a": "a", "double_crop_b": "b"})
+
+    def cultivated(self, mode='cdl'):
+        return self.matrix['cultivated_' + mode].unique()
+
+
 def read_gdb(dbf_file, table_name, input_fields=None):
     """Reads the contents of a dbf table """
     import ogr
@@ -229,4 +256,13 @@ def read_dbf(dbf_file, fields='all'):
 
 
 # Initialize field matrix
-fields = FieldMatrix(fields_and_qc_path)
+fields = FieldMatrix()
+
+# Initialize crops matrix
+crops = CropMatrix()
+
+# The Universal Soil Loss Equation (USLE) Length/Steepness (LS) Factor lookup matrix (uslels_matrix.csv)
+# USLE LS is based on the slope length (columns) and slope % (rows)
+# See Table 2 in SAM Scenario Input Parameter documentation. Only lengths up to 150 ft are included in the matrix.
+# Source: PRZM 3 manual (Carousel et al, 2005).
+uslels_matrix = pd.read_csv(uslels_path, index_col=0).astype(np.float32)
