@@ -6,7 +6,9 @@ bin/Input/Political/*
 bin/Intermediate/Combinations/*
 bin/Intermediate/CustomNHD/*
 bin/Intermediate/CustomSSURGO/*
-bin/Intermediate/ProcessedSoils/*
+bin/Intermediate/ProcessedSoils/PWC/*
+bin/Intermediate/ProcessedSoils/SAM_Aggregated/*
+bin/Intermediate/ProcessedSoils/SAM_Unaggregated/*
 bin/Intermediate/ProjectedLayers/CDL/*
 bin/Intermediate/ProjectedLayers/NHD_Catchments/*
 bin/Intermediate/ProjectedLayers/SSURGO/*
