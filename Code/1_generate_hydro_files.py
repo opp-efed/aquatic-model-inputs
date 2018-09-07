@@ -103,7 +103,7 @@ class NavigatorBuilder(object):
         conversion_array = convert.sort_values().index.values
 
         # Return nodes, travel times, outlets, and conversion
-        return nodes.as_matrix(), times, outlets, conversion_array
+        return nodes.values, times, outlets, conversion_array
 
     @staticmethod
     def map_paths(paths):
@@ -256,8 +256,8 @@ class LakeFileBuilder(object):
 
     def save_table(self, outfile_path):
         self.table[["outlet_comid", "wb_comid"]] = \
-            np.int32(self.table[["outlet_comid", "wb_comid"]].as_matrix())
-        np.savez_compressed(outfile_path, table=self.table.as_matrix(), key=self.table.columns)
+            np.int32(self.table[["outlet_comid", "wb_comid"]].values)
+        np.savez_compressed(outfile_path, table=self.table.values, key=self.table.columns)
 
 
 class FlowFileBuilder(object):
@@ -270,7 +270,7 @@ class FlowFileBuilder(object):
     def save(self):
         if not os.path.exists(os.path.dirname(self.out_table)):
             os.makedirs(os.path.dirname(self.out_table))
-        np.savez_compressed(self.out_table, table=self.table.as_matrix(), key=self.table.columns.tolist())
+        np.savez_compressed(self.out_table, table=self.table.values, key=self.table.columns.tolist())
 
 
 def main():

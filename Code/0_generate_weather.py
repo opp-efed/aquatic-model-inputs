@@ -5,6 +5,8 @@ import scipy.interpolate
 import numpy as np
 import datetime as dt
 
+from utilities import WeatherCube
+
 
 def read_cdf(path):
     return xr.open_dataset(path).to_dataframe()
@@ -32,47 +34,20 @@ def map_stations(precip_path, bounds=None, sample_year=1990):
     return precip_table.reset_index(drop=True)
 
 
-class WeatherCube(object):
-    def __init__(self, scratch_path, years=None, ncep_vars=None, ncep_path=None, precip_path=None, bounds=None,
-                 precip_points=None, overwrite=False):
+class WeatherCubeGenerator(WeatherCube):
+    def __init__(self, scratch_path, years, ncep_vars, ncep_path, precip_path, bounds, precip_points):
 
-        self.scratch_path = scratch_path
-        self.storage_path = os.path.join(scratch_path, "weather_cube.dat")
-        self.key_path = os.path.join(scratch_path, "weather_key.npz")
-        self.output_header = ["precip", "pet", "temp", "wind"]
-        self.overwrite = overwrite
-
-        # If all the necessary input parameters are provided, generate the weather file
-        if not any(map(lambda x: x is None, (years, ncep_vars, ncep_path, precip_path, bounds, precip_points))):
-            self.years = years
-            self.precip_points = pd.DataFrame(precip_points, columns=['lat', 'lon'])
-            if self.overwrite or not (os.path.exists(self.storage_path) and os.path.exists(self.key_path)):
-                self.populate(ncep_vars, ncep_path, precip_path, bounds)
-                self.write_key()
-
-        # If only a path is provided, initialize the cube from existing memory-mapped data
-        elif os.path.exists(self.storage_path) and os.path.exists(self.key_path):
-            self.years, self.precip_points = self.load_key()
-
-        else:
-            raise ValueError("No weather cube file found in the specified directory, can't build")
-
-    def fetch(self, point_num):
-        array = np.memmap(self.storage_path, mode='r', dtype=np.float32, shape=self.shape)
-        out_array = array[:, point_num]
-        del array
-        dates = pd.date_range(self.start_date, self.end_date)
-        return pd.DataFrame(data=out_array, columns=self.output_header, index=dates)
-
-    def load_key(self):
-        data = np.load(self.key_path)
-        return data['years'], pd.DataFrame(data['points'], columns=['lat', 'lon'])
+        super(WeatherCubeGenerator, self).__init__(scratch_path, years, precip_points)
+        self.years = years
+        self.precip_points = pd.DataFrame(precip_points, columns=['lat', 'lon'])
+        self.populate(ncep_vars, ncep_path, precip_path, bounds)
+        self.write_key()
 
     @staticmethod
     def perform_interpolation(daily_precip, daily_ncep, date):
         daily_precip['date'] = date
-        points = daily_ncep[['lat', 'lon']].as_matrix()
-        new_points = daily_precip[['lat', 'lon']].as_matrix()
+        points = daily_ncep[['lat', 'lon']].values
+        new_points = daily_precip[['lat', 'lon']].values
         for value_field in ('temp', 'pet', 'wind'):
             daily_precip[value_field] = \
                 scipy.interpolate.griddata(points, daily_ncep[value_field].values, new_points)
@@ -87,13 +62,7 @@ class WeatherCube(object):
             print("Running year {}...\n\tLoading datasets...".format(year))
 
             # Read, combine, and adjust NCEP tables
-            intermediate = "ncep{}.csv".format(year)
-            if False and os.path.exists(intermediate):
-                ncep_table = pd.read_csv(intermediate)
-                ncep_table['time'] = pd.to_datetime(ncep_table['time'])
-            else:
-                ncep_table = self.read_ncep(year, ncep_path, ncep_vars, bounds)
-                ncep_table.to_csv(intermediate)
+            ncep_table = self.read_ncep(year, ncep_path, ncep_vars, bounds)
 
             # Calculate PET and eliminate unneeded headings
             ncep_table = self.process_ncep(ncep_table)
@@ -148,7 +117,8 @@ class WeatherCube(object):
 
         return table
 
-    def read_ncep(self, year, ncep_path, ncep_vars, bounds):
+    @staticmethod
+    def read_ncep(year, ncep_path, ncep_vars, bounds):
         y_min, y_max, x_min, x_max = bounds
 
         # Read and merge all NCEP data tables for the year
@@ -174,18 +144,6 @@ class WeatherCube(object):
     def write_key(self):
         np.savez_compressed(self.key_path, points=self.precip_points, years=np.array(self.years))
 
-    @property
-    def end_date(self):
-        return dt.date(self.years[-1], 12, 31)
-
-    @property
-    def shape(self):
-        return (self.end_date - self.start_date).days + 1, self.precip_points.shape[0], len(self.output_header)
-
-    @property
-    def start_date(self):
-        return dt.date(self.years[0], 1, 1)
-
 
 def main():
     from paths import met_data_path, met_grid_path
@@ -195,17 +153,15 @@ def main():
     precip_path = os.path.join(met_data_path, "precip.V1.0.{}.nc")  # year
 
     # Specify run parameters
-    years = range(1961, 1963)
-    overwrite = True
+    years = range(1961, 2017)
     bounds = [20, 60, -130, -60]  # min lat, max lat, min long, max long
 
     # Get the coordinates for all precip stations being used and write to file
     precip_points = map_stations(precip_path, bounds)
     precip_points.to_csv(met_grid_path, index_label='weather_grid')
-    exit()
 
     # Process all weather and store to memory
-    WeatherCube(years, ncep_vars, ncep_path, precip_path, bounds, precip_points, overwrite)
+    WeatherCubeGenerator(met_data_path, years, ncep_vars, ncep_path, precip_path, bounds, precip_points)
 
 
 if __name__ == '__main__':

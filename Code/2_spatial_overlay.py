@@ -47,7 +47,7 @@ class CombinationBuilder(object):
         return out_table
 
     def save_output(self, out_table):
-        np.savez_compressed(self.out_path, data=out_table.as_matrix(), columns=out_table.columns.values)
+        np.savez_compressed(self.out_path, data=out_table.values, columns=out_table.columns.values)
 
 
 class Envelope(object):
@@ -152,7 +152,7 @@ class Raster(object):
         if self.alias is None:
             return int(self.obj.GetRasterBand(1).GetMaximum())
         else:
-            return max(self.alias.values())
+            return max(self.alias.values)
 
     @property
     def precision(self):

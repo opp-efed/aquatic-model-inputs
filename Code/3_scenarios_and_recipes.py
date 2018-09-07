@@ -126,7 +126,7 @@ class ScenarioMatrix(object):
 class Recipes(object):
     def __init__(self, region, year, combos, output_format):
         self.outfile = output_format.format(region, year)
-        self.comids = combos.comid.as_matrix()
+        self.comids = combos.comid.values
         self.recipes = combos[['scenario_id', 'area']]
 
         # Generate a map of which rows correspond to which comids
@@ -145,7 +145,7 @@ class Recipes(object):
     def save(self):
         if not os.path.exists(os.path.dirname(self.outfile)):
             os.makedirs(os.path.dirname(self.outfile))
-        np.savez_compressed(self.outfile, data=self.recipes.as_matrix(), map=self.recipe_map)
+        np.savez_compressed(self.outfile, data=self.recipes.values, map=self.recipe_map)
 
 
 def read_combinations(combo_path, aggregation_map, gridcode_to_comid):

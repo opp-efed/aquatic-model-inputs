@@ -1,2 +1,3 @@
 # Check that 'mode' works properly through whole stack
 # Add  metfile selection to select_pwc_inputs
+# Long term - class inheritance for classes repeated between scripts, e.g. WeatherCube, ScenarioMatrix

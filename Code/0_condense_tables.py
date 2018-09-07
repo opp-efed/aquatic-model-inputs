@@ -119,7 +119,7 @@ class CustomNHDPlus(object):
     def save(extracted, outfile):
         if not os.path.exists(os.path.dirname(outfile)):
             os.makedirs(os.path.dirname(outfile))
-        np.savez_compressed(outfile, data=extracted.as_matrix(), columns=extracted.columns.values)
+        np.savez_compressed(outfile, data=extracted.values, columns=extracted.columns.values)
 
 
 def main():
