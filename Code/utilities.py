@@ -54,7 +54,7 @@ class FieldMatrix(object):
 
             # Filter out the old rows and add the new ones
             self.matrix = self.matrix[~self.matrix.internal_name.isin(self.fetch(select_field))]
-            self.matrix = pd.concat([self.matrix, pd.concat(new_rows, axis=1).T], axis=0, sort=False)
+            self.matrix = pd.concat([self.matrix, pd.concat(new_rows, axis=1).T], axis=0)
 
             # Record that the duplication has occurred
             setattr(self, condition, True)
@@ -186,24 +186,24 @@ class CropMatrix(pd.DataFrame):
     def __init__(self):
         # TODO: is it necessary to have CropParams and other internally-controlled tables in fields matrix?
         super().__init__(self.merge_tables())
+        self._double_crops = None
 
     @staticmethod
     def merge_tables():
-        from paths import crop_params_path, crop_group_path, genclass_params_path
-        matrix = pd.read_csv(crop_group_path)
-        matrix = matrix.merge(pd.read_csv(crop_group_path))
-        matrix = matrix.merge(pd.read_csv(crop_params_path), on='cdl')
-        # self = self.merge(
-        #    pd.read_csv(crop_dates_path)[fields.fetch_old('CropDates')].rename(columns=fields.convert), on='gen_class')
-        matrix = matrix.merge(
-            pd.read_csv(genclass_params_path), on='gen_class', suffixes=("_cdl", "_gen"))
-        return matrix
+        """ Merge all parameter tables linked to crop class """
+        from paths import crop_group_path, crop_dates_path, crop_params_path, genclass_params_path, irrigation_path
+        return pd.read_csv(crop_group_path) \
+            .merge(pd.read_csv(crop_params_path), on='cdl', how='left') \
+            .merge(pd.read_csv(crop_dates_path), on='cdl', how='left') \
+            .merge(pd.read_csv(irrigation_path), on=['cdl', 'state'], how='left') \
+            .merge(pd.read_csv(genclass_params_path), on='gen_class', how='left', suffixes=('_cdl', '_gen'))
 
     @property
     def double_crops(self):
-        double_cropped = self.matrix[~pd.isnull(self.matrix.double_crop_a)]
-        return double_cropped[['cdl', 'double_crop_a', 'double_crop_b']].astype(np.int16).rename(
-            columns={"double_crop_a": "a", "double_crop_b": "b"})
+        if self._double_crops is None:
+            self._double_crops = self[~np.isnan(self.double_crop_a)].drop_duplicates(
+                ['cdl'])[['cdl', 'double_crop_a', 'double_crop_b']].astype(np.int16)
+        return self._double_crops
 
     def cultivated(self, mode='cdl'):
         return self.matrix['cultivated_' + mode].unique()
@@ -212,7 +212,7 @@ class CropMatrix(pd.DataFrame):
 class WeatherCube(object):
     def __init__(self, weather_path, years=None, precip_points=None):
         self.storage_path = os.path.join(weather_path, "weather_cube.dat")
-        self.key_path = os.path.join(weather_path, "weather_key.npy")
+        self.key_path = os.path.join(weather_path, "weather_key.npz")
         self.output_header = ["precip", "pet", "temp", "wind"]
 
         if years is None and precip_points is None:

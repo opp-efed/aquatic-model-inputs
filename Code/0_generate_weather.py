@@ -146,7 +146,7 @@ class WeatherCubeGenerator(WeatherCube):
 
 
 def main():
-    from paths import met_data_path, met_grid_path
+    from paths import met_data_path, met_grid_path, metfile_path
 
     ncep_vars = ["tmin.2m", "tmax.2m", "air.2m", "dswrf.ntat", "uwnd.10m", "vwnd.10m"]
     ncep_path = os.path.join(met_data_path, "{}.gauss.{}.nc")  # var, year
@@ -155,13 +155,13 @@ def main():
     # Specify run parameters
     years = range(1961, 2017)
     bounds = [20, 60, -130, -60]  # min lat, max lat, min long, max long
-
+    precip_points = None
     # Get the coordinates for all precip stations being used and write to file
-    precip_points = map_stations(precip_path, bounds)
-    precip_points.to_csv(met_grid_path, index_label='weather_grid')
+    #precip_points = map_stations(precip_path, bounds)
+    #precip_points.to_csv(met_grid_path, index_label='weather_grid')
 
     # Process all weather and store to memory
-    WeatherCubeGenerator(met_data_path, years, ncep_vars, ncep_path, precip_path, bounds, precip_points)
+    WeatherCubeGenerator(metfile_path, years, ncep_vars, ncep_path, precip_path, bounds, precip_points)
 
 
 if __name__ == '__main__':

@@ -19,6 +19,7 @@ bin/Production/RecipeFiles/*
 bin/Production/ScenarioMatrices/*
 bin/Production/WeatherFiles/*
 bin/Production/PwcScenarios/*
+bin/Production/PwcMetfiles/*
 
 dev/*
 

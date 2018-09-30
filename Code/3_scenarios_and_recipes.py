@@ -4,27 +4,22 @@ import pandas as pd
 
 
 class ScenarioMatrix(object):
-    def __init__(self, mode, combinations, soil_data, met_data, outfile):
-        from paths import crop_params_path, genclass_params_path, met_to_geo_path, crop_dates_path
+    def __init__(self, mode, region, year, scenario_matrix_path, combinations, soil_data, crop_data, met_data):
         self.mode = mode
         self.aggregate = True if self.mode == 'sam_aggregated' else False
 
         # Set paths
-        self.outfile = outfile
+        self.outfile = scenario_matrix_path.format(mode, region, year)
         self.qc_outfile = self.outfile.rstrip(".csv") + "_qa.csv"
 
-        # Create duplicate scenarios for double-cropped classes
-        self.add_double_crops()
+        self.matrix = combinations
 
-        # Merge all tables
-        print("\t\tMerging tables...")
-        self.matrix = combinations \
-            .merge(met_to_geo_path, on='weather_grid', how='left') \
-            .merge(crop_dates_path, on=['cdl', 'state'], how='left') \
-            .merge(crop_params_path, on='cdl', how='left') \
-            .merge(genclass_params_path, on='gen_class', how='left') \
+        self.add_double_crops(crop_data)
+
+        self.matrix = self.matrix \
             .merge(soil_data, on="soil_id", how="left") \
-            .merge(met_data, left_on='weather_grid', right_on='stationID', how='left')
+            .merge(met_data, on="weather_grid", how="left") \
+            .merge(crop_data, on=["cdl", "state"], how="left")
 
         # Perform other scenario attribution tasks
         print("\t\tPerforming scenario attribution...")
@@ -37,60 +32,48 @@ class ScenarioMatrix(object):
         self.save()
 
     def scenario_attribution(self):
+        from parameters import hsg_cultivated, hsg_non_cultivated, null_curve_number
+        from utilities import fields
+
+        # Crop dates for double-cropped classes
+        for field in fields.fetch("CropDates"):
+            self.matrix[field] = self.matrix.pop(field + "_a")
+            self.matrix.loc[self.matrix.overlay == 1, field] = \
+                self.matrix.loc[self.matrix.overlay == 1, field + "_b"]
+            del self.matrix[field + "_b"]
+
+        # Emergence 7 days after planting, maturity halfway between plant and harvest
+        self.matrix['emergence_begin'] = self.matrix.plant_begin + 7
+        self.matrix['maxcover_begin'] = (self.matrix.plant_begin + self.matrix.harvest_begin) / 2
 
         # Process curve number
-        from parameters import hydro_soil_groups
-
-        # Assign curve numbers for cultivated classes
-        num_to_hsg = dict(enumerate(hydro_soil_groups))
-        num_to_hsg.update({2: "A", 4: "B", 6: "C"})  # A/D -> A, B/D -> B, C/D -> C
-        for num, hsg in num_to_hsg.items():
-            selected_rows = (self.matrix.hydro_group == num) & (self.matrix.cultivated == 1)
-            self.matrix.loc[selected_rows, 'cn_ag'] = self.matrix['cn_ag_' + hsg]
-            self.matrix.loc[selected_rows, 'cn_fallow'] = self.matrix['cn_fallow_' + hsg]
-
-        # Assign curve numbers for non-cultivated classes
-        num_to_hsg.update({2: "D", 4: "D", 6: "D"})  # A/D -> A, B/D -> B, C/D -> C
-        for num, hsg in num_to_hsg.items():
-            selected_rows = (self.matrix.hydro_group == num) & (self.matrix.cultivated == 0)
-            self.matrix.loc[selected_rows, 'cn_ag'] = self.matrix['cn_ag_' + hsg]
-            self.matrix.loc[selected_rows, 'cn_fallow'] = self.matrix['cn_fallow_' + hsg]
+        self.matrix['cn_ag'] = self.matrix['cn_fallow'] = null_curve_number
+        for hydro_soil_groups in hsg_cultivated, hsg_non_cultivated:
+            for i, hsg in enumerate(hydro_soil_groups):
+                sel = (self.matrix.hydro_group == i + 1) & (self.matrix.cultivated_cdl == 1)
+                self.matrix.loc[sel, 'cn_ag'] = self.matrix.loc[sel, 'cn_ag_' + hsg]
+                self.matrix.loc[sel, 'cn_fallow'] = self.matrix.loc[sel, 'cn_fallow_' + hsg]
 
         # Deal with maximum rooting depth
         self.matrix.loc[self.matrix.root_zone_max < self.matrix.amxdr, 'amxdr'] = self.matrix.root_zone_max
 
-        # Assign snowmelt factor (sfac)
-        self.matrix['sfac'] = 0.36
-        self.matrix.loc[self.matrix.cdl.isin((60, 70, 140, 190)), 'sfac'] = .16
+    def add_double_crops(self, crop_data):
+        self.matrix['overlay'] = 0
+        self.matrix['original_cdl'] = self.matrix.cdl
 
-        # Assign missing crop dates
-        empty = pd.isnull(self.matrix[['plant_begin', 'emergence_begin', 'maxcover_begin', 'harvest_begin']])
-        emergence = ~empty.plant_begin & empty.emergence_begin
-        max_cover = ~empty.plant_begin & ~empty.harvest_begin & empty.maxcover_begin
+        # Make new rows for double crops
+        all_new = pd.DataFrame(columns=self.matrix.columns)
+        for original_cdl, *new_classes in crop_data.double_crops.values:
+            old_rows = self.matrix[self.matrix.cdl == original_cdl]
+            for i, new_class in enumerate(new_classes):
+                new_rows = old_rows.copy()
+                new_rows.cdl = new_class
+                new_rows.overlay = i
+                all_new = all_new.append(new_rows)
 
-        # Emergence 7 days after planting, maturity halfway between plant and harvest
-        self.matrix.loc[emergence, 'emergence_begin'] = self.matrix.plant_begin[emergence] + 7
-        self.matrix.loc[max_cover, 'maxcover_begin'] = \
-            (self.matrix.plant_begin[max_cover] + self.matrix.harvest_begin[max_cover]) / 2
-
-    def add_double_crops(self):
-        """ Join CDL-class-specific parameters to the table and add new rows for double cropped classes """
-        from utilities import crops
-
-        # Process double crops
-        self.matrix['orig_cdl'] = self.matrix['cdl']
-        self.matrix['overlay'] = 0  # Overlay crops aren't used to generate runoff in pesticide calculator
-        all_new = []
-        for double_crop in crops.double_crops:
-            old_rows = np.where(self.matrix.orig_cdl == double_crop.cdl)
-            for i, new_crop in enumerate((double_crop.a, double_crop.b)):
-                new_rows = self.matrix[old_rows].copy()
-                new_rows['cdl'] = new_crop
-                new_rows['overlay'] = i
-                all_new.append(new_rows)
-            self.matrix.drop(old_rows)
-        new_data = pd.concat(all_new, axis=0)
-        self.matrix = pd.concat([self.matrix, new_data], axis=0)
+        # Drop double cropped rows and add the new ones
+        self.matrix = self.matrix[~np.in1d(self.matrix.cdl, crop_data.double_crops.cdl)]
+        self.matrix = self.matrix.append(all_new)
 
     def finalize(self):
         """ Perform a quality check and fill missing data """
@@ -100,7 +83,7 @@ class ScenarioMatrix(object):
         # Add the appropriate fields
         if self.mode == 'pwc':
             # Count the number of horizons in
-            fields.expand('horizon', self.matrix.columns)
+            fields.expand('horizon')
             out_fields = fields.fetch('pwc_scenario')
         else:
             fields.expand('depth')
@@ -114,7 +97,7 @@ class ScenarioMatrix(object):
         self.matrix = self.matrix[out_fields].reset_index(drop=True)
 
         # Perform QC
-        fields.perform_qc(self.matrix, self.qc_outfile)
+        # fields.perform_qc(self.matrix, self.qc_outfile)
 
         # Fill missing data
         self.matrix.fillna(fields.fill_value, inplace=True)
@@ -148,30 +131,83 @@ class Recipes(object):
         np.savez_compressed(self.outfile, data=self.recipes.values, map=self.recipe_map)
 
 
-def read_combinations(combo_path, aggregation_map, gridcode_to_comid):
-    # Unpack combinations table
-    matrix = pd.DataFrame(dtype=np.int32, **np.load(combo_path))
+class Combinations(object):
+    def __init__(self, combo_path, region, aggregation_map, gridcodes):
+        self.path = combo_path
+        self.region = region
+        self.map = aggregation_map
+        self.gridcodes = gridcodes
 
-    # Perform aggregation, if needed
-    if aggregation_map is not None:
-        matrix = matrix.merge(aggregation_map, on='mukey', how='left')
-        del matrix['mukey']
-        matrix = matrix.groupby(['gridcode', 'weather_grid', 'cdl', 'aggregation_key']).sum().reset_index()
-        matrix = matrix.rename(columns={'aggregation_key': 'soil_id'})
-    else:
-        matrix = matrix.rename(columns={'mukey': 'soil_id'})
+        self.unique_fields = ['scenario_id', 'weather_grid', 'cdl', 'soil_id']
+        self.matrix = None
 
-    matrix = matrix.merge(gridcode_to_comid, how='left', on='gridcode')
+    def read(self, year):
+        # Unpack combinations table
+        matrix = pd.DataFrame(dtype=np.int32, **np.load(self.path.format(self.region, year)))
+        # Matrix headings are getting written as binary for some reason
+        matrix = \
+            matrix.rename(
+                columns=dict(zip(matrix.columns.values, map(lambda x: x.decode('ascii'), matrix.columns.values))))
 
-    # Create a CDL/weather/soil identifier to link Recipes and Scenarios
-    matrix['scenario_id'] = 's' + matrix.soil_id.astype("str") + \
-                            'w' + matrix.weather_grid.astype("str") + \
-                            'lc' + matrix.cdl.astype("str")
+        # Perform aggregation, if needed
+        if self.map is not None:
+            matrix = matrix.merge(self.map, on='mukey', how='left')
+            del matrix['mukey']
+            matrix = matrix.groupby(['gridcode', 'weather_grid', 'cdl', 'aggregation_key']).sum().reset_index()
+            matrix = matrix.rename(columns={'aggregation_key': 'soil_id'})
+        else:
+            matrix = matrix.rename(columns={'mukey': 'soil_id'})
 
-    return matrix
+        matrix = matrix.merge(self.gridcodes, how='left', on='gridcode')
+
+        # Create a CDL/weather/soil identifier to link Recipes and Scenarios
+        matrix['scenario_id'] = 's' + matrix.soil_id.astype("str") + \
+                                'w' + matrix.weather_grid.astype("str") + \
+                                'lc' + matrix.cdl.astype("str")
+
+        return matrix
+
+    def update(self, combos):
+        # Remove catchment field
+        combos = combos[['scenario_id', 'weather_grid', 'cdl', 'soil_id'] + ['area']]
+
+        # Add new combos to existing table
+        if self.matrix is None:
+            self.matrix = combos
+        else:
+            self.matrix = pd.concat([self.matrix, combos])
+
+        # Add up the areas of duplicate scenarios
+        self.matrix = self.matrix.groupby(['scenario_id', 'weather_grid', 'cdl', 'soil_id']).sum().reset_index()
 
 
-def read_soils(region, soil_path, mode):
+def read_met_data(met_attributes_path):
+    met_data = pd.read_csv(met_attributes_path)
+    del met_data['state']  # for now, use state parameter from SSURGO
+    return met_data
+
+
+def read_crop_data():
+    """ Merge all parameter tables linked to crop class """
+
+    # Since crop data table is read in more than 1 script, reading this table is done in utilities.CropMatrix
+    from utilities import fields, crops as crop_data
+
+    # Parse crop dates
+    for field_stem in fields.fetch("CropDates"):
+        if "plant" in field_stem:
+            for var in "ab":
+                field = field_stem + "_" + var
+                harvest_field = field.replace("plant", "harvest")
+                crop_data[field] = \
+                    (pd.to_datetime(crop_data[field], format="%d-%b") - pd.to_datetime("1900-01-01")).dt.days
+                crop_data[harvest_field] = \
+                    (pd.to_datetime(crop_data[harvest_field], format="%d-%b") - pd.to_datetime("1900-01-01")).dt.days
+                crop_data[crop_data[harvest_field] < crop_data[field]] += 365
+    return crop_data
+
+
+def read_soils_data(region, soil_path, mode):
     sub_dir = "PWC" if mode == 'pwc' else 'SAM'
     soils = pd.read_csv(soil_path.format(sub_dir, region)).rename(
         columns={"mukey": "soil_id", "aggregation_key": 'soil_id'})
@@ -183,8 +219,8 @@ def read_soils(region, soil_path, mode):
 
 
 def main():
-    from paths import combo_path, condensed_nhd_path, processed_soil_path, \
-        met_attributes_path, recipe_path, scenario_matrix_path
+    from paths import \
+        combo_path, condensed_nhd_path, met_attributes_path, processed_soil_path, recipe_path, scenario_matrix_path
 
     # Specify run parameters here
     regions = ['07']  # all regions: nhd_regions
@@ -193,35 +229,31 @@ def main():
     scenario_modes = ['pwc']  # Select from 'pwc', 'sam_aggregated', or 'sam_unaggregated'
 
     # Read input tables not specific to regions
-    met_data = pd.read_csv(met_attributes_path)
+    met_data = read_met_data(met_attributes_path)
+    crop_data = read_crop_data()
 
     for mode in scenario_modes:
 
-        print("Running {}...".format(mode.upper()))
-
+        print("Creating {} scenarios...".format(mode.upper()))
         for region in regions:
 
-            soils, aggregation_map = read_soils(region, processed_soil_path, mode)
+            soil_data, aggregation_map = read_soils_data(region, processed_soil_path, mode)
             gridcodes = pd.DataFrame(**np.load(condensed_nhd_path.format(region)))[['gridcode', 'comid']]
 
             # Initialize table for all scenarios in all years
-            all_combos = None
+            all_combos = Combinations(combo_path, region, aggregation_map, gridcodes)
 
             for year in years:
-
                 print("\tReading combinations and assigning Scenario ID for region {}, year {}...".format(region, year))
-                combos = read_combinations(combo_path.format(region, year), aggregation_map, gridcodes)
-
+                # At this point, combos are unique combinations of soil, land use, weather, and catchment with areas
+                combos = all_combos.read(year)
                 if generate_recipes and 'sam' in mode:
                     print("\tGenerating recipes...")
                     Recipes(region, year, combos, recipe_path)
-
-                combos = combos[['weather_grid', 'cdl', 'soil_id', 'scenario_id']].drop_duplicates()
-
-                all_combos = combos if all_combos is None else pd.concat([all_combos, combos])
+                all_combos.update(combos)
 
             print("\tGenerating scenarios for region {}, {}...".format(region, year))
-            ScenarioMatrix(all_combos, soils, met_data, scenario_matrix_path.format(mode, region, year))
+            ScenarioMatrix(mode, region, year, scenario_matrix_path, all_combos.matrix, soil_data, crop_data, met_data)
 
 
 main()
