@@ -17,10 +17,9 @@ def overlay_rasters(*rasters):
 
 
 def condense_array(table, cell_size):
-    cell_area = cell_size ** 2
     new_table = defaultdict(int)
     for row in table:
-        new_table[tuple(row[:4])] += (int(row[4]) * cell_area)
+        new_table[tuple(row[:4])] += (int(row[4]) * (cell_size ** 2))
     return [list(key) + [area] for key, area in dict(new_table).items()]
 
 

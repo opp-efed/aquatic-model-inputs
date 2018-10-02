@@ -44,6 +44,6 @@ irrigation_path = os.path.join(table_dir, "irrigation.csv")
 metfile_path = os.path.join(production_dir, "WeatherFiles")
 hydro_file_path = os.path.join(production_dir, "HydroFiles", "region_{}_{}.npz")  # region, type
 recipe_path = os.path.join(production_dir, "RecipeFiles", "r{}_{}.npz")  # region, year
-scenario_matrix_path = os.path.join(production_dir, "ScenarioMatrices", "{}", "r{}_{}.csv")  # mode, region, year
+scenario_matrix_path = os.path.join(production_dir, "ScenarioMatrices", "{}", "r{}.csv")  # mode, region
 pwc_scenario_path = os.path.join(production_dir, "PwcScenarios", "r{}_{}_{}.csv")  # region, year, crop
 pwc_metfile_path = os.path.join(production_dir, "PwcMetfiles", "met_{}.csv")  # grid id
