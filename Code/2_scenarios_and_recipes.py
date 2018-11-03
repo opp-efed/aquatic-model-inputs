@@ -2,12 +2,14 @@ import os
 import numpy as np
 import pandas as pd
 
+from utilities import read_dbf
+
 
 class Scenarios(object):
     def __init__(self, mode, region, scenario_matrix_path, combo_path):
-        self.mode = mode
         self.region = region
-        self.aggregate = True if self.mode == 'sam_aggregated' else False
+        self.aggregate = 'aggregated' in mode
+        self.depth_weight = 'sam' in mode
         self.combo_path = combo_path
 
         # Set paths
@@ -37,6 +39,7 @@ class Scenarios(object):
     def populate(self, soil_data, met_data, crop_data):
         """ Join combinations with corresponding data tables and perform additional attribution """
 
+        # Join all tabular data to scenario matrix
         self.matrix = self.matrix \
             .merge(soil_data, on="soil_id", how="left") \
             .merge(met_data, on="weather_grid", how="left") \
@@ -49,27 +52,34 @@ class Scenarios(object):
         print("\t\tPerforming scenario attribution...")
         self.scenario_attribution()
 
-    def read_combinations(self, year, gridcodes, aggregation_map):
+    def read_combinations(self, year, gridcodes, aggregation_map, cell_size):
         # Unpack combinations table
-        matrix = pd.DataFrame(dtype=np.int32, **np.load(self.combo_path.format(self.region, year)))
+        from parameters import states_nhd
 
-        """
-        # Matrix headings are getting written as binary for some reason
-        matrix = \
-            matrix.rename(
-                columns=dict(zip(matrix.columns.values, map(lambda x: x.decode('ascii'), matrix.columns.values))))
-        """
+        matrix = None
+        for state in states_nhd[self.region]:
+            combo_file = self.combo_path.format(self.region, state, year)
+            combo_table = pd.DataFrame(dtype=np.int32, **np.load(combo_file))
+            matrix = combo_table if matrix is None else pd.concat([matrix, combo_table], axis=0)
+
+        # Column names get written as binary by spatial_overlay
+        matrix.columns = [f.decode('ascii') for f in matrix.columns.values]
+
+        # Combine duplicate rows and convert counts to areas
+        matrix = matrix.groupby(['gridcode', 'weather_grid', 'cdl', 'mukey']).sum().reset_index()
+        matrix['area'] *= cell_size ** 2
 
         # Perform aggregation, if needed
-        if aggregation_map is not None:
-            matrix = matrix.merge(self.map, on='mukey', how='left')
+        if self.aggregate:
+            matrix = matrix.merge(aggregation_map, on='mukey', how='left')
             del matrix['mukey']
-            matrix = matrix.groupby(['gridcode', 'weather_grid', 'cdl', 'aggregation_key']).sum().reset_index()
-            matrix = matrix.rename(columns={'aggregation_key': 'soil_id'})
+            matrix = matrix.rename(columns={'aggregation_key': 'soil_id'}) \
+                .groupby(['gridcode', 'weather_grid', 'cdl', 'soil_id']).sum().reset_index()
         else:
             matrix = matrix.rename(columns={'mukey': 'soil_id'})
 
-        matrix = matrix.merge(gridcodes, how='left', on='gridcode')
+        matrix = matrix.merge(gridcodes, how='left', on='gridcode').rename(columns={"featureid": "comid"})
+        del matrix['gridcode']
 
         # Create a CDL/weather/soil identifier to link Recipes and Scenarios
         matrix['scenario_id'] = 's' + matrix.soil_id.astype("str") + \
@@ -115,7 +125,7 @@ class Scenarios(object):
                 self.matrix.loc[sel, 'cn_fallow'] = self.matrix.loc[sel, 'cn_fallow_' + hsg]
 
         # Deal with maximum rooting depth
-        self.matrix.loc[self.matrix.root_zone_max < self.matrix.amxdr, 'amxdr'] = self.matrix.root_zone_max
+        self.matrix['amxdr'] = self.matrix[['amxdr', 'root_zone_max']].min(axis=1)
 
     def write_file(self):
         """ Perform a quality check and fill missing data """
@@ -124,7 +134,7 @@ class Scenarios(object):
 
         fields.refresh()
         # Add the appropriate fields
-        if self.mode == 'pwc':
+        if not self.depth_weight:
             # Count the number of horizons in
             fields.expand('horizon')
             out_fields = fields.fetch('pwc_scenario')
@@ -172,6 +182,11 @@ class Recipes(object):
         np.savez_compressed(self.outfile, data=self.recipes.values, map=self.recipe_map)
 
 
+def read_gridcodes(nhd_path):
+    gridcodes_path = os.path.join(nhd_path, "NHDPlusCatchment", "featureidgridcode.dbf")
+    return read_dbf(gridcodes_path)[['featureid', 'gridcode']]
+
+
 def read_met_data(met_attributes_path):
     met_data = pd.read_csv(met_attributes_path)
     del met_data['state']  # for now, use state parameter from SSURGO
@@ -199,11 +214,10 @@ def read_crop_data():
 
 
 def read_soils_data(region, soil_path, mode):
-    sub_dir = "PWC" if mode == 'pwc' else 'SAM'
-    soils = pd.read_csv(soil_path.format(sub_dir, region)).rename(
+    soils = pd.read_csv(soil_path.format(mode, region) + ".csv").rename(
         columns={"mukey": "soil_id", "aggregation_key": 'soil_id'})
     if 'sam' in mode:
-        aggregation = pd.read_csv(soil_path.format(sub_dir, region) + "_map.csv")
+        aggregation = pd.read_csv(soil_path.format(mode, region) + "_map.csv")
     else:
         aggregation = None
     return soils, aggregation
@@ -211,41 +225,56 @@ def read_soils_data(region, soil_path, mode):
 
 def main():
     from paths import \
-        combo_path, condensed_nhd_path, met_attributes_path, processed_soil_path, recipe_path, scenario_matrix_path
+        nhd_path, combo_path, met_attributes_path, processed_soil_path, recipe_path, scenario_matrix_path, scratch_dir
+    from parameters import vpus_nhd, states_nhd
 
     # Specify run parameters here
-    regions = ['07']  # all regions: nhd_regions
-    years = ['2010', '2011', '2012']
+    region = '07'  # all regions: nhd_regions
+    years = range(2013, 2018)
     generate_recipes = True
     scenario_modes = ['pwc']  # Select from 'pwc', 'sam_aggregated', or 'sam_unaggregated'
+    cell_size = 30
 
     # Read input tables not specific to regions
     met_data = read_met_data(met_attributes_path)
     crop_data = read_crop_data()
 
     for mode in scenario_modes:
+        print("Creating {} scenarios...".format(mode.lower()))
 
-        print("Creating {} scenarios...".format(mode.upper()))
-        for region in regions:
+        soil_data, aggregation_map = read_soils_data(region, processed_soil_path, mode)
 
-            soil_data, aggregation_map = read_soils_data(region, processed_soil_path, mode)
-            gridcodes = pd.DataFrame(**np.load(condensed_nhd_path.format(region)))[['gridcode', 'comid']]
+        gridcodes = read_gridcodes(nhd_path.format(vpus_nhd[region], region))
 
-            # Initialize table for all scenarios in all years
-            scenarios = Scenarios(mode, region, scenario_matrix_path, combo_path)
+        # Initialize table for all scenarios in all years
+        scenarios = Scenarios(mode, region, scenario_matrix_path, combo_path)
 
-            # Read all combination tables and generate recipes
-            for year in years:
-                print("\tReading combinations and assigning Scenario ID for region {}, year {}...".format(region, year))
-                combos = scenarios.read_combinations(year, gridcodes, aggregation_map)
+        # Read all combination tables and generate recipes
+        for year in years:
+            scratch_path = os.path.join(scratch_dir, "scenarios{}{}".format(mode, year))
+            print("\tReading combinations and assigning Scenario ID for region {}, year {}...".format(region, year))
+            if os.path.exists(scratch_path):
+                print(1)
+                if year == 2017:
+                    scenarios.matrix = pd.read_csv(scratch_path, index_col=0)
+            else:
+                print(2)
+                combos = scenarios.read_combinations(year, gridcodes, aggregation_map, cell_size)
                 if generate_recipes and 'sam' in mode:
                     print("\tGenerating recipes...")
                     Recipes(region, year, combos, recipe_path)
                 scenarios.update_combinations(combos)
+                scenarios.matrix.to_csv(scratch_path)
 
-            # Append data tables to scenarios and write to file
-            scenarios.populate(soil_data, crop_data, met_data)
-            scenarios.write_file()
+    matrix = scenarios.matrix.copy()
+    chunk = 500000
+    for i in range(0, matrix.shape[0], chunk):
+        print(i)
+        # Append data tables to scenarios and write to file
+        scenarios.matrix = matrix[i:i + chunk]
+        scenarios.outfile = scenarios.outfile + "_{}".format(i)
+        scenarios.populate(soil_data, met_data, crop_data)
+        scenarios.write_file()
 
 
 main()

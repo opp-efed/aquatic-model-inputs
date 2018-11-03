@@ -209,39 +209,6 @@ class CropMatrix(pd.DataFrame):
         return self.matrix['cultivated_' + mode].unique()
 
 
-class WeatherCube(object):
-    def __init__(self, weather_path, years=None, precip_points=None):
-        self.storage_path = os.path.join(weather_path, "weather_cube.dat")
-        self.key_path = os.path.join(weather_path, "weather_key.npz")
-        self.output_header = ["precip", "pet", "temp", "wind"]
-
-        if years is None and precip_points is None:
-            self.years, self.precip_points = self.load_key()
-
-    def fetch(self, point_num):
-        array = np.memmap(self.storage_path, mode='r', dtype=np.float32, shape=self.shape)
-        out_array = array[:, point_num]
-        del array
-        dates = pd.date_range(self.start_date, self.end_date)
-        return pd.DataFrame(data=out_array, columns=self.output_header, index=dates)
-
-    def load_key(self):
-        data = np.load(self.key_path)
-        return data['years'], pd.DataFrame(data['points'], columns=['lat', 'lon'])
-
-    @property
-    def start_date(self):
-        return dt.date(self.years[0], 1, 1)
-
-    @property
-    def end_date(self):
-        return dt.date(self.years[-1], 12, 31)
-
-    @property
-    def shape(self):
-        return (self.end_date - self.start_date).days + 1, self.precip_points.shape[0], len(self.output_header)
-
-
 def read_gdb(dbf_file, table_name, input_fields=None):
     """Reads the contents of a dbf table """
     import ogr

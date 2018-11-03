@@ -2,33 +2,36 @@ import os
 
 # Root directories
 root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, "bin"))
-external_data_root = os.path.join(r"C:\\", "Users", "jhook", "Documents", "NationalData")
 table_dir = os.path.join(root_dir, "Tables")
-input_dir = os.path.join(root_dir, "Input")
+input_dir = os.path.join(root_dir, "Input")  # region
 intermediate_dir = os.path.join(root_dir, "Intermediate")
 production_dir = os.path.join(root_dir, "Production")
+staged_dir = os.path.join(root_dir, "Staged")
+scratch_dir = os.path.join(root_dir, "Scratch")
 
 # Raw input data
-nhd_path = os.path.join(external_data_root, "NHDPlusV2", "NHDPlus{}", "NHDPlus{}")  # vpu, region
-#soil_path = os.path.join(external_data_root, "CustomSSURGO")
-soil_path = r"P:\GIS_Data\ssurgo\gSSURGO_2016\gSSURGO_{0}.gdb\MapunitRaster_{0}_10m"  # state
-cdl_path = os.path.join(external_data_root, "CDL", "{0}_30m_cdls", "{0}_30m_cdls.img")  # year
-volume_path = os.path.join(input_dir, "LakeMorphometry", "region_{}.dbf")  # region
-met_data_path = os.path.join(input_dir, "MetData")
-met_poly_path = os.path.join(input_dir, "MetPolygons")
-met_poly_layers = ["anetd_poly", "rainfall_poly", "counties_fips"]
+nhd_path = os.path.join(input_dir, "NHDPlusV21", "NHDPlus{}", "NHDPlus{}")  # vpu, region
+soil_path = os.path.join(input_dir, "SSURGO", "gSSURGO_{}.gdb")  # state
+cdl_path = os.path.join(input_dir, "CDL", "r{}_{}")  # region, year
+weather_path = os.path.join(input_dir, "WeatherFiles", "region{}")  # region
+
+# Rasters
+nhd_raster_path = os.path.join(nhd_path, "NHDPlusCatchment", "cat")
+soil_raster_path = os.path.join(soil_path, "MapunitRaster_10m")
+weather_raster_path = os.path.join(weather_path, "weather_grid.tif")
+
+# Remote input data
+remote_nhd_path = os.altsep.join(("NHD", "NHDPlus{}", "NHDPlus{}"))  # vpu, region
+remote_cdl_path = os.altsep.join(("CDL", "r{}_{}.zip"))  # region, year
+remote_soil_path = os.altsep.join(("SSURGO", "gssurgo_g_{}.zip"))  # state
+remote_weather_path = os.altsep.join(("Weather", "region{}.zip"))  # region
+remote_table_path = os.altsep.join(("Parameters",))
 
 # Intermediate datasets
-combo_path = os.path.join(intermediate_dir, "Combinations", "{}_{}.npz")  # region, year
+combo_path = os.path.join(intermediate_dir, "Combinations", "r{}_{}_{}.npz")  # region, state, year
 met_grid_path = os.path.join(intermediate_dir, "Weather", "met_stations.csv")
-condensed_soil_path = os.path.join(intermediate_dir, "CustomSSURGO")
-condensed_nhd_path = os.path.join(intermediate_dir, "CustomNHD", "region_{}.npz")  # region
-processed_soil_path = os.path.join(intermediate_dir, "ProcessedSoils", "{}", "region_{}.csv")  # mode, region
-projected_layers_path = os.path.join(intermediate_dir, "Tifs")
-projected_met_path = os.path.join(projected_layers_path, "WeatherGrid.tif")
-projected_cdl_path = os.path.join(projected_layers_path, "CDL", "cdl{}.tif")  # year
-projected_nhd_path = os.path.join(projected_layers_path, "NHD_Catchments", "region{}.tif")  # region
-projected_soil_path = os.path.join(intermediate_dir, "ProjectedLayers", "SSURGO", "{}")  # state
+processed_soil_path = os.path.join(intermediate_dir, "ProcessedSoils", "{}", "region_{}")  # mode, region
+projected_layers_path = os.path.join(scratch_dir, "{}.tif")
 
 # Table paths
 crop_params_path = os.path.join(table_dir, "cdl_params.csv")
@@ -39,11 +42,23 @@ met_attributes_path = os.path.join(table_dir, "met_params.csv")
 fields_and_qc_path = os.path.join(table_dir, "fields_and_qc.csv")
 uslels_path = os.path.join(table_dir, "uslels_matrix.csv")
 irrigation_path = os.path.join(table_dir, "irrigation.csv")
+volume_path = os.path.join(table_dir, "lake_morpho.csv")
+root_zone_path = os.path.join(table_dir, "root_zone.csv")
+
+# Misc paths
+shapefile_path = os.path.join(scratch_dir, "Shapefiles")
+remote_shapefile_path = os.altsep.join(("National", "Shapefiles"))
 
 # Production data
-metfile_path = os.path.join(production_dir, "WeatherFiles")
-hydro_file_path = os.path.join(production_dir, "HydroFiles", "region_{}_{}.npz")  # region, type
+hydro_file_path = os.path.join(production_dir, "HydroFiles", "region_{}_{{}}.npz")  # region, type
 recipe_path = os.path.join(production_dir, "RecipeFiles", "r{}_{}.npz")  # region, year
 scenario_matrix_path = os.path.join(production_dir, "ScenarioMatrices", "{}", "r{}.csv")  # mode, region
-pwc_scenario_path = os.path.join(production_dir, "PwcScenarios", "r{}_{}_{}.csv")  # region, year, crop
-pwc_metfile_path = os.path.join(production_dir, "PwcMetfiles", "met_{}.csv")  # grid id
+
+# Remote production data
+remote_metfile_path = os.altsep.join(("WeatherArray", "region{}"))
+remote_hydrofile_path = os.altsep.join(("HydroFiles",))
+remote_recipe_path = os.altsep.join(("Recipes", "region_{}_{}.npz"))
+remote_scenario_path = os.altsep.join(("Scenarios", "region_{}.csv"))
+
+for i in range(0, 2000000, 500000):
+    print(i, i + 500000)
