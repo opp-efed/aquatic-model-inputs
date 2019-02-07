@@ -1,0 +1,1393 @@
+state_long,state,cdl,cdl_a,cdl_b,name,name_a,name_b,bloom_begin_a,bloom_end_a,plant_begin_a,plant_begin_active_a,plant_end_active_a,plant_end_a,harvest_begin_a,harvest_begin_active_a,harvest_end_active_a,harvest_end_a,bloom_begin_b,bloom_end_b,plant_begin_b,plant_begin_active_b,plant_end_active_b,plant_end_b,harvest_begin_b,harvest_begin_active_b,harvest_end_active_b,harvest_end_b
+Alabama,AL,1,1,,Corn,Corn,,,,15-Mar,25-Mar,25-Apr,18-May,2-Aug,11-Aug,20-Sep,15-Oct,,,,,,,,,,
+Arizona,AZ,1,1,,Corn,Corn,,,,10-Mar,1-Apr,15-May,1-Jun,1-Sep,1-Oct,1-Nov,1-Dec,,,,,,,,,,
+Arkansas,AR,1,1,,Corn,Corn,,,,26-Mar,1-Apr,26-Apr,9-May,16-Aug,23-Aug,23-Sep,6-Oct,,,,,,,,,,
+California,CA,1,1,,Corn,Corn,,,,15-Mar,1-Apr,1-Jul,15-Jul,1-Sep,1-Oct,1-Nov,15-Nov,,,,,,,,,,
+Colorado,CO,1,1,,Corn,Corn,,,,19-Apr,28-Apr,20-May,29-May,28-Sep,8-Oct,13-Nov,22-Nov,,,,,,,,,,
+Connecticut,CT,1,1,,Corn,Corn,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Delaware,DE,1,1,,Corn,Corn,,,,12-Apr,30-Apr,16-May,28-May,10-Sep,20-Sep,15-Oct,5-Nov,,,,,,,,,,
+Florida,FL,1,1,,Corn,Corn,,,,1-Mar,15-Mar,25-Apr,5-May,15-Jul,1-Aug,10-Sep,1-Oct,,,,,,,,,,
+Georgia,GA,1,1,,Corn,Corn,,,,14-Mar,22-Mar,21-Apr,4-May,6-Aug,16-Aug,22-Sep,7-Oct,,,,,,,,,,
+Idaho,ID,1,1,,Corn,Corn,,,,21-Apr,5-May,26-May,9-Jun,29-Sep,20-Oct,10-Nov,24-Nov,,,,,,,,,,
+Illinois,IL,1,1,,Corn,Corn,,,,14-Apr,21-Apr,23-May,5-Jun,14-Sep,23-Sep,5-Nov,20-Nov,,,,,,,,,,
+Indiana,IN,1,1,,Corn,Corn,,,,20-Apr,1-May,1-Jun,10-Jun,15-Sep,1-Oct,10-Nov,25-Nov,,,,,,,,,,
+Iowa,IA,1,1,,Corn,Corn,,,,20-Apr,25-Apr,18-May,27-May,21-Sep,5-Oct,9-Nov,21-Nov,,,,,,,,,,
+Kansas,KS,1,1,,Corn,Corn,,,,5-Apr,15-Apr,15-May,25-May,1-Sep,10-Sep,25-Oct,10-Nov,,,,,,,,,,
+Kentucky,KY,1,1,,Corn,Corn,,,,6-Apr,14-Apr,24-May,8-Jun,1-Sep,9-Sep,24-Oct,10-Nov,,,,,,,,,,
+Louisana,LA,1,1,,Corn,Corn,,,,13-Mar,19-Mar,8-Apr,16-Apr,31-Jul,9-Aug,5-Sep,12-Sep,,,,,,,,,,
+Maine,ME,1,1,,Corn,Corn,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Maryland,MD,1,1,,Corn,Corn,,,,20-Apr,30-Apr,20-May,7-Jun,9-Sep,22-Sep,22-Oct,17-Nov,,,,,,,,,,
+Massachusetts,MA,1,1,,Corn,Corn,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Michigan,MI,1,1,,Corn,Corn,,,,21-Apr,1-May,27-May,6-Jun,5-Sep,10-Oct,25-Nov,10-Dec,,,,,,,,,,
+Minnesota,MN,1,1,,Corn,Corn,,,,22-Apr,26-Apr,19-May,29-May,27-Sep,8-Oct,8-Nov,23-Nov,,,,,,,,,,
+Mississippi,MS,1,1,,Corn,Corn,,,,17-Mar,24-Mar,27-Apr,4-May,11-Aug,23-Aug,23-Sep,7-Oct,,,,,,,,,,
+Missouri,MO,1,1,,Corn,Corn,,,,3-Apr,11-Apr,27-May,12-Jun,29-Aug,8-Sep,3-Nov,22-Dec,,,,,,,,,,
+Montana,MT,1,1,,Corn,Corn,,,,26-Apr,4-May,28-May,4-Jun,4-Oct,25-Oct,3-Dec,8-Dec,,,,,,,,,,
+Nebraska,NE,1,1,,Corn,Corn,,,,19-Apr,27-Apr,15-May,21-May,18-Sep,4-Oct,10-Nov,20-Nov,,,,,,,,,,
+Nevada,NV,1,1,,Corn,Corn,,,,15-Apr,30-Apr,20-May,5-Jun,25-Sep,10-Oct,30-Oct,10-Dec,,,,,,,,,,
+New Hampshire,NH,1,1,,Corn,Corn,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+New Jersey,NJ,1,1,,Corn,Corn,,,,15-Apr,1-May,20-May,15-Jun,25-Sep,10-Oct,1-Nov,15-Nov,,,,,,,,,,
+New Mexico,NM,1,1,,Corn,Corn,,,,15-Apr,20-Apr,10-May,20-May,25-Sep,1-Oct,30-Oct,20-Nov,,,,,,,,,,
+New York,NY,1,1,,Corn,Corn,,,,20-Apr,4-May,13-Jun,20-Jun,7-Oct,14-Oct,14-Nov,25-Nov,,,,,,,,,,
+North Carolina,NC,1,1,,Corn,Corn,,,,1-Apr,10-Apr,25-Apr,15-May,25-Aug,10-Sep,10-Oct,1-Nov,,,,,,,,,,
+North Dakota,ND,1,1,,Corn,Corn,,,,26-Apr,2-May,28-May,4-Jun,28-Sep,8-Oct,19-Nov,6-Dec,,,,,,,,,,
+Ohio,OH,1,1,,Corn,Corn,,,,18-Apr,24-Apr,24-May,30-May,27-Sep,11-Oct,20-Nov,1-Dec,,,,,,,,,,
+Oklahoma,OK,1,1,,Corn,Corn,,,,21-Mar,2-Apr,8-May,17-May,20-Aug,29-Aug,9-Oct,20-Oct,,,,,,,,,,
+Oregon,OR,1,1,,Corn,Corn,,,,25-Mar,25-Apr,5-Jun,15-Jun,10-Oct,20-Oct,20-Nov,5-Dec,,,,,,,,,,
+Pennsylvannia,PA,1,1,,Corn,Corn,,,,30-Apr,10-May,25-May,15-Jun,25-Sep,15-Oct,20-Nov,10-Dec,,,,,,,,,,
+Rhode Island,RI,1,1,,Corn,Corn,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+South Carolina,SC,1,1,,Corn,Corn,,,,10-Mar,20-Mar,20-Apr,15-May,25-Jul,20-Aug,25-Sep,10-Oct,,,,,,,,,,
+South Dakota,SD,1,1,,Corn,Corn,,,,26-Apr,2-May,27-May,10-Jun,24-Sep,6-Oct,16-Nov,3-Dec,,,,,,,,,,
+Tennessee,TN,1,1,,Corn,Corn,,,,1-Apr,5-Apr,10-May,25-May,25-Aug,1-Aug,10-Oct,30-Oct,,,,,,,,,,
+Texas,TX,1,1,,Corn,Corn,,,,1-Mar,8-Mar,7-May,17-May,18-Jul,1-Aug,11-Oct,8-Nov,,,,,,,,,,
+Utah,UT,1,1,,Corn,Corn,,,,15-Apr,30-Apr,20-May,5-Jun,25-Sep,10-Oct,30-Oct,10-Dec,,,,,,,,,,
+Vermont,VT,1,1,,Corn,Corn,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Virginia,VA,1,1,,Corn,Corn,,,,5-Apr,11-Apr,20-May,29-May,31-Aug,6-Sep,28-Oct,9-Nov,,,,,,,,,,
+Washington,WA,1,1,,Corn,Corn,,,,10-Apr,20-Apr,20-May,1-Jun,25-Sep,5-Oct,15-Nov,25-Nov,,,,,,,,,,
+West Virginia,WV,1,1,,Corn,Corn,,,,20-Apr,1-May,5-Jun,20-Jun,15-Sep,30-Sep,20-Nov,1-Dec,,,,,,,,,,
+Wisconsin,WI,1,1,,Corn,Corn,,,,26-Apr,2-May,27-May,4-Jun,2-Oct,14-Oct,17-Nov,28-Nov,,,,,,,,,,
+Wyoming,WY,1,1,,Corn,Corn,,,,24-Apr,3-May,21-May,6-Jun,5-Oct,18-Oct,24-Nov,10-Dec,,,,,,,,,,
+Alabama,AL,2,2,,Cotton,Cotton,,,,5-Apr,24-Apr,24-May,6-Jun,5-Sep,20-Sep,20-Oct,1-Dec,,,,,,,,,,
+Arizona,AZ,2,2,,Cotton,Cotton,,,,15-Mar,1-Apr,30-Apr,15-May,15-Sep,10-Oct,10-Nov,25-Dec,,,,,,,,,,
+Arkansas,AR,2,2,,Cotton,Cotton,,,,23-Apr,30-Apr,23-May,31-May,20-Sep,29-Sep,6-Nov,20-Nov,,,,,,,,,,
+California,CA,2,2,,Cotton,Cotton,,,,1-Apr,10-Apr,5-May,15-May,5-Oct,10-Oct,1-Nov,20-Nov,,,,,,,,,,
+Colorado,CO,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Connecticut,CT,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Florida,FL,2,2,,Cotton,Cotton,,,,15-Apr,25-Apr,25-May,15-Jun,20-Sep,1-Oct,20-Nov,15-Dec,,,,,,,,,,
+Georgia,GA,2,2,,Cotton,Cotton,,,,23-Apr,2-May,31-May,11-Jun,23-Sep,10-Oct,2-Dec,18-Dec,,,,,,,,,,
+Idaho,ID,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Illinois,IL,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Indiana,IN,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,2,2,,Cotton,Cotton,,,,10-May,20-May,15-Jun,25-Jun,15-Oct,25-Oct,15-Dec,30-Dec,,,,,,,,,,
+Kentucky,KY,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,2,2,,Cotton,Cotton,,,,17-Apr,24-Apr,17-May,26-May,14-Sep,23-Sep,23-Oct,6-Nov,,,,,,,,,,
+Maine,ME,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Maryland,MD,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Massachusetts,MA,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Michigan,MI,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Minnesota,MN,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Mississippi,MS,2,2,,Cotton,Cotton,,,,20-Apr,27-Apr,19-May,29-May,15-Sep,27-Sep,29-Oct,12-Nov,,,,,,,,,,
+Missouri,MO,2,2,,Cotton,Cotton,,,,22-Apr,29-Apr,23-May,29-May,17-Sep,27-Sep,9-Nov,24-Nov,,,,,,,,,,
+Montana,MT,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Nebraska,NE,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Nevada,NV,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+New Mexico,NM,2,2,,Cotton,Cotton,,,,10-Apr,20-Apr,10-May,20-May,10-Oct,25-Oct,30-Nov,20-Dec,,,,,,,,,,
+New York,NY,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+North Carolina,NC,2,2,,Cotton,Cotton,,,,20-Apr,1-May,20-May,1-Jun,30-Sep,10-Oct,15-Nov,15-Dec,,,,,,,,,,
+North Dakota,ND,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Ohio,OH,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Oklahoma,OK,2,2,,Cotton,Cotton,,,,2-May,11-May,10-Jun,18-Jun,4-Oct,15-Oct,9-Dec,24-Dec,,,,,,,,,,
+Oregon,OR,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Pennsylvannia,PA,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Rhode Island,RI,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,2,2,,Cotton,Cotton,,,,24-Apr,1-May,20-May,1-Jun,23-Sep,15-Oct,13-Nov,5-Dec,,,,,,,,,,
+South Dakota,SD,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Tennessee,TN,2,2,,Cotton,Cotton,,,,25-Apr,1-May,25-May,5-Jun,20-Sep,30-Sep,10-Nov,25-Nov,,,,,,,,,,
+Texas,TX,2,2,,Cotton,Cotton,,,,22-Mar,8-Apr,7-Jun,20-Jun,10-Aug,13-Sep,21-Dec,11-Jan,,,,,,,,,,
+Utah,UT,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,2,2,,Cotton,Cotton,,,,23-Apr,25-Apr,11-May,16-May,30-Sep,8-Oct,20-Nov,27-Nov,,,,,,,,,,
+Washington,WA,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+West Virginia,WV,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Wyoming,WY,2,2,,Cotton,Cotton,,,,,,,,,,,,,,,,,,,,,
+Alabama,AL,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Arizona,AZ,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Arkansas,AR,3,3,,Rice,Rice,,,,6-Apr,14-Apr,19-May,2-Jun,29-Aug,9-Sep,10-Oct,24-Oct,,,,,,,,,,
+California,CA,3,3,,Rice,Rice,,,,20-Apr,1-May,25-May,10-Jun,5-Aug,15-Aug,1-Nov,10-Nov,,,,,,,,,,
+Colorado,CO,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Connecticut,CT,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Florida,FL,3,3,,Rice,Rice,,,,20-Mar,28-Mar,1-May,15-May,27-Jul,4-Aug,15-Sep,28-Sep,,,,,,,,,,
+Georgia,GA,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Idaho,ID,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Illinois,IL,3,3,,Rice,Rice,,,,10-Apr,20-Apr,19-May,26-May,6-Aug,14-Aug,18-Oct,30-Oct,,,,,,,,,,
+Indiana,IN,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Kentucky,KY,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,3,3,,Rice,Rice,,,,20-Mar,28-Mar,1-May,15-May,27-Jul,4-Aug,15-Sep,28-Sep,,,,,,,,,,
+Maine,ME,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Maryland,MD,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Massachusetts,MA,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Michigan,MI,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Minnesota,MN,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Mississippi,MS,3,3,,Rice,Rice,,,,6-Apr,18-Apr,16-May,24-May,29-Aug,5-Sep,6-Oct,20-Oct,,,,,,,,,,
+Missouri,MO,3,3,,Rice,Rice,,,,10-Apr,20-Apr,19-May,26-May,6-Aug,14-Aug,18-Oct,30-Oct,,,,,,,,,,
+Montana,MT,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Nebraska,NE,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Nevada,NV,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+New Mexico,NM,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+New York,NY,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+North Carolina,NC,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+North Dakota,ND,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Ohio,OH,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Oklahoma,OK,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Oregon,OR,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Pennsylvannia,PA,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Rhode Island,RI,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+South Dakota,SD,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Tennessee,TN,3,3,,Rice,Rice,,,,10-Apr,20-Apr,19-May,26-May,6-Aug,14-Aug,18-Oct,30-Oct,,,,,,,,,,
+Texas,TX,3,3,,Rice,Rice,,,,17-Mar,23-Mar,26-Apr,10-May,29-Jul,7-Aug,4-Sep,20-Sep,,,,,,,,,,
+Utah,UT,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Washington,WA,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+West Virginia,WV,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Wyoming,WY,3,3,,Rice,Rice,,,,,,,,,,,,,,,,,,,,,
+Alabama,AL,4,4,,Sorghum,Sorghum,,,,15-Mar,25-Mar,25-Apr,18-May,2-Aug,11-Aug,20-Sep,15-Oct,,,,,,,,,,
+Arizona,AZ,4,4,,Sorghum,Sorghum,,,,10-Mar,1-Apr,15-May,1-Jun,1-Sep,1-Oct,1-Nov,1-Dec,,,,,,,,,,
+Arkansas,AR,4,4,,Sorghum,Sorghum,,,,5-Apr,13-Apr,23-May,5-Jun,22-Aug,27-Aug,3-Oct,16-Oct,,,,,,,,,,
+California,CA,4,4,,Sorghum,Sorghum,,,,15-Mar,1-Apr,1-Jul,15-Jul,1-Sep,1-Oct,1-Nov,15-Nov,,,,,,,,,,
+Colorado,CO,4,4,,Sorghum,Sorghum,,,,9-May,19-May,23-Jun,1-Jul,29-Sep,11-Oct,18-Nov,29-Nov,,,,,,,,,,
+Connecticut,CT,4,4,,Sorghum,Sorghum,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Delaware,DE,4,4,,Sorghum,Sorghum,,,,12-Apr,30-Apr,16-May,28-May,10-Sep,20-Sep,15-Oct,5-Nov,,,,,,,,,,
+Florida,FL,4,4,,Sorghum,Sorghum,,,,1-Mar,15-Mar,25-Apr,5-May,15-Jul,1-Aug,10-Sep,1-Oct,,,,,,,,,,
+Georgia,GA,4,4,,Sorghum,Sorghum,,,,17-Apr,30-Apr,26-Jun,12-Jul,21-Aug,4-Sep,19-Nov,9-Dec,,,,,,,,,,
+Idaho,ID,4,4,,Sorghum,Sorghum,,,,21-Apr,5-May,26-May,9-Jun,29-Sep,20-Oct,10-Nov,24-Nov,,,,,,,,,,
+Illinois,IL,4,4,,Sorghum,Sorghum,,,,4-May,17-May,26-Jun,6-Jul,18-Sep,30-Sep,8-Nov,20-Nov,,,,,,,,,,
+Indiana,IN,4,4,,Sorghum,Sorghum,,,,20-Apr,1-May,1-Jun,10-Jun,15-Sep,1-Oct,10-Nov,25-Nov,,,,,,,,,,
+Iowa,IA,4,4,,Sorghum,Sorghum,,,,20-Apr,25-Apr,18-May,27-May,21-Sep,5-Oct,9-Nov,21-Nov,,,,,,,,,,
+Kansas,KS,4,4,,Sorghum,Sorghum,,,,5-May,15-May,20-Jun,15-Jul,10-Sep,25-Sep,10-Nov,25-Nov,,,,,,,,,,
+Kentucky,KY,4,4,,Sorghum,Sorghum,,,,6-Apr,14-Apr,24-May,8-Jun,1-Sep,9-Sep,24-Oct,10-Nov,,,,,,,,,,
+Louisana,LA,4,4,,Sorghum,Sorghum,,,,6-Apr,11-Apr,15-May,29-May,7-Aug,16-Aug,10-Sep,24-Sep,,,,,,,,,,
+Maine,ME,4,4,,Sorghum,Sorghum,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Maryland,MD,4,4,,Sorghum,Sorghum,,,,20-Apr,30-Apr,20-May,7-Jun,9-Sep,22-Sep,22-Oct,17-Nov,,,,,,,,,,
+Massachusetts,MA,4,4,,Sorghum,Sorghum,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Michigan,MI,4,4,,Sorghum,Sorghum,,,,21-Apr,1-May,27-May,6-Jun,5-Sep,10-Oct,25-Nov,10-Dec,,,,,,,,,,
+Minnesota,MN,4,4,,Sorghum,Sorghum,,,,22-Apr,26-Apr,19-May,29-May,27-Sep,8-Oct,8-Nov,23-Nov,,,,,,,,,,
+Mississippi,MS,4,4,,Sorghum,Sorghum,,,,8-Apr,14-Apr,21-May,3-Jun,19-Aug,29-Aug,27-Sep,8-Oct,,,,,,,,,,
+Missouri,MO,4,4,,Sorghum,Sorghum,,,,3-Apr,11-Apr,27-May,12-Jun,29-Aug,8-Sep,3-Nov,22-Dec,,,,,,,,,,
+Montana,MT,4,4,,Sorghum,Sorghum,,,,23-Apr,6-May,18-Jun,28-Jun,6-Sep,16-Sep,7-Nov,22-Nov,,,,,,,,,,
+Nebraska,NE,4,4,,Sorghum,Sorghum,,,,9-May,16-May,9-Jun,16-Jun,26-Sep,8-Oct,8-Nov,17-Nov,,,,,,,,,,
+Nevada,NV,4,4,,Sorghum,Sorghum,,,,15-Apr,30-Apr,20-May,5-Jun,25-Sep,10-Oct,30-Oct,10-Dec,,,,,,,,,,
+New Hampshire,NH,4,4,,Sorghum,Sorghum,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+New Jersey,NJ,4,4,,Sorghum,Sorghum,,,,15-Apr,1-May,20-May,15-Jun,25-Sep,10-Oct,1-Nov,15-Nov,,,,,,,,,,
+New Mexico,NM,4,4,,Sorghum,Sorghum,,,,15-May,20-May,15-Jun,10-Jul,15-Oct,20-Oct,15-Nov,15-Dec,,,,,,,,,,
+New York,NY,4,4,,Sorghum,Sorghum,,,,20-Apr,4-May,13-Jun,20-Jun,7-Oct,14-Oct,14-Nov,25-Nov,,,,,,,,,,
+North Carolina,NC,4,4,,Sorghum,Sorghum,,,,1-Apr,10-Apr,25-Apr,15-May,25-Aug,10-Sep,10-Oct,1-Nov,,,,,,,,,,
+North Dakota,ND,4,4,,Sorghum,Sorghum,,,,26-Apr,2-May,28-May,4-Jun,28-Sep,8-Oct,19-Nov,6-Dec,,,,,,,,,,
+Ohio,OH,4,4,,Sorghum,Sorghum,,,,18-Apr,24-Apr,24-May,30-May,27-Sep,11-Oct,20-Nov,1-Dec,,,,,,,,,,
+Oklahoma,OK,4,4,,Sorghum,Sorghum,,,,24-Apr,12-May,25-Jun,6-Jul,9-Sep,26-Sep,21-Nov,2-Dec,,,,,,,,,,
+Oregon,OR,4,4,,Sorghum,Sorghum,,,,25-Mar,25-Apr,5-Jun,15-Jun,10-Oct,20-Oct,20-Nov,5-Dec,,,,,,,,,,
+Pennsylvannia,PA,4,4,,Sorghum,Sorghum,,,,30-Apr,10-May,25-May,15-Jun,25-Sep,15-Oct,20-Nov,10-Dec,,,,,,,,,,
+Rhode Island,RI,4,4,,Sorghum,Sorghum,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+South Carolina,SC,4,4,,Sorghum,Sorghum,,,,10-Mar,20-Mar,20-Apr,15-May,25-Jul,20-Aug,25-Sep,10-Oct,,,,,,,,,,
+South Dakota,SD,4,4,,Sorghum,Sorghum,,,,11-May,20-May,20-Jun,30-Jun,21-Sep,1-Oct,6-Nov,17-Nov,,,,,,,,,,
+Tennessee,TN,4,4,,Sorghum,Sorghum,,,,1-Apr,5-Apr,10-May,25-May,25-Aug,1-Aug,10-Oct,30-Oct,,,,,,,,,,
+Texas,TX,4,4,,Sorghum,Sorghum,,,,1-Mar,11-Mar,15-Jun,5-Jul,25-Jun,8-Jul,16-Nov,6-Dec,,,,,,,,,,
+Utah,UT,4,4,,Sorghum,Sorghum,,,,15-Apr,30-Apr,20-May,5-Jun,25-Sep,10-Oct,30-Oct,10-Dec,,,,,,,,,,
+Vermont,VT,4,4,,Sorghum,Sorghum,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Virginia,VA,4,4,,Sorghum,Sorghum,,,,5-Apr,11-Apr,20-May,29-May,31-Aug,6-Sep,28-Oct,9-Nov,,,,,,,,,,
+Washington,WA,4,4,,Sorghum,Sorghum,,,,10-Apr,20-Apr,20-May,1-Jun,25-Sep,5-Oct,15-Nov,25-Nov,,,,,,,,,,
+West Virginia,WV,4,4,,Sorghum,Sorghum,,,,20-Apr,1-May,5-Jun,20-Jun,15-Sep,30-Sep,20-Nov,1-Dec,,,,,,,,,,
+Wisconsin,WI,4,4,,Sorghum,Sorghum,,,,26-Apr,2-May,27-May,4-Jun,2-Oct,14-Oct,17-Nov,28-Nov,,,,,,,,,,
+Wyoming,WY,4,4,,Sorghum,Sorghum,,,,24-Apr,3-May,21-May,6-Jun,5-Oct,18-Oct,24-Nov,10-Dec,,,,,,,,,,
+Alabama,AL,5,5,,Soybean,Soybean,,,,15-Apr,25-May,25-Jun,3-Jul,3-Sep,28-Oct,28-Nov,15-Dec,,,,,,,,,,
+Arizona,AZ,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+Arkansas,AR,5,5,,Soybean,Soybean,,,,19-Apr,5-May,22-Jun,5-Jul,10-Sep,29-Sep,13-Nov,26-Nov,,,,,,,,,,
+California,CA,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+Colorado,CO,5,5,,Soybean,Soybean,,,,5-May,15-May,20-Jun,1-Jul,20-Sep,1-Oct,1-Nov,15-Nov,,,,,,,,,,
+Connecticut,CT,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,5,5,,Soybean,Soybean,,,,11-May,30-May,28-Jun,11-Jul,5-Oct,22-Oct,14-Nov,25-Nov,,,,,,,,,,
+Florida,FL,5,5,,Soybean,Soybean,,,,20-Apr,1-May,15-Jun,1-Jul,1-Oct,15-Oct,25-Nov,1-Dec,,,,,,,,,,
+Georgia,GA,5,5,,Soybean,Soybean,,,,5-May,17-May,26-Jun,5-Jul,11-Oct,25-Oct,8-Dec,17-Dec,,,,,,,,,,
+Idaho,ID,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+Illinois,IL,5,5,,Soybean,Soybean,,,,2-May,8-May,12-Jun,24-Jun,19-Sep,26-Sep,26-Oct,7-Nov,,,,,,,,,,
+Indiana,IN,5,5,,Soybean,Soybean,,,,1-May,5-May,10-Jun,25-Jun,20-Sep,1-Oct,1-Nov,10-Nov,,,,,,,,,,
+Iowa,IA,5,5,,Soybean,Soybean,,,,2-May,8-May,2-Jun,16-Jun,21-Sep,28-Sep,20-Oct,31-Oct,,,,,,,,,,
+Kansas,KS,5,5,,Soybean,Soybean,,,,5-May,15-May,20-Jun,1-Jul,20-Sep,1-Oct,1-Nov,15-Nov,,,,,,,,,,
+Kentucky,KY,5,5,,Soybean,Soybean,,,,4-May,16-May,27-Jun,7-Jul,25-Sep,10-Oct,14-Nov,25-Nov,,,,,,,,,,
+Louisana,LA,5,5,,Soybean,Soybean,,,,18-Apr,23-Apr,4-Jun,16-Jun,28-Aug,3-Sep,25-Oct,31-Oct,,,,,,,,,,
+Maine,ME,5,5,,Soybean,Soybean,,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,,,,,,,,
+Maryland,MD,5,5,,Soybean,Soybean,,,,11-May,28-May,26-Jun,16-Jul,5-Oct,18-Oct,15-Nov,1-Dec,,,,,,,,,,
+Massachusetts,MA,5,5,,Soybean,Soybean,,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,,,,,,,,
+Michigan,MI,5,5,,Soybean,Soybean,,,,2-May,11-May,9-Jun,18-Jun,25-Sep,3-Oct,3-Nov,13-Nov,,,,,,,,,,
+Minnesota,MN,5,5,,Soybean,Soybean,,,,2-May,8-May,2-Jun,13-Jun,20-Sep,27-Sep,20-Oct,31-Oct,,,,,,,,,,
+Mississippi,MS,5,5,,Soybean,Soybean,,,,19-Apr,26-Apr,31-May,17-Jun,10-Sep,13-Sep,31-Oct,9-Nov,,,,,,,,,,
+Missouri,MO,5,5,,Soybean,Soybean,,,,2-May,13-May,24-Jun,4-Jul,25-Sep,3-Oct,8-Nov,23-Nov,,,,,,,,,,
+Montana,MT,5,5,,Soybean,Soybean,,,,7-May,14-May,3-Jun,11-Jun,17-Sep,24-Sep,21-Oct,5-Nov,,,,,,,,,,
+Nebraska,NE,5,5,,Soybean,Soybean,,,,5-May,11-May,31-May,8-Jun,23-Sep,29-Sep,24-Oct,2-Nov,,,,,,,,,,
+Nevada,NV,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,5,5,,Soybean,Soybean,,,,10-May,20-May,1-Jun,10-Jun,1-Oct,20-Oct,10-Nov,15-Nov,,,,,,,,,,
+New Mexico,NM,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+New York,NY,5,5,,Soybean,Soybean,,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,,,,,,,,
+North Carolina,NC,5,5,,Soybean,Soybean,,,,1-May,20-May,30-Jun,20-Jul,10-Oct,10-Nov,5-Dec,20-Dec,,,,,,,,,,
+North Dakota,ND,5,5,,Soybean,Soybean,,,,7-May,14-May,3-Jun,11-Jun,17-Sep,24-Sep,21-Oct,5-Nov,,,,,,,,,,
+Ohio,OH,5,5,,Soybean,Soybean,,,,26-Apr,3-May,30-May,10-Jun,23-Sep,30-Sep,31-Oct,12-Nov,,,,,,,,,,
+Oklahoma,OK,5,5,,Soybean,Soybean,,,,15-Apr,27-Apr,27-Jun,9-Jul,9-Sep,22-Sep,20-Nov,1-Dec,,,,,,,,,,
+Oregon,OR,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+Pennsylvannia,PA,5,5,,Soybean,Soybean,,,,10-May,20-May,10-Jun,5-Jul,5-Oct,20-Oct,10-Nov,30-Nov,,,,,,,,,,
+Rhode Island,RI,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,5,5,,Soybean,Soybean,,,,10-May,27-May,27-Jun,11-Jul,20-Oct,10-Nov,10-Dec,30-Dec,,,,,,,,,,
+South Dakota,SD,5,5,,Soybean,Soybean,,,,8-May,15-May,11-Jun,21-Jun,22-Sep,28-Sep,24-Oct,3-Nov,,,,,,,,,,
+Tennessee,TN,5,5,,Soybean,Soybean,,,,5-May,15-May,25-Jun,5-Jul,25-Sep,5-Oct,20-Nov,30-Nov,,,,,,,,,,
+Texas,TX,5,5,,Soybean,Soybean,,,,24-Mar,30-Mar,30-May,12-Jun,18-Aug,22-Aug,17-Oct,7-Nov,,,,,,,,,,
+Utah,UT,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,5,5,,Soybean,Soybean,,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,,,,,,,,
+Virginia,VA,5,5,,Soybean,Soybean,,,,5-May,15-May,3-Jul,9-Jul,4-Oct,16-Oct,28-Nov,4-Dec,,,,,,,,,,
+Washington,WA,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+West Virginia,WV,5,5,,Soybean,Soybean,,,,5-May,10-May,30-Jun,5-Jul,25-Sep,5-Oct,30-Nov,1-Dec,,,,,,,,,,
+Wisconsin,WI,5,5,,Soybean,Soybean,,,,7-May,12-May,5-Jun,14-Jun,29-Sep,4-Oct,29-Oct,8-Nov,,,,,,,,,,
+Wyoming,WY,5,5,,Soybean,Soybean,,,,,,,,,,,,,,,,,,,,,
+Alabama,AL,6,6,,Sunflower,Sunflower,,,,15-Mar,25-Mar,25-Apr,18-May,2-Aug,11-Aug,20-Sep,15-Oct,,,,,,,,,,
+Arizona,AZ,6,6,,Sunflower,Sunflower,,,,10-Mar,1-Apr,15-May,1-Jun,1-Sep,1-Oct,1-Nov,1-Dec,,,,,,,,,,
+Arkansas,AR,6,6,,Sunflower,Sunflower,,,,26-Mar,1-Apr,26-Apr,9-May,16-Aug,23-Aug,23-Sep,6-Oct,,,,,,,,,,
+California,CA,6,6,,Sunflower,Sunflower,,,,21-Mar,1-Apr,31-May,1-Aug,24-Sep,1-Jul,31-Aug,1-Oct,,,,,,,,,,
+Colorado,CO,6,6,,Sunflower,Sunflower,,,,19-May,25-May,23-Jun,1-Jul,27-Sep,6-Oct,15-Nov,26-Nov,,,,,,,,,,
+Connecticut,CT,6,6,,Sunflower,Sunflower,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Delaware,DE,6,6,,Sunflower,Sunflower,,,,12-Apr,30-Apr,16-May,28-May,10-Sep,20-Sep,15-Oct,5-Nov,,,,,,,,,,
+Florida,FL,6,6,,Sunflower,Sunflower,,,,1-Mar,15-Mar,25-Apr,5-May,15-Jul,1-Aug,10-Sep,1-Oct,,,,,,,,,,
+Georgia,GA,6,6,,Sunflower,Sunflower,,,,14-Mar,22-Mar,21-Apr,4-May,6-Aug,16-Aug,22-Sep,7-Oct,,,,,,,,,,
+Idaho,ID,6,6,,Sunflower,Sunflower,,,,21-Apr,5-May,26-May,9-Jun,29-Sep,20-Oct,10-Nov,24-Nov,,,,,,,,,,
+Illinois,IL,6,6,,Sunflower,Sunflower,,,,14-Apr,21-Apr,23-May,5-Jun,14-Sep,23-Sep,5-Nov,20-Nov,,,,,,,,,,
+Indiana,IN,6,6,,Sunflower,Sunflower,,,,20-Apr,1-May,1-Jun,10-Jun,15-Sep,1-Oct,10-Nov,25-Nov,,,,,,,,,,
+Iowa,IA,6,6,,Sunflower,Sunflower,,,,20-Apr,25-Apr,18-May,27-May,21-Sep,5-Oct,9-Nov,21-Nov,,,,,,,,,,
+Kansas,KS,6,6,,Sunflower,Sunflower,,,,15-May,25-May,30-Jun,10-Jul,15-Sep,1-Oct,15-Nov,30-Nov,,,,,,,,,,
+Kentucky,KY,6,6,,Sunflower,Sunflower,,,,6-Apr,14-Apr,24-May,8-Jun,1-Sep,9-Sep,24-Oct,10-Nov,,,,,,,,,,
+Louisana,LA,6,6,,Sunflower,Sunflower,,,,13-Mar,19-Mar,8-Apr,16-Apr,31-Jul,9-Aug,5-Sep,12-Sep,,,,,,,,,,
+Maine,ME,6,6,,Sunflower,Sunflower,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Maryland,MD,6,6,,Sunflower,Sunflower,,,,20-Apr,30-Apr,20-May,7-Jun,9-Sep,22-Sep,22-Oct,17-Nov,,,,,,,,,,
+Massachusetts,MA,6,6,,Sunflower,Sunflower,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Michigan,MI,6,6,,Sunflower,Sunflower,,,,21-Apr,1-May,27-May,6-Jun,5-Sep,10-Oct,25-Nov,10-Dec,,,,,,,,,,
+Minnesota,MN,6,6,,Sunflower,Sunflower,,,,7-May,16-May,7-Jun,15-Jun,26-Sep,4-Oct,8-Nov,25-Nov,,,,,,,,,,
+Mississippi,MS,6,6,,Sunflower,Sunflower,,,,17-Mar,24-Mar,27-Apr,4-May,11-Aug,23-Aug,23-Sep,7-Oct,,,,,,,,,,
+Missouri,MO,6,6,,Sunflower,Sunflower,,,,3-Apr,11-Apr,27-May,12-Jun,29-Aug,8-Sep,3-Nov,22-Dec,,,,,,,,,,
+Montana,MT,6,6,,Sunflower,Sunflower,,,,26-Apr,4-May,28-May,4-Jun,4-Oct,25-Oct,3-Dec,8-Dec,,,,,,,,,,
+Nebraska,NE,6,6,,Sunflower,Sunflower,,,,1-Jun,5-Jun,30-Jun,5-Jul,1-Oct,5-Oct,25-Oct,5-Nov,,,,,,,,,,
+Nevada,NV,6,6,,Sunflower,Sunflower,,,,15-Apr,30-Apr,20-May,5-Jun,25-Sep,10-Oct,30-Oct,10-Dec,,,,,,,,,,
+New Hampshire,NH,6,6,,Sunflower,Sunflower,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+New Jersey,NJ,6,6,,Sunflower,Sunflower,,,,15-Apr,1-May,20-May,15-Jun,25-Sep,10-Oct,1-Nov,15-Nov,,,,,,,,,,
+New Mexico,NM,6,6,,Sunflower,Sunflower,,,,15-Apr,20-Apr,10-May,20-May,25-Sep,1-Oct,30-Oct,20-Nov,,,,,,,,,,
+New York,NY,6,6,,Sunflower,Sunflower,,,,20-Apr,4-May,13-Jun,20-Jun,7-Oct,14-Oct,14-Nov,25-Nov,,,,,,,,,,
+North Carolina,NC,6,6,,Sunflower,Sunflower,,,,1-Apr,10-Apr,25-Apr,15-May,25-Aug,10-Sep,10-Oct,1-Nov,,,,,,,,,,
+North Dakota,ND,6,6,,Sunflower,Sunflower,,,,15-May,19-May,8-Jun,15-Jun,1-Oct,9-Oct,10-Nov,23-Nov,,,,,,,,,,
+Ohio,OH,6,6,,Sunflower,Sunflower,,,,18-Apr,24-Apr,24-May,30-May,27-Sep,11-Oct,20-Nov,1-Dec,,,,,,,,,,
+Oklahoma,OK,6,6,,Sunflower,Sunflower,,,,1-May,15-May,15-Jun,30-Jul,1-Aug,30-Aug,30-Oct,10-Dec,,,,,,,,,,
+Oregon,OR,6,6,,Sunflower,Sunflower,,,,25-Mar,25-Apr,5-Jun,15-Jun,10-Oct,20-Oct,20-Nov,5-Dec,,,,,,,,,,
+Pennsylvannia,PA,6,6,,Sunflower,Sunflower,,,,30-Apr,10-May,25-May,15-Jun,25-Sep,15-Oct,20-Nov,10-Dec,,,,,,,,,,
+Rhode Island,RI,6,6,,Sunflower,Sunflower,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+South Carolina,SC,6,6,,Sunflower,Sunflower,,,,10-Mar,20-Mar,20-Apr,15-May,25-Jul,20-Aug,25-Sep,10-Oct,,,,,,,,,,
+South Dakota,SD,6,6,,Sunflower,Sunflower,,,,16-May,24-May,21-Jun,29-Jun,25-Sep,3-Oct,10-Nov,21-Nov,,,,,,,,,,
+Tennessee,TN,6,6,,Sunflower,Sunflower,,,,1-Apr,5-Apr,10-May,25-May,25-Aug,1-Aug,10-Oct,30-Oct,,,,,,,,,,
+Texas,TX,6,6,,Sunflower,Sunflower,,,,5-Apr,1-May,4-Jul,15-Jul,20-Aug,1-Sep,21-Nov,3-Dec,,,,,,,,,,
+Utah,UT,6,6,,Sunflower,Sunflower,,,,15-Apr,30-Apr,20-May,5-Jun,25-Sep,10-Oct,30-Oct,10-Dec,,,,,,,,,,
+Vermont,VT,6,6,,Sunflower,Sunflower,,,,5-May,12-May,9-Jun,22-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,,,,,,,,
+Virginia,VA,6,6,,Sunflower,Sunflower,,,,5-Apr,11-Apr,20-May,29-May,31-Aug,6-Sep,28-Oct,9-Nov,,,,,,,,,,
+Washington,WA,6,6,,Sunflower,Sunflower,,,,10-Apr,20-Apr,20-May,1-Jun,25-Sep,5-Oct,15-Nov,25-Nov,,,,,,,,,,
+West Virginia,WV,6,6,,Sunflower,Sunflower,,,,20-Apr,1-May,5-Jun,20-Jun,15-Sep,30-Sep,20-Nov,1-Dec,,,,,,,,,,
+Wisconsin,WI,6,6,,Sunflower,Sunflower,,,,26-Apr,2-May,27-May,4-Jun,2-Oct,14-Oct,17-Nov,28-Nov,,,,,,,,,,
+Wyoming,WY,6,6,,Sunflower,Sunflower,,,,24-Apr,3-May,21-May,6-Jun,5-Oct,18-Oct,24-Nov,10-Dec,,,,,,,,,,
+Alabama,AL,10,10,,Peanut,Peanut,,,,16-Apr,25-Apr,25-May,15-Jun,15-Sep,22-Sep,22-Oct,20-Nov,,,,,,,,,,
+Arizona,AZ,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Arkansas,AR,10,10,,Peanut,Peanut,,,,25-Apr,6-May,31-May,15-Jun,20-Sep,29-Sep,31-Oct,10-Nov,,,,,,,,,,
+California,CA,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Colorado,CO,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Connecticut,CT,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Florida,FL,10,10,,Peanut,Peanut,,,,10-Apr,25-Apr,30-May,15-Jun,15-Aug,10-Sep,30-Nov,15-Dec,,,,,,,,,,
+Georgia,GA,10,10,,Peanut,Peanut,,,,27-Apr,6-May,31-May,7-Jun,15-Sep,25-Sep,30-Oct,11-Nov,,,,,,,,,,
+Idaho,ID,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Illinois,IL,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Indiana,IN,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Kentucky,KY,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,10,10,,Peanut,Peanut,,,,25-Apr,6-May,31-May,15-Jun,20-Sep,29-Sep,31-Oct,10-Nov,,,,,,,,,,
+Maine,ME,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Maryland,MD,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Massachusetts,MA,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Michigan,MI,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Minnesota,MN,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Mississippi,MS,10,10,,Peanut,Peanut,,,,25-Apr,6-May,31-May,15-Jun,20-Sep,29-Sep,31-Oct,10-Nov,,,,,,,,,,
+Missouri,MO,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Montana,MT,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Nebraska,NE,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Nevada,NV,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+New Mexico,NM,10,10,,Peanut,Peanut,,,,10-May,15-May,25-May,1-Jun,1-Oct,10-Oct,30-Oct,10-Nov,,,,,,,,,,
+New York,NY,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+North Carolina,NC,10,10,,Peanut,Peanut,,,,30-Apr,10-May,30-May,1-Jun,25-Sep,10-Oct,30-Oct,15-Nov,,,,,,,,,,
+North Dakota,ND,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Ohio,OH,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Oklahoma,OK,10,10,,Peanut,Peanut,,,,28-Apr,7-May,6-Jun,11-Jun,2-Oct,9-Oct,16-Nov,26-Nov,,,,,,,,,,
+Oregon,OR,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Pennsylvannia,PA,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Rhode Island,RI,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,10,10,,Peanut,Peanut,,,,20-Apr,25-Apr,15-May,5-Jun,8-Sep,2-Oct,1-Nov,10-Nov,,,,,,,,,,
+South Dakota,SD,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Tennessee,TN,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Texas,TX,10,10,,Peanut,Peanut,,,,1-May,6-May,5-Jun,15-Jun,25-Sep,7-Oct,16-Nov,30-Nov,,,,,,,,,,
+Utah,UT,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,10,10,,Peanut,Peanut,,,,25-Apr,30-Apr,18-May,25-May,18-Sep,25-Sep,17-Oct,24-Oct,,,,,,,,,,
+Washington,WA,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+West Virginia,WV,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Wyoming,WY,10,10,,Peanut,Peanut,,,,,,,,,,,,,,,,,,,,,
+Alabama,AL,21,21,,Barley,Barley,,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,,,,,,,,
+Arizona,AZ,21,21,,Barley,Barley,,,,10-Nov,1-Dec,30-Dec,10-Feb,10-May,30-May,20-Jun,10-Jul,,,,,,,,,,
+Arkansas,AR,21,21,,Barley,Barley,,,,3-Oct,13-Oct,20-Nov,1-Dec,1-Jun,6-Jun,25-Jun,2-Jul,,,,,,,,,,
+California,CA,21,21,,Barley,Barley,,,,15-Sep,1-Oct,15-Apr,30-Apr,15-May,4-Jun,20-Jun,15-Aug,,,,,,,,,,
+Colorado,CO,21,21,,Barley,Barley,,,,14-Mar,26-Mar,5-May,16-May,20-Jul,29-Jul,6-Sep,14-Sep,,,,,,,,,,
+Connecticut,CT,21,21,,Barley,Barley,,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,,,,,,,,
+Delaware,DE,21,21,,Barley,Barley,,,,27-Sep,9-Oct,27-Oct,10-Nov,5-Jun,12-Jun,28-Jun,3-Jul,,,,,,,,,,
+Florida,FL,21,21,,Barley,Barley,,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,,,,,,,,
+Georgia,GA,21,21,,Barley,Barley,,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,,,,,,,,
+Idaho,ID,21,21,,Barley,Barley,,,,24-Mar,7-Apr,5-May,26-May,28-Jul,11-Aug,8-Sep,29-Sep,,,,,,,,,,
+Illinois,IL,21,21,,Barley,Barley,,,,28-Sep,5-Oct,29-Oct,9-Nov,15-Jun,19-Jun,11-Jul,19-Jul,,,,,,,,,,
+Indiana,IN,21,21,,Barley,Barley,,,,25-Sep,1-Oct,1-Nov,5-Nov,15-Jun,25-Jun,15-Jul,25-Jul,,,,,,,,,,
+Iowa,IA,21,21,,Barley,Barley,,,,6-Sep,26-Sep,15-Oct,30-Oct,24-Jun,6-Jul,22-Jul,7-Aug,,,,,,,,,,
+Kansas,KS,21,21,,Barley,Barley,,,,15-Sep,1-Oct,15-Oct,1-Nov,20-Jun,15-Jun,28-Jun,5-Jul,,,,,,,,,,
+Kentucky,KY,21,21,,Barley,Barley,,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,,,,,,,,
+Louisana,LA,21,21,,Barley,Barley,,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,,,,,,,,
+Maine,ME,21,21,,Barley,Barley,,,,4-May,9-May,30-May,6-Jun,9-Aug,18-Aug,18-Sep,30-Sep,,,,,,,,,,
+Maryland,MD,21,21,,Barley,Barley,,,,17-Sep,1-Oct,21-Oct,7-Nov,12-Jun,16-Jun,28-Jun,8-Jul,,,,,,,,,,
+Massachusetts,MA,21,21,,Barley,Barley,,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,,,,,,,,
+Michigan,MI,21,21,,Barley,Barley,,,,10-Apr,13-Apr,20-May,27-May,26-Jul,3-Aug,19-Aug,31-Aug,,,,,,,,,,
+Minnesota,MN,21,21,,Barley,Barley,,,,15-Apr,23-Apr,25-May,3-Jun,26-Jul,1-Aug,3-Sep,18-Sep,,,,,,,,,,
+Mississippi,MS,21,21,,Barley,Barley,,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,,,,,,,,
+Missouri,MO,21,21,,Barley,Barley,,,,24-Sep,4-Oct,10-Nov,27-Nov,11-Jun,16-Jun,10-Jul,18-Jul,,,,,,,,,,
+Montana,MT,21,21,,Barley,Barley,,,,3-Apr,13-Apr,11-May,20-May,27-Jul,3-Aug,2-Sep,10-Sep,,,,,,,,,,
+Nebraska,NE,21,21,,Barley,Barley,,,,3-Sep,9-Sep,2-Oct,12-Oct,28-Jun,3-Jul,21-Jul,27-Jul,,,,,,,,,,
+Nevada,NV,21,21,,Barley,Barley,,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,,,,,,,,
+New Hampshire,NH,21,21,,Barley,Barley,,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,,,,,,,,
+New Jersey,NJ,21,21,,Barley,Barley,,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,,,,,,,,
+New Mexico,NM,21,21,,Barley,Barley,,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,,,,,,,,
+New York,NY,21,21,,Barley,Barley,,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,,,,,,,,
+North Carolina,NC,21,21,,Barley,Barley,,,,25-Sep,15-Oct,10-Nov,1-Dec,25-May,10-Jun,30-Jun,25-Jul,,,,,,,,,,
+North Dakota,ND,21,21,,Barley,Barley,,,,19-Apr,26-Apr,25-May,3-Jun,28-Jul,4-Aug,3-Sep,16-Sep,,,,,,,,,,
+Ohio,OH,21,21,,Barley,Barley,,,,26-Sep,2-Oct,25-Oct,6-Nov,28-Jun,2-Jul,17-Jul,20-Jul,,,,,,,,,,
+Oklahoma,OK,21,21,,Barley,Barley,,,,3-Sep,15-Sep,22-Oct,6-Nov,1-Jun,6-Jun,27-Jun,3-Jul,,,,,,,,,,
+Oregon,OR,21,21,,Barley,Barley,,,,1-Mar,30-Mar,15-May,25-May,10-Jul,21-Jul,1-Sep,8-Sep,,,,,,,,,,
+Pennsylvannia,PA,21,21,,Barley,Barley,,,,25-Aug,15-Sep,15-Oct,25-Oct,20-Jun,25-Jun,20-Jul,10-Aug,,,,,,,,,,
+Rhode Island,RI,21,21,,Barley,Barley,,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,,,,,,,,
+South Carolina,SC,21,21,,Barley,Barley,,,,25-Sep,11-Nov,15-Dec,31-Dec,26-May,6-Jun,25-Jun,1-Jul,,,,,,,,,,
+South Dakota,SD,21,21,,Barley,Barley,,,,6-Apr,14-Apr,17-May,24-May,20-Jul,27-Jul,19-Aug,27-Aug,,,,,,,,,,
+Tennessee,TN,21,21,,Barley,Barley,,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,,,,,,,,
+Texas,TX,21,21,,Barley,Barley,,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,,,,,,,,
+Utah,UT,21,21,,Barley,Barley,,,,20-Mar,1-Apr,20-Apr,10-May,15-Jul,25-Jul,15-Aug,1-Sep,,,,,,,,,,
+Vermont,VT,21,21,,Barley,Barley,,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,,,,,,,,
+Virginia,VA,21,21,,Barley,Barley,,,,18-Sep,26-Sep,29-Oct,8-Nov,28-May,6-Jun,25-Jun,1-Jul,,,,,,,,,,
+Washington,WA,21,21,,Barley,Barley,,,,20-Mar,30-Mar,5-May,10-May,25-Jul,1-Aug,30-Aug,5-Sep,,,,,,,,,,
+West Virginia,WV,21,21,,Barley,Barley,,,,5-Sep,15-Sep,5-Nov,10-Nov,10-Jun,25-Jun,25-Jul,5-Aug,,,,,,,,,,
+Wisconsin,WI,21,21,,Barley,Barley,,,,5-Apr,10-Apr,20-Apr,30-Apr,1-Aug,5-Aug,15-Aug,20-Aug,,,,,,,,,,
+Wyoming,WY,21,21,,Barley,Barley,,,,18-Mar,26-Mar,2-May,2-Jun,24-Jul,5-Aug,26-Aug,17-Sep,,,,,,,,,,
+Alabama,AL,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Arizona,AZ,22,22,,Durum Wheat,Durum Wheat,,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,,,,,,,,
+Arkansas,AR,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+California,CA,22,22,,Durum Wheat,Durum Wheat,,,,25-Sep,20-Oct,1-Jan,1-Feb,20-May,10-Jun,15-Jul,1-Aug,,,,,,,,,,
+Colorado,CO,22,22,,Durum Wheat,Durum Wheat,,,,28-Mar,9-Apr,16-May,23-May,23-Jul,3-Aug,17-Sep,29-Sep,,,,,,,,,,
+Connecticut,CT,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Florida,FL,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Georgia,GA,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Idaho,ID,22,22,,Durum Wheat,Durum Wheat,,,,1-Apr,10-Apr,14-May,30-May,8-Aug,13-Aug,10-Sep,29-Sep,,,,,,,,,,
+Illinois,IL,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Indiana,IN,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Kentucky,KY,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Maine,ME,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Maryland,MD,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Massachusetts,MA,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Michigan,MI,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Minnesota,MN,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Mississippi,MS,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Missouri,MO,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Montana,MT,22,22,,Durum Wheat,Durum Wheat,,,,25-Apr,1-May,1-Jun,15-Jun,11-Aug,19-Aug,22-Sep,4-Oct,,,,,,,,,,
+Nebraska,NE,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Nevada,NV,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+New Mexico,NM,22,22,,Durum Wheat,Durum Wheat,,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,,,,,,,,
+New York,NY,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+North Carolina,NC,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+North Dakota,ND,22,22,,Durum Wheat,Durum Wheat,,,,23-Apr,2-May,31-May,8-Jun,7-Aug,15-Aug,23-Sep,5-Oct,,,,,,,,,,
+Ohio,OH,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Oklahoma,OK,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Oregon,OR,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Pennsylvannia,PA,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Rhode Island,RI,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+South Dakota,SD,22,22,,Durum Wheat,Durum Wheat,,,,31-Mar,8-Apr,12-May,21-May,20-Jul,27-Jul,20-Aug,29-Aug,,,,,,,,,,
+Tennessee,TN,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Texas,TX,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Utah,UT,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Washington,WA,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+West Virginia,WV,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Wyoming,WY,22,22,,Durum Wheat,Durum Wheat,,,,,,,,,,,,,,,,,,,,,
+Alabama,AL,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Arizona,AZ,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Arkansas,AR,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+California,CA,23,23,,Spring Wheat,Spring Wheat,,,,20-Feb,1-Mar,15-May,30-May,15-Aug,1-Sep,20-Sep,1-Oct,,,,,,,,,,
+Colorado,CO,23,23,,Spring Wheat,Spring Wheat,,,,28-Mar,9-Apr,16-May,23-May,23-Jul,3-Aug,17-Sep,29-Sep,,,,,,,,,,
+Connecticut,CT,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Florida,FL,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Georgia,GA,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Idaho,ID,23,23,,Spring Wheat,Spring Wheat,,,,21-Mar,7-Apr,3-May,26-May,4-Aug,13-Aug,8-Sep,29-Sep,,,,,,,,,,
+Illinois,IL,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Indiana,IN,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Kentucky,KY,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Maine,ME,23,23,,Spring Wheat,Spring Wheat,,,,5-May,10-May,31-May,7-Jun,11-Aug,21-Aug,22-Sep,4-Oct,,,,,,,,,,
+Maryland,MD,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Massachusetts,MA,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Michigan,MI,23,23,,Spring Wheat,Spring Wheat,,,,10-Apr,13-Apr,14-May,22-May,19-Jul,28-Jul,24-Aug,2-Sep,,,,,,,,,,
+Minnesota,MN,23,23,,Spring Wheat,Spring Wheat,,,,14-Apr,23-Apr,23-May,1-Jun,30-Jul,5-Aug,9-Sep,22-Sep,,,,,,,,,,
+Mississippi,MS,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Missouri,MO,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Montana,MT,23,23,,Spring Wheat,Spring Wheat,,,,6-Apr,14-Apr,12-May,18-May,30-Jul,7-Aug,6-Sep,13-Sep,,,,,,,,,,
+Nebraska,NE,23,23,,Spring Wheat,Spring Wheat,,,,26-Mar,1-Apr,24-Apr,3-May,4-Jul,10-Jul,30-Jul,7-Aug,,,,,,,,,,
+Nevada,NV,23,23,,Spring Wheat,Spring Wheat,,,,20-Mar,1-Apr,20-Apr,1-May,15-Jul,5-Aug,25-Aug,5-Sep,,,,,,,,,,
+New Hampshire,NH,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+New Mexico,NM,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+New York,NY,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+North Carolina,NC,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+North Dakota,ND,23,23,,Spring Wheat,Spring Wheat,,,,16-Apr,24-Apr,25-May,3-Jun,1-Aug,8-Aug,13-Sep,25-Sep,,,,,,,,,,
+Ohio,OH,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Oklahoma,OK,23,23,,Spring Wheat,Spring Wheat,,,,15-Feb,22-Feb,17-Mar,26-Mar,4-Jun,10-Jun,4-Jul,13-Jul,,,,,,,,,,
+Oregon,OR,23,23,,Spring Wheat,Spring Wheat,,,,1-Mar,25-Mar,15-Apr,6-May,20-Jul,25-Jul,1-Sep,3-Sep,,,,,,,,,,
+Pennsylvannia,PA,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Rhode Island,RI,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+South Dakota,SD,23,23,,Spring Wheat,Spring Wheat,,,,31-Mar,8-Apr,12-May,21-May,20-Jul,27-Jul,20-Aug,29-Aug,,,,,,,,,,
+Tennessee,TN,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Texas,TX,23,23,,Spring Wheat,Spring Wheat,,,,15-Feb,22-Feb,17-Mar,26-Mar,4-Jun,10-Jun,4-Jul,13-Jul,,,,,,,,,,
+Utah,UT,23,23,,Spring Wheat,Spring Wheat,,,,20-Mar,1-Apr,20-Apr,1-May,15-Jul,5-Aug,25-Aug,5-Sep,,,,,,,,,,
+Vermont,VT,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Washington,WA,23,23,,Spring Wheat,Spring Wheat,,,,15-Mar,25-Mar,30-Apr,10-May,25-Jul,1-Aug,30-Aug,5-Sep,,,,,,,,,,
+West Virginia,WV,23,23,,Spring Wheat,Spring Wheat,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,23,23,,Spring Wheat,Spring Wheat,,,,11-Apr,20-Apr,11-May,18-May,22-Jul,28-Jul,24-Aug,30-Aug,,,,,,,,,,
+Wyoming,WY,23,23,,Spring Wheat,Spring Wheat,,,,3-Apr,14-Apr,18-May,9-Jun,18-Jul,23-Jul,1-Sep,15-Sep,,,,,,,,,,
+Alabama,AL,24,24,,Winter Wheat,Winter Wheat,,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,,,,,,,,
+Arizona,AZ,24,24,,Winter Wheat,Winter Wheat,,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,,,,,,,,
+Arkansas,AR,24,24,,Winter Wheat,Winter Wheat,,,,3-Oct,13-Oct,20-Nov,1-Dec,1-Jun,6-Jun,25-Jun,2-Jul,,,,,,,,,,
+California,CA,24,24,,Winter Wheat,Winter Wheat,,,,25-Sep,20-Oct,1-Jan,1-Feb,20-May,1-Jun,5-Jul,15-Jul,,,,,,,,,,
+Colorado,CO,24,24,,Winter Wheat,Winter Wheat,,,,1-Sep,11-Sep,2-Oct,11-Oct,27-Jun,2-Jul,21-Jul,29-Jul,,,,,,,,,,
+Connecticut,CT,24,24,,Winter Wheat,Winter Wheat,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,24,24,,Winter Wheat,Winter Wheat,,,,8-Oct,19-Oct,8-Nov,21-Nov,22-Jun,26-Jun,8-Jul,17-Jul,,,,,,,,,,
+Florida,FL,24,24,,Winter Wheat,Winter Wheat,,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,,,,,,,,
+Georgia,GA,24,24,,Winter Wheat,Winter Wheat,,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,,,,,,,,
+Idaho,ID,24,24,,Winter Wheat,Winter Wheat,,,,8-Sep,22-Sep,13-Oct,3-Nov,23-Jul,4-Aug,25-Aug,14-Sep,,,,,,,,,,
+Illinois,IL,24,24,,Winter Wheat,Winter Wheat,,,,28-Sep,5-Oct,29-Oct,9-Nov,15-Jun,19-Jun,11-Jul,19-Jul,,,,,,,,,,
+Indiana,IN,24,24,,Winter Wheat,Winter Wheat,,,,25-Sep,1-Oct,1-Nov,5-Nov,15-Jun,25-Jun,15-Jul,25-Jul,,,,,,,,,,
+Iowa,IA,24,24,,Winter Wheat,Winter Wheat,,,,6-Sep,26-Sep,15-Oct,30-Oct,24-Jun,6-Jul,22-Jul,7-Aug,,,,,,,,,,
+Kansas,KS,24,24,,Winter Wheat,Winter Wheat,,,,10-Sep,15-Sep,20-Oct,1-Nov,15-Jun,20-Jun,5-Jul,15-Jul,,,,,,,,,,
+Kentucky,KY,24,24,,Winter Wheat,Winter Wheat,,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,,,,,,,,
+Louisana,LA,24,24,,Winter Wheat,Winter Wheat,,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,,,,,,,,
+Maine,ME,24,24,,Winter Wheat,Winter Wheat,,,,,,,,,,,,,,,,,,,,,
+Maryland,MD,24,24,,Winter Wheat,Winter Wheat,,,,5-Oct,17-Oct,6-Nov,19-Nov,22-Jun,28-Jun,12-Jul,20-Jul,,,,,,,,,,
+Massachusetts,MA,24,24,,Winter Wheat,Winter Wheat,,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,,,,,,,,
+Michigan,MI,24,24,,Winter Wheat,Winter Wheat,,,,13-Sep,22-Sep,22-Oct,1-Nov,6-Jul,11-Jul,29-Jul,5-Aug,,,,,,,,,,
+Minnesota,MN,24,24,,Winter Wheat,Winter Wheat,,,,25-Aug,1-Sep,20-Sep,25-Sep,20-Jul,1-Aug,25-Aug,10-Sep,,,,,,,,,,
+Mississippi,MS,24,24,,Winter Wheat,Winter Wheat,,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,,,,,,,,
+Missouri,MO,24,24,,Winter Wheat,Winter Wheat,,,,24-Sep,4-Oct,10-Nov,27-Nov,11-Jun,16-Jun,10-Jul,18-Jul,,,,,,,,,,
+Montana,MT,24,24,,Winter Wheat,Winter Wheat,,,,6-Sep,12-Sep,7-Oct,16-Oct,22-Jul,26-Jul,12-Aug,17-Aug,,,,,,,,,,
+Nebraska,NE,24,24,,Winter Wheat,Winter Wheat,,,,3-Sep,9-Sep,2-Oct,12-Oct,28-Jun,3-Jul,21-Jul,27-Jul,,,,,,,,,,
+Nevada,NV,24,24,,Winter Wheat,Winter Wheat,,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,,,,,,,,
+New Hampshire,NH,24,24,,Winter Wheat,Winter Wheat,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,24,24,,Winter Wheat,Winter Wheat,,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,,,,,,,,
+New Mexico,NM,24,24,,Winter Wheat,Winter Wheat,,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,,,,,,,,
+New York,NY,24,24,,Winter Wheat,Winter Wheat,,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,,,,,,,,
+North Carolina,NC,24,24,,Winter Wheat,Winter Wheat,,,,20-Sep,15-Oct,20-Nov,20-Dec,30-May,10-Jun,30-Jun,25-Jul,,,,,,,,,,
+North Dakota,ND,24,24,,Winter Wheat,Winter Wheat,,,,6-Sep,10-Sep,25-Sep,2-Oct,15-Jul,20-Jul,29-Jul,10-Aug,,,,,,,,,,
+Ohio,OH,24,24,,Winter Wheat,Winter Wheat,,,,26-Sep,2-Oct,25-Oct,6-Nov,28-Jun,2-Jul,17-Jul,20-Jul,,,,,,,,,,
+Oklahoma,OK,24,24,,Winter Wheat,Winter Wheat,,,,3-Sep,15-Sep,22-Oct,6-Nov,1-Jun,6-Jun,27-Jun,3-Jul,,,,,,,,,,
+Oregon,OR,24,24,,Winter Wheat,Winter Wheat,,,,15-Sep,10-Oct,10-Nov,1-Dec,10-Jul,17-Jul,15-Aug,23-Aug,,,,,,,,,,
+Pennsylvannia,PA,24,24,,Winter Wheat,Winter Wheat,,,,30-Aug,15-Sep,15-Oct,30-Oct,5-Jul,10-Jul,30-Jul,10-Aug,,,,,,,,,,
+Rhode Island,RI,24,24,,Winter Wheat,Winter Wheat,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,24,24,,Winter Wheat,Winter Wheat,,,,25-Sep,11-Nov,15-Dec,31-Dec,26-May,6-Jun,25-Jun,1-Jul,,,,,,,,,,
+South Dakota,SD,24,24,,Winter Wheat,Winter Wheat,,,,1-Sep,9-Sep,5-Oct,16-Oct,8-Jul,14-Jul,5-Aug,13-Aug,,,,,,,,,,
+Tennessee,TN,24,24,,Winter Wheat,Winter Wheat,,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,,,,,,,,
+Texas,TX,24,24,,Winter Wheat,Winter Wheat,,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,,,,,,,,
+Utah,UT,24,24,,Winter Wheat,Winter Wheat,,,,20-Aug,25-Aug,5-Oct,10-Nov,10-Jul,25-Jul,10-Aug,25-Aug,,,,,,,,,,
+Vermont,VT,24,24,,Winter Wheat,Winter Wheat,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,24,24,,Winter Wheat,Winter Wheat,,,,25-Sep,10-Oct,21-Nov,1-Dec,9-Jun,16-Jun,5-Jul,12-Jul,,,,,,,,,,
+Washington,WA,24,24,,Winter Wheat,Winter Wheat,,,,30-Aug,1-Sep,10-Oct,20-Oct,15-Jul,25-Jul,20-Aug,30-Aug,,,,,,,,,,
+West Virginia,WV,24,24,,Winter Wheat,Winter Wheat,,,,5-Sep,15-Sep,5-Nov,10-Nov,10-Jun,25-Jun,25-Jul,5-Aug,,,,,,,,,,
+Wisconsin,WI,24,24,,Winter Wheat,Winter Wheat,,,,30-Sep,5-Oct,10-Oct,15-Oct,17-Jul,21-Jul,11-Aug,19-Aug,,,,,,,,,,
+Wyoming,WY,24,24,,Winter Wheat,Winter Wheat,,,,25-Aug,4-Sep,20-Sep,28-Sep,13-Jul,22-Jul,15-Aug,22-Aug,,,,,,,,,,
+Alabama,AL,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,1-May,25-May,25-Jun,1-Jul,3-Sep,28-Oct,28-Nov,15-Dec
+Arizona,AZ,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,15-May,30-May,15-Jun,1-Jul,,,,
+Arkansas,AR,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,3-Oct,13-Oct,20-Nov,1-Dec,1-Jun,6-Jun,25-Jun,2-Jul,,,1-Jun,6-Jun,25-Jun,2-Jul,10-Sep,29-Sep,13-Nov,26-Nov
+California,CA,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,25-Sep,20-Oct,1-Jan,1-Feb,20-May,1-Jun,5-Jul,15-Jul,,,20-May,1-Jun,5-Jul,15-Jul,,,,
+Colorado,CO,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,1-Sep,11-Sep,2-Oct,11-Oct,27-Jun,2-Jul,21-Jul,29-Jul,,,27-Jun,2-Jul,21-Jul,29-Jul,20-Sep,1-Oct,1-Nov,15-Nov
+Connecticut,CT,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,8-Oct,19-Oct,8-Nov,21-Nov,22-Jun,26-Jun,8-Jul,17-Jul,,,22-Jun,26-Jun,8-Jul,17-Jul,5-Oct,22-Oct,14-Nov,25-Nov
+Florida,FL,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,1-May,15-May,31-May,15-Jun,1-Oct,15-Oct,25-Nov,1-Dec
+Georgia,GA,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,24-May,30-May,18-Jun,27-Jun,11-Oct,25-Oct,8-Dec,17-Dec
+Idaho,ID,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,8-Sep,22-Sep,13-Oct,3-Nov,23-Jul,4-Aug,25-Aug,14-Sep,,,23-Jul,4-Aug,25-Aug,14-Sep,,,,
+Illinois,IL,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,28-Sep,5-Oct,29-Oct,9-Nov,15-Jun,19-Jun,11-Jul,19-Jul,,,15-Jun,19-Jun,11-Jul,19-Jul,19-Sep,26-Sep,26-Oct,7-Nov
+Indiana,IN,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,25-Sep,1-Oct,1-Nov,5-Nov,15-Jun,25-Jun,15-Jul,25-Jul,,,15-Jun,25-Jun,15-Jul,25-Jul,20-Sep,1-Oct,1-Nov,10-Nov
+Iowa,IA,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,6-Sep,26-Sep,15-Oct,30-Oct,24-Jun,6-Jul,22-Jul,7-Aug,,,24-Jun,6-Jul,22-Jul,7-Aug,21-Sep,28-Sep,20-Oct,31-Oct
+Kansas,KS,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,10-Sep,15-Sep,20-Oct,1-Nov,15-Jun,20-Jun,5-Jul,15-Jul,,,15-Jun,20-Jun,5-Jul,15-Jul,20-Sep,1-Oct,1-Nov,15-Nov
+Kentucky,KY,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,10-Jun,15-Jun,4-Jul,10-Jul,25-Sep,10-Oct,14-Nov,25-Nov
+Louisana,LA,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,14-May,21-May,7-Jun,14-Jun,28-Aug,3-Sep,25-Oct,31-Oct
+Maine,ME,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,,,,,,,,,,,,,,,27-Sep,7-Oct,14-Nov,20-Nov
+Maryland,MD,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,5-Oct,17-Oct,6-Nov,19-Nov,22-Jun,28-Jun,12-Jul,20-Jul,,,22-Jun,28-Jun,12-Jul,20-Jul,5-Oct,18-Oct,15-Nov,1-Dec
+Massachusetts,MA,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,10-Jul,17-Jul,7-Aug,14-Aug,27-Sep,7-Oct,14-Nov,20-Nov
+Michigan,MI,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,13-Sep,22-Sep,22-Oct,1-Nov,6-Jul,11-Jul,29-Jul,5-Aug,,,6-Jul,11-Jul,29-Jul,5-Aug,25-Sep,3-Oct,3-Nov,13-Nov
+Minnesota,MN,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,25-Aug,1-Sep,20-Sep,25-Sep,20-Jul,1-Aug,25-Aug,10-Sep,,,20-Jul,1-Aug,25-Aug,10-Sep,20-Sep,27-Sep,20-Oct,31-Oct
+Mississippi,MS,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,28-May,2-Jun,21-Jun,1-Jul,10-Sep,13-Sep,31-Oct,9-Nov
+Missouri,MO,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,24-Sep,4-Oct,10-Nov,27-Nov,11-Jun,16-Jun,10-Jul,18-Jul,,,11-Jun,16-Jun,10-Jul,18-Jul,25-Sep,3-Oct,8-Nov,23-Nov
+Montana,MT,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,6-Sep,12-Sep,7-Oct,16-Oct,22-Jul,26-Jul,12-Aug,17-Aug,,,22-Jul,26-Jul,12-Aug,17-Aug,17-Sep,24-Sep,21-Oct,5-Nov
+Nebraska,NE,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,3-Sep,9-Sep,2-Oct,12-Oct,28-Jun,3-Jul,21-Jul,27-Jul,,,28-Jun,3-Jul,21-Jul,27-Jul,23-Sep,29-Sep,24-Oct,2-Nov
+Nevada,NV,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,15-Jul,20-Jul,20-Aug,25-Aug,,,,
+New Hampshire,NH,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,25-Jun,1-Jul,10-Jul,15-Jul,1-Oct,20-Oct,10-Nov,15-Nov
+New Mexico,NM,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,15-Jun,20-Jun,10-Jul,15-Jul,,,,
+New York,NY,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,10-Jul,17-Jul,7-Aug,14-Aug,27-Sep,7-Oct,14-Nov,20-Nov
+North Carolina,NC,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,20-Sep,15-Oct,20-Nov,20-Dec,30-May,10-Jun,30-Jun,25-Jul,,,30-May,10-Jun,30-Jun,25-Jul,10-Oct,10-Nov,5-Dec,20-Dec
+North Dakota,ND,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,6-Sep,10-Sep,25-Sep,2-Oct,15-Jul,20-Jul,29-Jul,10-Aug,,,15-Jul,20-Jul,29-Jul,10-Aug,17-Sep,24-Sep,21-Oct,5-Nov
+Ohio,OH,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,26-Sep,2-Oct,25-Oct,6-Nov,28-Jun,2-Jul,17-Jul,20-Jul,,,28-Jun,2-Jul,17-Jul,20-Jul,23-Sep,30-Sep,31-Oct,12-Nov
+Oklahoma,OK,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,3-Sep,15-Sep,22-Oct,6-Nov,1-Jun,6-Jun,27-Jun,3-Jul,,,1-Jun,6-Jun,27-Jun,3-Jul,9-Sep,22-Sep,20-Nov,1-Dec
+Oregon,OR,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,15-Sep,10-Oct,10-Nov,1-Dec,10-Jul,17-Jul,15-Aug,23-Aug,,,10-Jul,17-Jul,15-Aug,23-Aug,,,,
+Pennsylvannia,PA,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,30-Aug,15-Sep,15-Oct,30-Oct,5-Jul,10-Jul,30-Jul,10-Aug,,,5-Jul,10-Jul,30-Jul,10-Aug,5-Oct,20-Oct,10-Nov,30-Nov
+Rhode Island,RI,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,25-Sep,11-Nov,15-Dec,31-Dec,26-May,6-Jun,25-Jun,1-Jul,,,26-May,6-Jun,25-Jun,1-Jul,20-Oct,10-Nov,10-Dec,30-Dec
+South Dakota,SD,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,1-Sep,9-Sep,5-Oct,16-Oct,8-Jul,14-Jul,5-Aug,13-Aug,,,8-Jul,14-Jul,5-Aug,13-Aug,22-Sep,28-Sep,24-Oct,3-Nov
+Tennessee,TN,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,5-Jun,10-Jun,30-Jun,5-Jul,25-Sep,5-Oct,20-Nov,30-Nov
+Texas,TX,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,25-May,1-Jun,2-Jul,12-Jul,18-Aug,22-Aug,17-Oct,7-Nov
+Utah,UT,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,20-Aug,25-Aug,5-Oct,10-Nov,10-Jul,25-Jul,10-Aug,25-Aug,,,10-Jul,25-Jul,10-Aug,25-Aug,,,,
+Vermont,VT,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,,,,,,,,,,,,,,,27-Sep,7-Oct,14-Nov,20-Nov
+Virginia,VA,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,25-Sep,10-Oct,21-Nov,1-Dec,9-Jun,16-Jun,5-Jul,12-Jul,,,9-Jun,16-Jun,5-Jul,12-Jul,4-Oct,16-Oct,28-Nov,4-Dec
+Washington,WA,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,30-Aug,1-Sep,10-Oct,20-Oct,15-Jul,25-Jul,20-Aug,30-Aug,,,15-Jul,25-Jul,20-Aug,30-Aug,,,,
+West Virginia,WV,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,5-Sep,15-Sep,5-Nov,10-Nov,10-Jun,25-Jun,25-Jul,5-Aug,,,10-Jun,25-Jun,25-Jul,5-Aug,25-Sep,5-Oct,30-Nov,1-Dec
+Wisconsin,WI,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,30-Sep,5-Oct,10-Oct,15-Oct,17-Jul,21-Jul,11-Aug,19-Aug,,,17-Jul,21-Jul,11-Aug,19-Aug,29-Sep,4-Oct,29-Oct,8-Nov
+Wyoming,WY,26,24,5,Winter Wheat/Soybean,Winter Wheat,Soybean,,,25-Aug,4-Sep,20-Sep,28-Sep,13-Jul,22-Jul,15-Aug,22-Aug,,,13-Jul,22-Jul,15-Aug,22-Aug,,,,
+Alabama,AL,28,28,,Oats,Oats,,,,1-Sep,15-Sep,15-Oct,1-Dec,1-May,25-May,25-Jun,1-Jul,,,,,,,,,,
+Arizona,AZ,28,28,,Oats,Oats,,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,,,,,,,,
+Arkansas,AR,28,28,,Oats,Oats,,,,15-Sep,1-Oct,15-Nov,1-Dec,15-May,25-May,15-Jun,1-Jul,,,,,,,,,,
+California,CA,28,28,,Oats,Oats,,,,15-Sep,1-Oct,1-Mar,15-Mar,15-Jun,15-Jul,1-Sep,15-Sep,,,,,,,,,,
+Colorado,CO,28,28,,Oats,Oats,,,,17-Mar,28-Mar,14-May,23-May,13-Jul,19-Jul,13-Sep,25-Sep,,,,,,,,,,
+Connecticut,CT,28,28,,Oats,Oats,,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,,,,,,,,
+Delaware,DE,28,28,,Oats,Oats,,,,8-Oct,19-Oct,8-Nov,21-Nov,22-Jun,26-Jun,8-Jul,17-Jul,,,,,,,,,,
+Florida,FL,28,28,,Oats,Oats,,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,,,,,,,,
+Georgia,GA,28,28,,Oats,Oats,,,,27-Sep,10-Oct,5-Dec,13-Dec,25-May,1-Jun,22-Jun,3-Jul,,,,,,,,,,
+Idaho,ID,28,28,,Oats,Oats,,,,31-Mar,14-Apr,19-May,2-Jun,21-Jul,11-Aug,8-Sep,29-Sep,,,,,,,,,,
+Illinois,IL,28,28,,Oats,Oats,,,,20-Mar,29-Mar,30-Apr,12-May,4-Jul,14-Jul,7-Aug,13-Aug,,,,,,,,,,
+Indiana,IN,28,28,,Oats,Oats,,,,1-Apr,5-Apr,25-Apr,10-May,10-Jul,15-Jul,5-Aug,10-Aug,,,,,,,,,,
+Iowa,IA,28,28,,Oats,Oats,,,,25-Mar,2-Apr,2-May,13-May,9-Jul,17-Jul,5-Aug,11-Aug,,,,,,,,,,
+Kansas,KS,28,28,,Oats,Oats,,,,20-Feb,5-Mar,1-Apr,1-May,10-Jul,15-Jul,1-Aug,10-Aug,,,,,,,,,,
+Kentucky,KY,28,28,,Oats,Oats,,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,,,,,,,,
+Louisana,LA,28,28,,Oats,Oats,,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,,,,,,,,
+Maine,ME,28,28,,Oats,Oats,,,,5-May,10-May,31-May,7-Jun,11-Aug,21-Aug,22-Sep,4-Oct,,,,,,,,,,
+Maryland,MD,28,28,,Oats,Oats,,,,5-Oct,17-Oct,6-Nov,19-Nov,22-Jun,28-Jun,12-Jul,20-Jul,,,,,,,,,,
+Massachusetts,MA,28,28,,Oats,Oats,,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,,,,,,,,
+Michigan,MI,28,28,,Oats,Oats,,,,10-Apr,13-Apr,14-May,22-May,19-Jul,28-Jul,24-Aug,2-Sep,,,,,,,,,,
+Minnesota,MN,28,28,,Oats,Oats,,,,11-Apr,19-Apr,15-May,26-May,21-Jul,26-Jul,24-Aug,4-Sep,,,,,,,,,,
+Mississippi,MS,28,28,,Oats,Oats,,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,,,,,,,,
+Missouri,MO,28,28,,Oats,Oats,,,,1-Mar,15-Mar,20-Apr,30-Apr,20-Jun,1-Jul,25-Jul,1-Aug,,,,,,,,,,
+Montana,MT,28,28,,Oats,Oats,,,,18-Apr,26-Apr,28-May,5-Jun,8-Aug,15-Aug,9-Sep,22-Sep,,,,,,,,,,
+Nebraska,NE,28,28,,Oats,Oats,,,,26-Mar,1-Apr,24-Apr,3-May,4-Jul,10-Jul,30-Jul,7-Aug,,,,,,,,,,
+Nevada,NV,28,28,,Oats,Oats,,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,,,,,,,,
+New Hampshire,NH,28,28,,Oats,Oats,,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,,,,,,,,
+New Jersey,NJ,28,28,,Oats,Oats,,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,,,,,,,,
+New Mexico,NM,28,28,,Oats,Oats,,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,,,,,,,,
+New York,NY,28,28,,Oats,Oats,,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,,,,,,,,
+North Carolina,NC,28,28,,Oats,Oats,,,,25-Sep,15-Oct,25-Sep,10-Dec,30-May,10-Jun,30-Jun,25-Jul,,,,,,,,,,
+North Dakota,ND,28,28,,Oats,Oats,,,,19-Apr,26-Apr,25-May,3-Jun,28-Jul,5-Aug,5-Sep,18-Sep,,,,,,,,,,
+Ohio,OH,28,28,,Oats,Oats,,,,4-Apr,9-Apr,5-May,13-May,13-Jul,20-Jul,7-Aug,11-Aug,,,,,,,,,,
+Oklahoma,OK,28,28,,Oats,Oats,,,,15-Feb,22-Feb,17-Mar,26-Mar,4-Jun,10-Jun,4-Jul,13-Jul,,,,,,,,,,
+Oregon,OR,28,28,,Oats,Oats,,,,15-Sep,15-Oct,15-Nov,10-Dec,10-Jul,10-Aug,20-Aug,1-Sep,,,,,,,,,,
+Pennsylvannia,PA,28,28,,Oats,Oats,,,,15-Apr,15-Apr,10-May,25-May,20-Jul,25-Jul,20-Aug,30-Aug,,,,,,,,,,
+Rhode Island,RI,28,28,,Oats,Oats,,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,,,,,,,,
+South Carolina,SC,28,28,,Oats,Oats,,,,23-Sep,15-Oct,20-Nov,15-Dec,25-May,3-Jun,20-Jun,3-Jul,,,,,,,,,,
+South Dakota,SD,28,28,,Oats,Oats,,,,3-Apr,10-Apr,15-May,23-May,14-Jul,21-Jul,15-Aug,23-Aug,,,,,,,,,,
+Tennessee,TN,28,28,,Oats,Oats,,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,,,,,,,,
+Texas,TX,28,28,,Oats,Oats,,,,7-Sep,20-Sep,5-Nov,25-Nov,13-May,23-May,22-Jun,4-Jul,,,,,,,,,,
+Utah,UT,28,28,,Oats,Oats,,,,20-Mar,10-Apr,5-May,1-Jun,25-Jul,15-Aug,10-Sep,30-Sep,,,,,,,,,,
+Vermont,VT,28,28,,Oats,Oats,,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,,,,,,,,
+Virginia,VA,28,28,,Oats,Oats,,,,15-Sep,27-Sep,29-Oct,9-Nov,28-May,9-Jun,3-Jul,20-Jul,,,,,,,,,,
+Washington,WA,28,28,,Oats,Oats,,,,5-Mar,10-Mar,10-Apr,20-Apr,15-Jul,1-Aug,30-Aug,10-Sep,,,,,,,,,,
+West Virginia,WV,28,28,,Oats,Oats,,,,25-Sep,10-Oct,21-Nov,1-Dec,9-Jun,16-Jun,5-Jul,12-Jul,,,,,,,,,,
+Wisconsin,WI,28,28,,Oats,Oats,,,,11-Apr,20-Apr,11-May,18-May,22-Jul,28-Jul,24-Aug,30-Aug,,,,,,,,,,
+Wyoming,WY,28,28,,Oats,Oats,,,,3-Apr,14-Apr,18-May,9-Jun,18-Jul,23-Jul,1-Sep,15-Sep,,,,,,,,,,
+Alabama,AL,31,31,,Canola,Canola,,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,,,,,,,,
+Arizona,AZ,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Arkansas,AR,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+California,CA,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Colorado,CO,31,31,,Canola,Canola,,,,10-Sep,15-Sep,30-Sep,10-Oct,20-May,1-Jun,10-Jun,20-Jun,,,,,,,,,,
+Connecticut,CT,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Florida,FL,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Georgia,GA,31,31,,Canola,Canola,,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,,,,,,,,
+Idaho,ID,31,31,,Canola,Canola,,,,30-Apr,7-May,3-Jun,12-Jun,17-Aug,26-Aug,3-Oct,15-Oct,,,,,,,,,,
+Illinois,IL,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Indiana,IN,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,31,31,,Canola,Canola,,,,10-Sep,15-Sep,30-Sep,10-Oct,20-May,1-Jun,10-Jun,20-Jun,,,,,,,,,,
+Kentucky,KY,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Maine,ME,31,31,,Canola,Canola,,,,4-May,9-May,30-May,6-Jun,9-Aug,18-Aug,18-Sep,30-Sep,,,,,,,,,,
+Maryland,MD,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Massachusetts,MA,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Michigan,MI,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Minnesota,MN,31,31,,Canola,Canola,,,,30-Apr,7-May,3-Jun,12-Jun,17-Aug,26-Aug,3-Oct,15-Oct,,,,,,,,,,
+Mississippi,MS,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Missouri,MO,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Montana,MT,31,31,,Canola,Canola,,,,30-Apr,7-May,3-Jun,12-Jun,17-Aug,26-Aug,3-Oct,15-Oct,,,,,,,,,,
+Nebraska,NE,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Nevada,NV,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+New Mexico,NM,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+New York,NY,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+North Carolina,NC,31,31,,Canola,Canola,,,,20-Sep,15-Oct,20-Nov,20-Dec,30-May,10-Jun,30-Jun,25-Jul,,,,,,,,,,
+North Dakota,ND,31,31,,Canola,Canola,,,,30-Apr,7-May,3-Jun,12-Jun,17-Aug,26-Aug,3-Oct,15-Oct,,,,,,,,,,
+Ohio,OH,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Oklahoma,OK,31,31,,Canola,Canola,,,,10-Sep,15-Sep,30-Sep,10-Oct,20-May,1-Jun,10-Jun,20-Jun,,,,,,,,,,
+Oregon,OR,31,31,,Canola,Canola,,,,15-Sep,10-Oct,10-Nov,1-Dec,10-Jul,17-Jul,15-Aug,23-Aug,,,,,,,,,,
+Pennsylvannia,PA,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Rhode Island,RI,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+South Dakota,SD,31,31,,Canola,Canola,,,,30-Apr,7-May,3-Jun,12-Jun,17-Aug,26-Aug,3-Oct,15-Oct,,,,,,,,,,
+Tennessee,TN,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Texas,TX,31,31,,Canola,Canola,,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,,,,,,,,
+Utah,UT,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Washington,WA,31,31,,Canola,Canola,,,,30-Aug,1-Sep,10-Oct,20-Oct,15-Jul,25-Jul,20-Aug,30-Aug,,,,,,,,,,
+West Virginia,WV,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,31,31,,Canola,Canola,,,,30-Apr,7-May,3-Jun,12-Jun,17-Aug,26-Aug,3-Oct,15-Oct,,,,,,,,,,
+Wyoming,WY,31,31,,Canola,Canola,,,,,,,,,,,,,,,,,,,,,
+Alabama,AL,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Arizona,AZ,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Arkansas,AR,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+California,CA,41,41,,Sugarbeet,Sugarbeet,,,,15-Aug,15-Sep,15-Oct,30-Oct,1-Apr,15-Apr,1-Aug,15-Aug,,,,,,,,,,
+Colorado,CO,41,41,,Sugarbeet,Sugarbeet,,,,30-Mar,7-Apr,30-Apr,10-May,30-Sep,10-Oct,4-Nov,12-Nov,,,,,,,,,,
+Connecticut,CT,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Florida,FL,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Georgia,GA,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Idaho,ID,41,41,,Sugarbeet,Sugarbeet,,,,24-Mar,3-Apr,21-Apr,5-May,15-Sep,8-Oct,30-Oct,10-Nov,,,,,,,,,,
+Illinois,IL,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Indiana,IN,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Kentucky,KY,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Maine,ME,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Maryland,MD,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Massachusetts,MA,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Michigan,MI,41,41,,Sugarbeet,Sugarbeet,,,,7-Apr,10-Apr,11-May,16-May,26-Sep,13-Oct,3-Nov,11-Nov,,,,,,,,,,
+Minnesota,MN,41,41,,Sugarbeet,Sugarbeet,,,,18-Apr,24-Apr,18-May,26-May,16-Sep,30-Sep,19-Oct,27-Oct,,,,,,,,,,
+Mississippi,MS,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Missouri,MO,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Montana,MT,41,41,,Sugarbeet,Sugarbeet,,,,14-Apr,20-Apr,12-May,18-May,28-Sep,9-Oct,27-Oct,4-Sep,,,,,,,,,,
+Nebraska,NE,41,41,,Sugarbeet,Sugarbeet,,,,1-Apr,10-Apr,30-Apr,5-May,5-Oct,10-Oct,30-Oct,5-Nov,,,,,,,,,,
+Nevada,NV,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+New Mexico,NM,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+New York,NY,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+North Carolina,NC,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+North Dakota,ND,41,41,,Sugarbeet,Sugarbeet,,,,19-Apr,24-Apr,18-May,26-May,17-Sep,30-Sep,17-Oct,25-Oct,,,,,,,,,,
+Ohio,OH,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Oklahoma,OK,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Oregon,OR,41,41,,Sugarbeet,Sugarbeet,,,,1-Apr,10-Apr,20-Apr,25-Apr,1-Oct,10-Oct,20-Oct,30-Oct,,,,,,,,,,
+Pennsylvannia,PA,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Rhode Island,RI,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+South Dakota,SD,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Tennessee,TN,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Texas,TX,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Utah,UT,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Washington,WA,41,41,,Sugarbeet,Sugarbeet,,,,1-Apr,10-Apr,20-Apr,25-Apr,1-Oct,10-Oct,20-Oct,30-Oct,,,,,,,,,,
+West Virginia,WV,41,41,,Sugarbeet,Sugarbeet,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,41,41,,Sugarbeet,Sugarbeet,,,,18-Apr,24-Apr,18-May,26-May,16-Sep,30-Sep,19-Oct,27-Oct,,,,,,,,,,
+Wyoming,WY,41,41,,Sugarbeet,Sugarbeet,,,,5-Apr,13-Apr,2-May,14-May,26-Sep,10-Oct,27-Oct,10-Nov,,,,,,,,,,
+Alabama,AL,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Arizona,AZ,42,42,,Dry Beans,Dry Beans,,,,15-May,20-May,1-Jun,15-Jun,15-Aug,1-Sep,1-Oct,16-Oct,,,,,,,,,,
+Arkansas,AR,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+California,CA,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Colorado,CO,42,42,,Dry Beans,Dry Beans,,,,20-May,28-May,18-Jun,25-Jun,4-Sep,9-Sep,13-Oct,20-Oct,,,,,,,,,,
+Connecticut,CT,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Florida,FL,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Georgia,GA,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Idaho,ID,42,42,,Dry Beans,Dry Beans,,,,12-May,26-May,9-Jun,23-Jun,18-Aug,8-Sep,6-Oct,20-Oct,,,,,,,,,,
+Illinois,IL,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Indiana,IN,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Kentucky,KY,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Maine,ME,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Maryland,MD,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Massachusetts,MA,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Michigan,MI,42,42,,Dry Beans,Dry Beans,,,,29-May,3-Jun,17-Jun,28-Jun,3-Sep,12-Sep,12-Oct,24-Oct,,,,,,,,,,
+Minnesota,MN,42,42,,Dry Beans,Dry Beans,,,,7-May,14-May,7-Jun,18-Jun,29-Aug,5-Sep,9-Oct,17-Oct,,,,,,,,,,
+Mississippi,MS,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Missouri,MO,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Montana,MT,42,42,,Dry Beans,Dry Beans,,,,5-May,10-May,3-Jun,9-Jun,27-Aug,3-Sep,2-Oct,11-Oct,,,,,,,,,,
+Nebraska,NE,42,42,,Dry Beans,Dry Beans,,,,21-May,27-May,16-Jun,21-Jun,3-Sep,13-Sep,9-Oct,19-Oct,,,,,,,,,,
+Nevada,NV,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+New Mexico,NM,42,42,,Dry Beans,Dry Beans,,,,15-May,20-May,1-Jun,15-Jun,15-Aug,1-Sep,30-Sep,15-Oct,,,,,,,,,,
+New York,NY,42,42,,Dry Beans,Dry Beans,,,,1-Jun,15-Jun,30-Jun,13-Jul,1-Sep,15-Sep,30-Sep,15-Oct,,,,,,,,,,
+North Carolina,NC,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+North Dakota,ND,42,42,,Dry Beans,Dry Beans,,,,14-May,19-May,6-Jun,13-Jun,30-Aug,7-Sep,11-Oct,26-Oct,,,,,,,,,,
+Ohio,OH,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Oklahoma,OK,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Oregon,OR,42,42,,Dry Beans,Dry Beans,,,,10-Apr,20-Apr,25-May,5-Jun,10-Aug,20-Aug,1-Oct,10-Oct,,,,,,,,,,
+Pennsylvannia,PA,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Rhode Island,RI,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+South Dakota,SD,42,42,,Dry Beans,Dry Beans,,,,7-May,14-May,7-Jun,18-Jun,29-Aug,5-Sep,9-Oct,17-Oct,,,,,,,,,,
+Tennessee,TN,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Texas,TX,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Utah,UT,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Washington,WA,42,42,,Dry Beans,Dry Beans,,,,10-Apr,20-Apr,25-May,5-Jun,10-Aug,20-Aug,1-Oct,10-Oct,,,,,,,,,,
+West Virginia,WV,42,42,,Dry Beans,Dry Beans,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,42,42,,Dry Beans,Dry Beans,,,,7-May,14-May,7-Jun,18-Jun,29-Aug,5-Sep,9-Oct,17-Oct,,,,,,,,,,
+Wyoming,WY,42,42,,Dry Beans,Dry Beans,,,,15-May,27-May,11-Jun,19-Jun,5-Sep,12-Sep,15-Oct,25-Oct,,,,,,,,,,
+Alabama,AL,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Arizona,AZ,43,43,,Potato,Potato,,,,20-Apr,25-Apr,5-May,10-May,1-Sep,25-Sep,10-Oct,20-Oct,,,,,,,,,,
+Arkansas,AR,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+California,CA,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Colorado,CO,43,43,,Potato,Potato,,,,2-May,6-May,25-May,31-May,6-Sep,15-Sep,11-Oct,17-Oct,,,,,,,,,,
+Connecticut,CT,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,43,43,,Potato,Potato,,,,5-Apr,14-Apr,28-Apr,5-May,4-Jul,23-Jul,23-Aug,15-Sep,,,,,,,,,,
+Florida,FL,43,43,,Potato,Potato,,,,10-Sep,15-Sep,1-Mar,15-Mar,15-Jan,1-Feb,15-Jun,1-Jul,,,,,,,,,,
+Georgia,GA,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Idaho,ID,43,43,,Potato,Potato,,,,6-Apr,28-Apr,19-May,9-Jun,15-Aug,22-Sep,13-Oct,27-Oct,,,,,,,,,,
+Illinois,IL,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Indiana,IN,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Kentucky,KY,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Maine,ME,43,43,,Potato,Potato,,,,9-May,14-May,3-Jun,9-Jun,6-Sep,20-Sep,10-Oct,17-Oct,,,,,,,,,,
+Maryland,MD,43,43,,Potato,Potato,,,,7-Apr,12-Apr,28-Apr,10-May,1-Jul,20-Jul,11-Aug,28-Aug,,,,,,,,,,
+Massachusetts,MA,43,43,,Potato,Potato,,,,25-Apr,27-Apr,23-May,30-May,1-Aug,15-Aug,10-Oct,22-Oct,,,,,,,,,,
+Michigan,MI,43,43,,Potato,Potato,,,,16-Apr,24-Apr,31-May,8-Jun,24-Jul,8-Aug,19-Oct,28-Oct,,,,,,,,,,
+Minnesota,MN,43,43,,Potato,Potato,,,,20-Apr,25-Apr,30-May,10-Jun,15-Aug,29-Aug,12-Oct,20-Oct,,,,,,,,,,
+Mississippi,MS,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Missouri,MO,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Montana,MT,43,43,,Potato,Potato,,,,7-May,17-May,7-Jun,13-Jun,19-Sep,22-Sep,23-Oct,31-Oct,,,,,,,,,,
+Nebraska,NE,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Nevada,NV,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,43,43,,Potato,Potato,,,,20-Apr,1-May,20-May,1-Jun,10-Jul,20-Jul,30-Sep,15-Oct,,,,,,,,,,
+New Mexico,NM,43,43,,Potato,Potato,,,,20-Apr,25-Apr,5-May,10-May,1-Sep,25-Sep,10-Oct,20-Oct,,,,,,,,,,
+New York,NY,43,43,,Potato,Potato,,,,25-Mar,15-May,25-May,15-Jun,27-Jul,1-Aug,7-Oct,22-Oct,,,,,,,,,,
+North Carolina,NC,43,43,,Potato,Potato,,,,5-Mar,10-Mar,10-Apr,30-Apr,10-Jun,25-Jun,15-Jul,10-Aug,,,,,,,,,,
+North Dakota,ND,43,43,,Potato,Potato,,,,28-Apr,5-May,30-May,6-Jun,2-Sep,10-Sep,7-Oct,16-Oct,,,,,,,,,,
+Ohio,OH,43,43,,Potato,Potato,,,,10-Apr,20-Apr,28-May,8-Jun,30-Jul,8-Aug,6-Oct,17-Oct,,,,,,,,,,
+Oklahoma,OK,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Oregon,OR,43,43,,Potato,Potato,,,,15-May,15-Apr,14-May,25-May,15-Jul,10-Oct,20-Oct,15-Nov,,,,,,,,,,
+Pennsylvannia,PA,43,43,,Potato,Potato,,,,10-Apr,30-Apr,25-May,10-Jun,10-Aug,25-Aug,10-Oct,30-Oct,,,,,,,,,,
+Rhode Island,RI,43,43,,Potato,Potato,,,,27-Apr,30-Apr,23-May,9-Jun,3-Aug,16-Aug,1-Oct,16-Oct,,,,,,,,,,
+South Carolina,SC,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+South Dakota,SD,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Tennessee,TN,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Texas,TX,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Utah,UT,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,43,43,,Potato,Potato,,,,7-Apr,12-Apr,28-Apr,10-May,1-Jul,20-Jul,11-Aug,28-Aug,,,,,,,,,,
+Washington,WA,43,43,,Potato,Potato,,,,30-Mar,5-Apr,10-May,15-May,10-Jul,25-Jul,15-Oct,30-Oct,,,,,,,,,,
+West Virginia,WV,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,43,43,,Potato,Potato,,,,20-Apr,25-Apr,30-May,10-Jun,15-Aug,29-Aug,12-Oct,20-Oct,,,,,,,,,,
+Wyoming,WY,43,43,,Potato,Potato,,,,,,,,,,,,,,,,,,,,,
+Alabama,AL,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,1-May,25-May,25-Jun,1-Jul,2-Aug,11-Aug,20-Sep,15-Oct
+Arizona,AZ,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,15-May,30-May,15-Jun,1-Jul,1-Sep,1-Oct,1-Nov,1-Dec
+Arkansas,AR,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,3-Oct,13-Oct,20-Nov,1-Dec,1-Jun,6-Jun,25-Jun,2-Jul,,,1-Jun,6-Jun,25-Jun,2-Jul,16-Aug,23-Aug,23-Sep,6-Oct
+California,CA,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,25-Sep,20-Oct,1-Jan,1-Feb,20-May,1-Jun,5-Jul,15-Jul,,,20-May,1-Jun,5-Jul,15-Jul,1-Sep,1-Oct,1-Nov,15-Nov
+Colorado,CO,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,1-Sep,11-Sep,2-Oct,11-Oct,27-Jun,2-Jul,21-Jul,29-Jul,,,27-Jun,2-Jul,21-Jul,29-Jul,28-Sep,8-Oct,13-Nov,22-Nov
+Connecticut,CT,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Delaware,DE,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,8-Oct,19-Oct,8-Nov,21-Nov,22-Jun,26-Jun,8-Jul,17-Jul,,,22-Jun,26-Jun,8-Jul,17-Jul,10-Sep,20-Sep,15-Oct,5-Nov
+Florida,FL,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,1-May,15-May,31-May,15-Jun,15-Jul,1-Aug,10-Sep,1-Oct
+Georgia,GA,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,24-May,30-May,18-Jun,27-Jun,6-Aug,16-Aug,22-Sep,7-Oct
+Idaho,ID,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,8-Sep,22-Sep,13-Oct,3-Nov,23-Jul,4-Aug,25-Aug,14-Sep,,,23-Jul,4-Aug,25-Aug,14-Sep,29-Sep,20-Oct,10-Nov,24-Nov
+Illinois,IL,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,28-Sep,5-Oct,29-Oct,9-Nov,15-Jun,19-Jun,11-Jul,19-Jul,,,15-Jun,19-Jun,11-Jul,19-Jul,14-Sep,23-Sep,5-Nov,20-Nov
+Indiana,IN,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,25-Sep,1-Oct,1-Nov,5-Nov,15-Jun,25-Jun,15-Jul,25-Jul,,,15-Jun,25-Jun,15-Jul,25-Jul,15-Sep,1-Oct,10-Nov,25-Nov
+Iowa,IA,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,6-Sep,26-Sep,15-Oct,30-Oct,24-Jun,6-Jul,22-Jul,7-Aug,,,24-Jun,6-Jul,22-Jul,7-Aug,21-Sep,5-Oct,9-Nov,21-Nov
+Kansas,KS,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,10-Sep,15-Sep,20-Oct,1-Nov,15-Jun,20-Jun,5-Jul,15-Jul,,,15-Jun,20-Jun,5-Jul,15-Jul,1-Sep,10-Sep,25-Oct,10-Nov
+Kentucky,KY,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,10-Jun,15-Jun,4-Jul,10-Jul,1-Sep,9-Sep,24-Oct,10-Nov
+Louisana,LA,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,14-May,21-May,7-Jun,14-Jun,31-Jul,9-Aug,5-Sep,12-Sep
+Maine,ME,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Maryland,MD,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,5-Oct,17-Oct,6-Nov,19-Nov,22-Jun,28-Jun,12-Jul,20-Jul,,,22-Jun,28-Jun,12-Jul,20-Jul,9-Sep,22-Sep,22-Oct,17-Nov
+Massachusetts,MA,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,10-Jul,17-Jul,7-Aug,14-Aug,5-Sep,14-Sep,16-Oct,26-Oct
+Michigan,MI,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,13-Sep,22-Sep,22-Oct,1-Nov,6-Jul,11-Jul,29-Jul,5-Aug,,,6-Jul,11-Jul,29-Jul,5-Aug,5-Sep,10-Oct,25-Nov,10-Dec
+Minnesota,MN,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,25-Aug,1-Sep,20-Sep,25-Sep,20-Jul,1-Aug,25-Aug,10-Sep,,,20-Jul,1-Aug,25-Aug,10-Sep,27-Sep,8-Oct,8-Nov,23-Nov
+Mississippi,MS,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,28-May,2-Jun,21-Jun,1-Jul,11-Aug,23-Aug,23-Sep,7-Oct
+Missouri,MO,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,24-Sep,4-Oct,10-Nov,27-Nov,11-Jun,16-Jun,10-Jul,18-Jul,,,11-Jun,16-Jun,10-Jul,18-Jul,29-Aug,8-Sep,3-Nov,22-Dec
+Montana,MT,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,6-Sep,12-Sep,7-Oct,16-Oct,22-Jul,26-Jul,12-Aug,17-Aug,,,22-Jul,26-Jul,12-Aug,17-Aug,4-Oct,25-Oct,3-Dec,8-Dec
+Nebraska,NE,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,3-Sep,9-Sep,2-Oct,12-Oct,28-Jun,3-Jul,21-Jul,27-Jul,,,28-Jun,3-Jul,21-Jul,27-Jul,18-Sep,4-Oct,10-Nov,20-Nov
+Nevada,NV,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,15-Jul,20-Jul,20-Aug,25-Aug,25-Sep,10-Oct,30-Oct,10-Dec
+New Hampshire,NH,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+New Jersey,NJ,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,25-Jun,1-Jul,10-Jul,15-Jul,25-Sep,10-Oct,1-Nov,15-Nov
+New Mexico,NM,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,15-Jun,20-Jun,10-Jul,15-Jul,25-Sep,1-Oct,30-Oct,20-Nov
+New York,NY,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,10-Jul,17-Jul,7-Aug,14-Aug,7-Oct,14-Oct,14-Nov,25-Nov
+North Carolina,NC,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,20-Sep,15-Oct,20-Nov,20-Dec,30-May,10-Jun,30-Jun,25-Jul,,,30-May,10-Jun,30-Jun,25-Jul,25-Aug,10-Sep,10-Oct,1-Nov
+North Dakota,ND,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,6-Sep,10-Sep,25-Sep,2-Oct,15-Jul,20-Jul,29-Jul,10-Aug,,,15-Jul,20-Jul,29-Jul,10-Aug,28-Sep,8-Oct,19-Nov,6-Dec
+Ohio,OH,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,26-Sep,2-Oct,25-Oct,6-Nov,28-Jun,2-Jul,17-Jul,20-Jul,,,28-Jun,2-Jul,17-Jul,20-Jul,27-Sep,11-Oct,20-Nov,1-Dec
+Oklahoma,OK,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,3-Sep,15-Sep,22-Oct,6-Nov,1-Jun,6-Jun,27-Jun,3-Jul,,,1-Jun,6-Jun,27-Jun,3-Jul,20-Aug,29-Aug,9-Oct,20-Oct
+Oregon,OR,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,15-Sep,10-Oct,10-Nov,1-Dec,10-Jul,17-Jul,15-Aug,23-Aug,,,10-Jul,17-Jul,15-Aug,23-Aug,10-Oct,20-Oct,20-Nov,5-Dec
+Pennsylvannia,PA,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,30-Aug,15-Sep,15-Oct,30-Oct,5-Jul,10-Jul,30-Jul,10-Aug,,,5-Jul,10-Jul,30-Jul,10-Aug,25-Sep,15-Oct,20-Nov,10-Dec
+Rhode Island,RI,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+South Carolina,SC,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,25-Sep,11-Nov,15-Dec,31-Dec,26-May,6-Jun,25-Jun,1-Jul,,,26-May,6-Jun,25-Jun,1-Jul,25-Jul,20-Aug,25-Sep,10-Oct
+South Dakota,SD,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,1-Sep,9-Sep,5-Oct,16-Oct,8-Jul,14-Jul,5-Aug,13-Aug,,,8-Jul,14-Jul,5-Aug,13-Aug,24-Sep,6-Oct,16-Nov,3-Dec
+Tennessee,TN,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,5-Jun,10-Jun,30-Jun,5-Jul,25-Aug,1-Aug,10-Oct,30-Oct
+Texas,TX,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,25-May,1-Jun,2-Jul,12-Jul,18-Jul,1-Aug,11-Oct,8-Nov
+Utah,UT,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,20-Aug,25-Aug,5-Oct,10-Nov,10-Jul,25-Jul,10-Aug,25-Aug,,,10-Jul,25-Jul,10-Aug,25-Aug,25-Sep,10-Oct,30-Oct,10-Dec
+Vermont,VT,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Virginia,VA,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,25-Sep,10-Oct,21-Nov,1-Dec,9-Jun,16-Jun,5-Jul,12-Jul,,,9-Jun,16-Jun,5-Jul,12-Jul,31-Aug,6-Sep,28-Oct,9-Nov
+Washington,WA,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,30-Aug,1-Sep,10-Oct,20-Oct,15-Jul,25-Jul,20-Aug,30-Aug,,,15-Jul,25-Jul,20-Aug,30-Aug,25-Sep,5-Oct,15-Nov,25-Nov
+West Virginia,WV,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,5-Sep,15-Sep,5-Nov,10-Nov,10-Jun,25-Jun,25-Jul,5-Aug,,,10-Jun,25-Jun,25-Jul,5-Aug,15-Sep,30-Sep,20-Nov,1-Dec
+Wisconsin,WI,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,30-Sep,5-Oct,10-Oct,15-Oct,17-Jul,21-Jul,11-Aug,19-Aug,,,17-Jul,21-Jul,11-Aug,19-Aug,2-Oct,14-Oct,17-Nov,28-Nov
+Wyoming,WY,225,24,1,Winter Wheat/Corn,Winter Wheat,Corn,,,25-Aug,4-Sep,20-Sep,28-Sep,13-Jul,22-Jul,15-Aug,22-Aug,,,13-Jul,22-Jul,15-Aug,22-Aug,5-Oct,18-Oct,24-Nov,10-Dec
+Alabama,AL,226,28,1,Oats/Corn,Oats,Corn,,,1-Sep,15-Sep,15-Oct,1-Dec,1-May,25-May,25-Jun,1-Jul,,,1-May,25-May,25-Jun,1-Jul,2-Aug,11-Aug,20-Sep,15-Oct
+Arizona,AZ,226,28,1,Oats/Corn,Oats,Corn,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,15-May,30-May,15-Jun,1-Jul,1-Sep,1-Oct,1-Nov,1-Dec
+Arkansas,AR,226,28,1,Oats/Corn,Oats,Corn,,,15-Sep,1-Oct,15-Nov,1-Dec,15-May,25-May,15-Jun,1-Jul,,,15-May,25-May,15-Jun,1-Jul,16-Aug,23-Aug,23-Sep,6-Oct
+California,CA,226,28,1,Oats/Corn,Oats,Corn,,,15-Sep,1-Oct,1-Mar,15-Mar,15-Jun,15-Jul,1-Sep,15-Sep,,,15-Jun,15-Jul,1-Sep,15-Sep,1-Sep,1-Oct,1-Nov,15-Nov
+Colorado,CO,226,28,1,Oats/Corn,Oats,Corn,,,17-Mar,28-Mar,14-May,23-May,13-Jul,19-Jul,13-Sep,25-Sep,,,13-Jul,19-Jul,13-Sep,25-Sep,28-Sep,8-Oct,13-Nov,22-Nov
+Connecticut,CT,226,28,1,Oats/Corn,Oats,Corn,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,30-Jul,4-Aug,24-Aug,9-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Delaware,DE,226,28,1,Oats/Corn,Oats,Corn,,,8-Oct,19-Oct,8-Nov,21-Nov,22-Jun,26-Jun,8-Jul,17-Jul,,,22-Jun,26-Jun,8-Jul,17-Jul,10-Sep,20-Sep,15-Oct,5-Nov
+Florida,FL,226,28,1,Oats/Corn,Oats,Corn,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,1-May,15-May,31-May,15-Jun,15-Jul,1-Aug,10-Sep,1-Oct
+Georgia,GA,226,28,1,Oats/Corn,Oats,Corn,,,27-Sep,10-Oct,5-Dec,13-Dec,25-May,1-Jun,22-Jun,3-Jul,,,25-May,1-Jun,22-Jun,3-Jul,6-Aug,16-Aug,22-Sep,7-Oct
+Idaho,ID,226,28,1,Oats/Corn,Oats,Corn,,,31-Mar,14-Apr,19-May,2-Jun,21-Jul,11-Aug,8-Sep,29-Sep,,,21-Jul,11-Aug,8-Sep,29-Sep,29-Sep,20-Oct,10-Nov,24-Nov
+Illinois,IL,226,28,1,Oats/Corn,Oats,Corn,,,20-Mar,29-Mar,30-Apr,12-May,4-Jul,14-Jul,7-Aug,13-Aug,,,4-Jul,14-Jul,7-Aug,13-Aug,14-Sep,23-Sep,5-Nov,20-Nov
+Indiana,IN,226,28,1,Oats/Corn,Oats,Corn,,,1-Apr,5-Apr,25-Apr,10-May,10-Jul,15-Jul,5-Aug,10-Aug,,,10-Jul,15-Jul,5-Aug,10-Aug,15-Sep,1-Oct,10-Nov,25-Nov
+Iowa,IA,226,28,1,Oats/Corn,Oats,Corn,,,25-Mar,2-Apr,2-May,13-May,9-Jul,17-Jul,5-Aug,11-Aug,,,9-Jul,17-Jul,5-Aug,11-Aug,21-Sep,5-Oct,9-Nov,21-Nov
+Kansas,KS,226,28,1,Oats/Corn,Oats,Corn,,,20-Feb,5-Mar,1-Apr,1-May,10-Jul,15-Jul,1-Aug,10-Aug,,,10-Jul,15-Jul,1-Aug,10-Aug,1-Sep,10-Sep,25-Oct,10-Nov
+Kentucky,KY,226,28,1,Oats/Corn,Oats,Corn,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,10-Jun,15-Jun,4-Jul,10-Jul,1-Sep,9-Sep,24-Oct,10-Nov
+Louisana,LA,226,28,1,Oats/Corn,Oats,Corn,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,14-May,21-May,7-Jun,14-Jun,31-Jul,9-Aug,5-Sep,12-Sep
+Maine,ME,226,28,1,Oats/Corn,Oats,Corn,,,5-May,10-May,31-May,7-Jun,11-Aug,21-Aug,22-Sep,4-Oct,,,11-Aug,21-Aug,22-Sep,4-Oct,5-Sep,14-Sep,16-Oct,26-Oct
+Maryland,MD,226,28,1,Oats/Corn,Oats,Corn,,,5-Oct,17-Oct,6-Nov,19-Nov,22-Jun,28-Jun,12-Jul,20-Jul,,,22-Jun,28-Jun,12-Jul,20-Jul,9-Sep,22-Sep,22-Oct,17-Nov
+Massachusetts,MA,226,28,1,Oats/Corn,Oats,Corn,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,30-Jul,4-Aug,24-Aug,9-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Michigan,MI,226,28,1,Oats/Corn,Oats,Corn,,,10-Apr,13-Apr,14-May,22-May,19-Jul,28-Jul,24-Aug,2-Sep,,,19-Jul,28-Jul,24-Aug,2-Sep,5-Sep,10-Oct,25-Nov,10-Dec
+Minnesota,MN,226,28,1,Oats/Corn,Oats,Corn,,,11-Apr,19-Apr,15-May,26-May,21-Jul,26-Jul,24-Aug,4-Sep,,,21-Jul,26-Jul,24-Aug,4-Sep,27-Sep,8-Oct,8-Nov,23-Nov
+Mississippi,MS,226,28,1,Oats/Corn,Oats,Corn,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,28-May,2-Jun,21-Jun,1-Jul,11-Aug,23-Aug,23-Sep,7-Oct
+Missouri,MO,226,28,1,Oats/Corn,Oats,Corn,,,1-Mar,15-Mar,20-Apr,30-Apr,20-Jun,1-Jul,25-Jul,1-Aug,,,20-Jun,1-Jul,25-Jul,1-Aug,29-Aug,8-Sep,3-Nov,22-Dec
+Montana,MT,226,28,1,Oats/Corn,Oats,Corn,,,18-Apr,26-Apr,28-May,5-Jun,8-Aug,15-Aug,9-Sep,22-Sep,,,8-Aug,15-Aug,9-Sep,22-Sep,4-Oct,25-Oct,3-Dec,8-Dec
+Nebraska,NE,226,28,1,Oats/Corn,Oats,Corn,,,26-Mar,1-Apr,24-Apr,3-May,4-Jul,10-Jul,30-Jul,7-Aug,,,4-Jul,10-Jul,30-Jul,7-Aug,18-Sep,4-Oct,10-Nov,20-Nov
+Nevada,NV,226,28,1,Oats/Corn,Oats,Corn,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,15-Jul,20-Jul,20-Aug,25-Aug,25-Sep,10-Oct,30-Oct,10-Dec
+New Hampshire,NH,226,28,1,Oats/Corn,Oats,Corn,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,30-Jul,4-Aug,24-Aug,9-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+New Jersey,NJ,226,28,1,Oats/Corn,Oats,Corn,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,25-Jun,1-Jul,10-Jul,15-Jul,25-Sep,10-Oct,1-Nov,15-Nov
+New Mexico,NM,226,28,1,Oats/Corn,Oats,Corn,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,15-Jun,20-Jun,10-Jul,15-Jul,25-Sep,1-Oct,30-Oct,20-Nov
+New York,NY,226,28,1,Oats/Corn,Oats,Corn,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,30-Jul,4-Aug,24-Aug,9-Sep,7-Oct,14-Oct,14-Nov,25-Nov
+North Carolina,NC,226,28,1,Oats/Corn,Oats,Corn,,,25-Sep,15-Oct,25-Sep,10-Dec,30-May,10-Jun,30-Jun,25-Jul,,,30-May,10-Jun,30-Jun,25-Jul,25-Aug,10-Sep,10-Oct,1-Nov
+North Dakota,ND,226,28,1,Oats/Corn,Oats,Corn,,,19-Apr,26-Apr,25-May,3-Jun,28-Jul,5-Aug,5-Sep,18-Sep,,,28-Jul,5-Aug,5-Sep,18-Sep,28-Sep,8-Oct,19-Nov,6-Dec
+Ohio,OH,226,28,1,Oats/Corn,Oats,Corn,,,4-Apr,9-Apr,5-May,13-May,13-Jul,20-Jul,7-Aug,11-Aug,,,13-Jul,20-Jul,7-Aug,11-Aug,27-Sep,11-Oct,20-Nov,1-Dec
+Oklahoma,OK,226,28,1,Oats/Corn,Oats,Corn,,,15-Feb,22-Feb,17-Mar,26-Mar,4-Jun,10-Jun,4-Jul,13-Jul,,,4-Jun,10-Jun,4-Jul,13-Jul,20-Aug,29-Aug,9-Oct,20-Oct
+Oregon,OR,226,28,1,Oats/Corn,Oats,Corn,,,15-Sep,15-Oct,15-Nov,10-Dec,10-Jul,10-Aug,20-Aug,1-Sep,,,10-Jul,10-Aug,20-Aug,1-Sep,10-Oct,20-Oct,20-Nov,5-Dec
+Pennsylvannia,PA,226,28,1,Oats/Corn,Oats,Corn,,,15-Apr,15-Apr,10-May,25-May,20-Jul,25-Jul,20-Aug,30-Aug,,,20-Jul,25-Jul,20-Aug,30-Aug,25-Sep,15-Oct,20-Nov,10-Dec
+Rhode Island,RI,226,28,1,Oats/Corn,Oats,Corn,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,30-Jul,4-Aug,24-Aug,9-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+South Carolina,SC,226,28,1,Oats/Corn,Oats,Corn,,,23-Sep,15-Oct,20-Nov,15-Dec,25-May,3-Jun,20-Jun,3-Jul,,,25-May,3-Jun,20-Jun,3-Jul,25-Jul,20-Aug,25-Sep,10-Oct
+South Dakota,SD,226,28,1,Oats/Corn,Oats,Corn,,,3-Apr,10-Apr,15-May,23-May,14-Jul,21-Jul,15-Aug,23-Aug,,,14-Jul,21-Jul,15-Aug,23-Aug,24-Sep,6-Oct,16-Nov,3-Dec
+Tennessee,TN,226,28,1,Oats/Corn,Oats,Corn,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,5-Jun,10-Jun,30-Jun,5-Jul,25-Aug,1-Aug,10-Oct,30-Oct
+Texas,TX,226,28,1,Oats/Corn,Oats,Corn,,,7-Sep,20-Sep,5-Nov,25-Nov,13-May,23-May,22-Jun,4-Jul,,,13-May,23-May,22-Jun,4-Jul,18-Jul,1-Aug,11-Oct,8-Nov
+Utah,UT,226,28,1,Oats/Corn,Oats,Corn,,,20-Mar,10-Apr,5-May,1-Jun,25-Jul,15-Aug,10-Sep,30-Sep,,,25-Jul,15-Aug,10-Sep,30-Sep,25-Sep,10-Oct,30-Oct,10-Dec
+Vermont,VT,226,28,1,Oats/Corn,Oats,Corn,,,25-Mar,1-Apr,22-Apr,29-May,30-Jul,4-Aug,24-Aug,9-Sep,,,30-Jul,4-Aug,24-Aug,9-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Virginia,VA,226,28,1,Oats/Corn,Oats,Corn,,,15-Sep,27-Sep,29-Oct,9-Nov,28-May,9-Jun,3-Jul,20-Jul,,,28-May,9-Jun,3-Jul,20-Jul,31-Aug,6-Sep,28-Oct,9-Nov
+Washington,WA,226,28,1,Oats/Corn,Oats,Corn,,,5-Mar,10-Mar,10-Apr,20-Apr,15-Jul,1-Aug,30-Aug,10-Sep,,,15-Jul,1-Aug,30-Aug,10-Sep,25-Sep,5-Oct,15-Nov,25-Nov
+West Virginia,WV,226,28,1,Oats/Corn,Oats,Corn,,,25-Sep,10-Oct,21-Nov,1-Dec,9-Jun,16-Jun,5-Jul,12-Jul,,,9-Jun,16-Jun,5-Jul,12-Jul,15-Sep,30-Sep,20-Nov,1-Dec
+Wisconsin,WI,226,28,1,Oats/Corn,Oats,Corn,,,11-Apr,20-Apr,11-May,18-May,22-Jul,28-Jul,24-Aug,30-Aug,,,22-Jul,28-Jul,24-Aug,30-Aug,2-Oct,14-Oct,17-Nov,28-Nov
+Wyoming,WY,226,28,1,Oats/Corn,Oats,Corn,,,3-Apr,14-Apr,18-May,9-Jun,18-Jul,23-Jul,1-Sep,15-Sep,,,18-Jul,23-Jul,1-Sep,15-Sep,5-Oct,18-Oct,24-Nov,10-Dec
+Alabama,AL,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Arizona,AZ,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Arkansas,AR,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+California,CA,233,227,21,Lettuce/Barley,Lettuce,Barley,,,1-Aug,,,30-Sep,1-Oct,15-Oct,15-Nov,30-Nov,,,,,,,,,,
+Colorado,CO,233,227,21,Lettuce/Barley,Lettuce,Barley,,,31-Mar,,,9-Jul,14-Jun,19-Jun,19-Sep,14-Oct,,,,,,,,,,
+Connecticut,CT,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Florida,FL,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Georgia,GA,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Idaho,ID,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Illinois,IL,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Indiana,IN,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Iowa,IA,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Kansas,KS,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Kentucky,KY,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Louisana,LA,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Maine,ME,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Maryland,MD,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Massachusetts,MA,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Michigan,MI,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Minnesota,MN,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Mississippi,MS,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Missouri,MO,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Montana,MT,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Nebraska,NE,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Nevada,NV,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,233,227,21,Lettuce/Barley,Lettuce,Barley,,,19-Jul,,,9-Aug,30-Sep,9-Oct,4-Nov,29-Nov,,,,,,,,,,
+New Mexico,NM,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+New York,NY,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+North Carolina,NC,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+North Dakota,ND,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Ohio,OH,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Oklahoma,OK,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Oregon,OR,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Pennsylvannia,PA,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Rhode Island,RI,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+South Dakota,SD,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Tennessee,TN,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Texas,TX,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Utah,UT,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Washington,WA,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+West Virginia,WV,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Wisconsin,WI,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Wyoming,WY,233,227,21,Lettuce/Barley,Lettuce,Barley,,,,,,,,,,,,,,,,,,,,
+Alabama,AL,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,2-Aug,11-Aug,20-Sep,15-Oct
+Arizona,AZ,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,15-May,30-May,15-Jun,1-Jul,1-Sep,1-Oct,1-Nov,1-Dec
+Arkansas,AR,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,22-Aug,27-Aug,3-Oct,16-Oct
+California,CA,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,25-Sep,20-Oct,1-Jan,1-Feb,20-May,10-Jun,15-Jul,1-Aug,,,20-May,10-Jun,15-Jul,1-Aug,1-Sep,1-Oct,1-Nov,15-Nov
+Colorado,CO,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,28-Mar,9-Apr,16-May,23-May,23-Jul,3-Aug,17-Sep,29-Sep,,,23-Jul,3-Aug,17-Sep,29-Sep,29-Sep,11-Oct,18-Nov,29-Nov
+Connecticut,CT,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Delaware,DE,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,10-Sep,20-Sep,15-Oct,5-Nov
+Florida,FL,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,15-Jul,1-Aug,10-Sep,1-Oct
+Georgia,GA,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,21-Aug,4-Sep,19-Nov,9-Dec
+Idaho,ID,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,1-Apr,10-Apr,14-May,30-May,8-Aug,13-Aug,10-Sep,29-Sep,,,8-Aug,13-Aug,10-Sep,29-Sep,29-Sep,20-Oct,10-Nov,24-Nov
+Illinois,IL,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,18-Sep,30-Sep,8-Nov,20-Nov
+Indiana,IN,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,15-Sep,1-Oct,10-Nov,25-Nov
+Iowa,IA,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,21-Sep,5-Oct,9-Nov,21-Nov
+Kansas,KS,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,10-Sep,25-Sep,10-Nov,25-Nov
+Kentucky,KY,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,1-Sep,9-Sep,24-Oct,10-Nov
+Louisana,LA,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,7-Aug,16-Aug,10-Sep,24-Sep
+Maine,ME,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Maryland,MD,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,9-Sep,22-Sep,22-Oct,17-Nov
+Massachusetts,MA,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Michigan,MI,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,10-Oct,25-Nov,10-Dec
+Minnesota,MN,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,27-Sep,8-Oct,8-Nov,23-Nov
+Mississippi,MS,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,19-Aug,29-Aug,27-Sep,8-Oct
+Missouri,MO,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,29-Aug,8-Sep,3-Nov,22-Dec
+Montana,MT,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,25-Apr,1-May,1-Jun,15-Jun,11-Aug,19-Aug,22-Sep,4-Oct,,,11-Aug,19-Aug,22-Sep,4-Oct,6-Sep,16-Sep,7-Nov,22-Nov
+Nebraska,NE,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,26-Sep,8-Oct,8-Nov,17-Nov
+Nevada,NV,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,25-Sep,10-Oct,30-Oct,10-Dec
+New Hampshire,NH,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+New Jersey,NJ,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,25-Sep,10-Oct,1-Nov,15-Nov
+New Mexico,NM,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,15-May,30-May,15-Jun,1-Jul,15-Oct,20-Oct,15-Nov,15-Dec
+New York,NY,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,7-Oct,14-Oct,14-Nov,25-Nov
+North Carolina,NC,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,25-Aug,10-Sep,10-Oct,1-Nov
+North Dakota,ND,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,23-Apr,2-May,31-May,8-Jun,7-Aug,15-Aug,23-Sep,5-Oct,,,7-Aug,15-Aug,23-Sep,5-Oct,28-Sep,8-Oct,19-Nov,6-Dec
+Ohio,OH,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,27-Sep,11-Oct,20-Nov,1-Dec
+Oklahoma,OK,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,9-Sep,26-Sep,21-Nov,2-Dec
+Oregon,OR,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,10-Oct,20-Oct,20-Nov,5-Dec
+Pennsylvannia,PA,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,25-Sep,15-Oct,20-Nov,10-Dec
+Rhode Island,RI,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+South Carolina,SC,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,25-Jul,20-Aug,25-Sep,10-Oct
+South Dakota,SD,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,31-Mar,8-Apr,12-May,21-May,20-Jul,27-Jul,20-Aug,29-Aug,,,20-Jul,27-Jul,20-Aug,29-Aug,21-Sep,1-Oct,6-Nov,17-Nov
+Tennessee,TN,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,25-Aug,1-Aug,10-Oct,30-Oct
+Texas,TX,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,25-Jun,8-Jul,16-Nov,6-Dec
+Utah,UT,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,25-Sep,10-Oct,30-Oct,10-Dec
+Vermont,VT,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Virginia,VA,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,31-Aug,6-Sep,28-Oct,9-Nov
+Washington,WA,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,25-Sep,5-Oct,15-Nov,25-Nov
+West Virginia,WV,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,15-Sep,30-Sep,20-Nov,1-Dec
+Wisconsin,WI,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,2-Oct,14-Oct,17-Nov,28-Nov
+Wyoming,WY,234,22,4,Durum Wheat/Sorghum,Durum Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Oct,18-Oct,24-Nov,10-Dec
+Alabama,AL,235,21,4,Barley/Sorghum,Barley,Sorghum,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,1-May,25-May,25-Jun,1-Jul,2-Aug,11-Aug,20-Sep,15-Oct
+Arizona,AZ,235,21,4,Barley/Sorghum,Barley,Sorghum,,,10-Nov,1-Dec,30-Dec,10-Feb,10-May,30-May,20-Jun,10-Jul,,,10-May,30-May,20-Jun,10-Jul,1-Sep,1-Oct,1-Nov,1-Dec
+Arkansas,AR,235,21,4,Barley/Sorghum,Barley,Sorghum,,,3-Oct,13-Oct,20-Nov,1-Dec,1-Jun,6-Jun,25-Jun,2-Jul,,,1-Jun,6-Jun,25-Jun,2-Jul,22-Aug,27-Aug,3-Oct,16-Oct
+California,CA,235,21,4,Barley/Sorghum,Barley,Sorghum,,,15-Sep,1-Oct,15-Apr,30-Apr,15-May,4-Jun,20-Jun,15-Aug,,,15-May,4-Jun,20-Jun,15-Aug,1-Sep,1-Oct,1-Nov,15-Nov
+Colorado,CO,235,21,4,Barley/Sorghum,Barley,Sorghum,,,14-Mar,26-Mar,5-May,16-May,20-Jul,29-Jul,6-Sep,14-Sep,,,20-Jul,29-Jul,6-Sep,14-Sep,29-Sep,11-Oct,18-Nov,29-Nov
+Connecticut,CT,235,21,4,Barley/Sorghum,Barley,Sorghum,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Delaware,DE,235,21,4,Barley/Sorghum,Barley,Sorghum,,,27-Sep,9-Oct,27-Oct,10-Nov,5-Jun,12-Jun,28-Jun,3-Jul,,,5-Jun,12-Jun,28-Jun,3-Jul,10-Sep,20-Sep,15-Oct,5-Nov
+Florida,FL,235,21,4,Barley/Sorghum,Barley,Sorghum,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,1-May,15-May,31-May,15-Jun,15-Jul,1-Aug,10-Sep,1-Oct
+Georgia,GA,235,21,4,Barley/Sorghum,Barley,Sorghum,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,24-May,30-May,18-Jun,27-Jun,21-Aug,4-Sep,19-Nov,9-Dec
+Idaho,ID,235,21,4,Barley/Sorghum,Barley,Sorghum,,,24-Mar,7-Apr,5-May,26-May,28-Jul,11-Aug,8-Sep,29-Sep,,,28-Jul,11-Aug,8-Sep,29-Sep,29-Sep,20-Oct,10-Nov,24-Nov
+Illinois,IL,235,21,4,Barley/Sorghum,Barley,Sorghum,,,28-Sep,5-Oct,29-Oct,9-Nov,15-Jun,19-Jun,11-Jul,19-Jul,,,15-Jun,19-Jun,11-Jul,19-Jul,18-Sep,30-Sep,8-Nov,20-Nov
+Indiana,IN,235,21,4,Barley/Sorghum,Barley,Sorghum,,,25-Sep,1-Oct,1-Nov,5-Nov,15-Jun,25-Jun,15-Jul,25-Jul,,,15-Jun,25-Jun,15-Jul,25-Jul,15-Sep,1-Oct,10-Nov,25-Nov
+Iowa,IA,235,21,4,Barley/Sorghum,Barley,Sorghum,,,6-Sep,26-Sep,15-Oct,30-Oct,24-Jun,6-Jul,22-Jul,7-Aug,,,24-Jun,6-Jul,22-Jul,7-Aug,21-Sep,5-Oct,9-Nov,21-Nov
+Kansas,KS,235,21,4,Barley/Sorghum,Barley,Sorghum,,,15-Sep,1-Oct,15-Oct,1-Nov,20-Jun,15-Jun,28-Jun,5-Jul,,,20-Jun,15-Jun,28-Jun,5-Jul,10-Sep,25-Sep,10-Nov,25-Nov
+Kentucky,KY,235,21,4,Barley/Sorghum,Barley,Sorghum,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,10-Jun,15-Jun,4-Jul,10-Jul,1-Sep,9-Sep,24-Oct,10-Nov
+Louisana,LA,235,21,4,Barley/Sorghum,Barley,Sorghum,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,14-May,21-May,7-Jun,14-Jun,7-Aug,16-Aug,10-Sep,24-Sep
+Maine,ME,235,21,4,Barley/Sorghum,Barley,Sorghum,,,4-May,9-May,30-May,6-Jun,9-Aug,18-Aug,18-Sep,30-Sep,,,9-Aug,18-Aug,18-Sep,30-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Maryland,MD,235,21,4,Barley/Sorghum,Barley,Sorghum,,,17-Sep,1-Oct,21-Oct,7-Nov,12-Jun,16-Jun,28-Jun,8-Jul,,,12-Jun,16-Jun,28-Jun,8-Jul,9-Sep,22-Sep,22-Oct,17-Nov
+Massachusetts,MA,235,21,4,Barley/Sorghum,Barley,Sorghum,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Michigan,MI,235,21,4,Barley/Sorghum,Barley,Sorghum,,,10-Apr,13-Apr,20-May,27-May,26-Jul,3-Aug,19-Aug,31-Aug,,,26-Jul,3-Aug,19-Aug,31-Aug,5-Sep,10-Oct,25-Nov,10-Dec
+Minnesota,MN,235,21,4,Barley/Sorghum,Barley,Sorghum,,,15-Apr,23-Apr,25-May,3-Jun,26-Jul,1-Aug,3-Sep,18-Sep,,,26-Jul,1-Aug,3-Sep,18-Sep,27-Sep,8-Oct,8-Nov,23-Nov
+Mississippi,MS,235,21,4,Barley/Sorghum,Barley,Sorghum,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,28-May,2-Jun,21-Jun,1-Jul,19-Aug,29-Aug,27-Sep,8-Oct
+Missouri,MO,235,21,4,Barley/Sorghum,Barley,Sorghum,,,24-Sep,4-Oct,10-Nov,27-Nov,11-Jun,16-Jun,10-Jul,18-Jul,,,11-Jun,16-Jun,10-Jul,18-Jul,29-Aug,8-Sep,3-Nov,22-Dec
+Montana,MT,235,21,4,Barley/Sorghum,Barley,Sorghum,,,3-Apr,13-Apr,11-May,20-May,27-Jul,3-Aug,2-Sep,10-Sep,,,27-Jul,3-Aug,2-Sep,10-Sep,6-Sep,16-Sep,7-Nov,22-Nov
+Nebraska,NE,235,21,4,Barley/Sorghum,Barley,Sorghum,,,3-Sep,9-Sep,2-Oct,12-Oct,28-Jun,3-Jul,21-Jul,27-Jul,,,28-Jun,3-Jul,21-Jul,27-Jul,26-Sep,8-Oct,8-Nov,17-Nov
+Nevada,NV,235,21,4,Barley/Sorghum,Barley,Sorghum,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,15-Jul,20-Jul,20-Aug,25-Aug,25-Sep,10-Oct,30-Oct,10-Dec
+New Hampshire,NH,235,21,4,Barley/Sorghum,Barley,Sorghum,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+New Jersey,NJ,235,21,4,Barley/Sorghum,Barley,Sorghum,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,25-Jun,1-Jul,10-Jul,15-Jul,25-Sep,10-Oct,1-Nov,15-Nov
+New Mexico,NM,235,21,4,Barley/Sorghum,Barley,Sorghum,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,15-Jun,20-Jun,10-Jul,15-Jul,15-Oct,20-Oct,15-Nov,15-Dec
+New York,NY,235,21,4,Barley/Sorghum,Barley,Sorghum,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,7-Oct,14-Oct,14-Nov,25-Nov
+North Carolina,NC,235,21,4,Barley/Sorghum,Barley,Sorghum,,,25-Sep,15-Oct,10-Nov,1-Dec,25-May,10-Jun,30-Jun,25-Jul,,,25-May,10-Jun,30-Jun,25-Jul,25-Aug,10-Sep,10-Oct,1-Nov
+North Dakota,ND,235,21,4,Barley/Sorghum,Barley,Sorghum,,,19-Apr,26-Apr,25-May,3-Jun,28-Jul,4-Aug,3-Sep,16-Sep,,,28-Jul,4-Aug,3-Sep,16-Sep,28-Sep,8-Oct,19-Nov,6-Dec
+Ohio,OH,235,21,4,Barley/Sorghum,Barley,Sorghum,,,26-Sep,2-Oct,25-Oct,6-Nov,28-Jun,2-Jul,17-Jul,20-Jul,,,28-Jun,2-Jul,17-Jul,20-Jul,27-Sep,11-Oct,20-Nov,1-Dec
+Oklahoma,OK,235,21,4,Barley/Sorghum,Barley,Sorghum,,,3-Sep,15-Sep,22-Oct,6-Nov,1-Jun,6-Jun,27-Jun,3-Jul,,,1-Jun,6-Jun,27-Jun,3-Jul,9-Sep,26-Sep,21-Nov,2-Dec
+Oregon,OR,235,21,4,Barley/Sorghum,Barley,Sorghum,,,1-Mar,30-Mar,15-May,25-May,10-Jul,21-Jul,1-Sep,8-Sep,,,10-Jul,21-Jul,1-Sep,8-Sep,10-Oct,20-Oct,20-Nov,5-Dec
+Pennsylvannia,PA,235,21,4,Barley/Sorghum,Barley,Sorghum,,,25-Aug,15-Sep,15-Oct,25-Oct,20-Jun,25-Jun,20-Jul,10-Aug,,,20-Jun,25-Jun,20-Jul,10-Aug,25-Sep,15-Oct,20-Nov,10-Dec
+Rhode Island,RI,235,21,4,Barley/Sorghum,Barley,Sorghum,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+South Carolina,SC,235,21,4,Barley/Sorghum,Barley,Sorghum,,,25-Sep,11-Nov,15-Dec,31-Dec,26-May,6-Jun,25-Jun,1-Jul,,,26-May,6-Jun,25-Jun,1-Jul,25-Jul,20-Aug,25-Sep,10-Oct
+South Dakota,SD,235,21,4,Barley/Sorghum,Barley,Sorghum,,,6-Apr,14-Apr,17-May,24-May,20-Jul,27-Jul,19-Aug,27-Aug,,,20-Jul,27-Jul,19-Aug,27-Aug,21-Sep,1-Oct,6-Nov,17-Nov
+Tennessee,TN,235,21,4,Barley/Sorghum,Barley,Sorghum,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,5-Jun,10-Jun,30-Jun,5-Jul,25-Aug,1-Aug,10-Oct,30-Oct
+Texas,TX,235,21,4,Barley/Sorghum,Barley,Sorghum,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,25-May,1-Jun,2-Jul,12-Jul,25-Jun,8-Jul,16-Nov,6-Dec
+Utah,UT,235,21,4,Barley/Sorghum,Barley,Sorghum,,,20-Mar,1-Apr,20-Apr,10-May,15-Jul,25-Jul,15-Aug,1-Sep,,,15-Jul,25-Jul,15-Aug,1-Sep,25-Sep,10-Oct,30-Oct,10-Dec
+Vermont,VT,235,21,4,Barley/Sorghum,Barley,Sorghum,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Virginia,VA,235,21,4,Barley/Sorghum,Barley,Sorghum,,,18-Sep,26-Sep,29-Oct,8-Nov,28-May,6-Jun,25-Jun,1-Jul,,,28-May,6-Jun,25-Jun,1-Jul,31-Aug,6-Sep,28-Oct,9-Nov
+Washington,WA,235,21,4,Barley/Sorghum,Barley,Sorghum,,,20-Mar,30-Mar,5-May,10-May,25-Jul,1-Aug,30-Aug,5-Sep,,,25-Jul,1-Aug,30-Aug,5-Sep,25-Sep,5-Oct,15-Nov,25-Nov
+West Virginia,WV,235,21,4,Barley/Sorghum,Barley,Sorghum,,,5-Sep,15-Sep,5-Nov,10-Nov,10-Jun,25-Jun,25-Jul,5-Aug,,,10-Jun,25-Jun,25-Jul,5-Aug,15-Sep,30-Sep,20-Nov,1-Dec
+Wisconsin,WI,235,21,4,Barley/Sorghum,Barley,Sorghum,,,5-Apr,10-Apr,20-Apr,30-Apr,1-Aug,5-Aug,15-Aug,20-Aug,,,1-Aug,5-Aug,15-Aug,20-Aug,2-Oct,14-Oct,17-Nov,28-Nov
+Wyoming,WY,235,21,4,Barley/Sorghum,Barley,Sorghum,,,18-Mar,26-Mar,2-May,2-Jun,24-Jul,5-Aug,26-Aug,17-Sep,,,24-Jul,5-Aug,26-Aug,17-Sep,5-Oct,18-Oct,24-Nov,10-Dec
+Alabama,AL,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,1-May,25-May,25-Jun,1-Jul,2-Aug,11-Aug,20-Sep,15-Oct
+Arizona,AZ,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,15-May,30-May,15-Jun,1-Jul,1-Sep,1-Oct,1-Nov,1-Dec
+Arkansas,AR,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,3-Oct,13-Oct,20-Nov,1-Dec,1-Jun,6-Jun,25-Jun,2-Jul,,,1-Jun,6-Jun,25-Jun,2-Jul,22-Aug,27-Aug,3-Oct,16-Oct
+California,CA,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,25-Sep,20-Oct,1-Jan,1-Feb,20-May,1-Jun,5-Jul,15-Jul,,,20-May,1-Jun,5-Jul,15-Jul,1-Sep,1-Oct,1-Nov,15-Nov
+Colorado,CO,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,1-Sep,11-Sep,2-Oct,11-Oct,27-Jun,2-Jul,21-Jul,29-Jul,,,27-Jun,2-Jul,21-Jul,29-Jul,29-Sep,11-Oct,18-Nov,29-Nov
+Connecticut,CT,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Delaware,DE,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,8-Oct,19-Oct,8-Nov,21-Nov,22-Jun,26-Jun,8-Jul,17-Jul,,,22-Jun,26-Jun,8-Jul,17-Jul,10-Sep,20-Sep,15-Oct,5-Nov
+Florida,FL,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,1-May,15-May,31-May,15-Jun,15-Jul,1-Aug,10-Sep,1-Oct
+Georgia,GA,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,24-May,30-May,18-Jun,27-Jun,21-Aug,4-Sep,19-Nov,9-Dec
+Idaho,ID,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,8-Sep,22-Sep,13-Oct,3-Nov,23-Jul,4-Aug,25-Aug,14-Sep,,,23-Jul,4-Aug,25-Aug,14-Sep,29-Sep,20-Oct,10-Nov,24-Nov
+Illinois,IL,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,28-Sep,5-Oct,29-Oct,9-Nov,15-Jun,19-Jun,11-Jul,19-Jul,,,15-Jun,19-Jun,11-Jul,19-Jul,18-Sep,30-Sep,8-Nov,20-Nov
+Indiana,IN,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,25-Sep,1-Oct,1-Nov,5-Nov,15-Jun,25-Jun,15-Jul,25-Jul,,,15-Jun,25-Jun,15-Jul,25-Jul,15-Sep,1-Oct,10-Nov,25-Nov
+Iowa,IA,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,6-Sep,26-Sep,15-Oct,30-Oct,24-Jun,6-Jul,22-Jul,7-Aug,,,24-Jun,6-Jul,22-Jul,7-Aug,21-Sep,5-Oct,9-Nov,21-Nov
+Kansas,KS,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,10-Sep,15-Sep,20-Oct,1-Nov,15-Jun,20-Jun,5-Jul,15-Jul,,,15-Jun,20-Jun,5-Jul,15-Jul,10-Sep,25-Sep,10-Nov,25-Nov
+Kentucky,KY,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,10-Jun,15-Jun,4-Jul,10-Jul,1-Sep,9-Sep,24-Oct,10-Nov
+Louisana,LA,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,14-May,21-May,7-Jun,14-Jun,7-Aug,16-Aug,10-Sep,24-Sep
+Maine,ME,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Maryland,MD,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,5-Oct,17-Oct,6-Nov,19-Nov,22-Jun,28-Jun,12-Jul,20-Jul,,,22-Jun,28-Jun,12-Jul,20-Jul,9-Sep,22-Sep,22-Oct,17-Nov
+Massachusetts,MA,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,10-Jul,17-Jul,7-Aug,14-Aug,5-Sep,14-Sep,16-Oct,26-Oct
+Michigan,MI,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,13-Sep,22-Sep,22-Oct,1-Nov,6-Jul,11-Jul,29-Jul,5-Aug,,,6-Jul,11-Jul,29-Jul,5-Aug,5-Sep,10-Oct,25-Nov,10-Dec
+Minnesota,MN,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,25-Aug,1-Sep,20-Sep,25-Sep,20-Jul,1-Aug,25-Aug,10-Sep,,,20-Jul,1-Aug,25-Aug,10-Sep,27-Sep,8-Oct,8-Nov,23-Nov
+Mississippi,MS,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,28-May,2-Jun,21-Jun,1-Jul,19-Aug,29-Aug,27-Sep,8-Oct
+Missouri,MO,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,24-Sep,4-Oct,10-Nov,27-Nov,11-Jun,16-Jun,10-Jul,18-Jul,,,11-Jun,16-Jun,10-Jul,18-Jul,29-Aug,8-Sep,3-Nov,22-Dec
+Montana,MT,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,6-Sep,12-Sep,7-Oct,16-Oct,22-Jul,26-Jul,12-Aug,17-Aug,,,22-Jul,26-Jul,12-Aug,17-Aug,6-Sep,16-Sep,7-Nov,22-Nov
+Nebraska,NE,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,3-Sep,9-Sep,2-Oct,12-Oct,28-Jun,3-Jul,21-Jul,27-Jul,,,28-Jun,3-Jul,21-Jul,27-Jul,26-Sep,8-Oct,8-Nov,17-Nov
+Nevada,NV,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,15-Jul,20-Jul,20-Aug,25-Aug,25-Sep,10-Oct,30-Oct,10-Dec
+New Hampshire,NH,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+New Jersey,NJ,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,25-Jun,1-Jul,10-Jul,15-Jul,25-Sep,10-Oct,1-Nov,15-Nov
+New Mexico,NM,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,15-Jun,20-Jun,10-Jul,15-Jul,15-Oct,20-Oct,15-Nov,15-Dec
+New York,NY,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,10-Jul,17-Jul,7-Aug,14-Aug,7-Oct,14-Oct,14-Nov,25-Nov
+North Carolina,NC,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,20-Sep,15-Oct,20-Nov,20-Dec,30-May,10-Jun,30-Jun,25-Jul,,,30-May,10-Jun,30-Jun,25-Jul,25-Aug,10-Sep,10-Oct,1-Nov
+North Dakota,ND,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,6-Sep,10-Sep,25-Sep,2-Oct,15-Jul,20-Jul,29-Jul,10-Aug,,,15-Jul,20-Jul,29-Jul,10-Aug,28-Sep,8-Oct,19-Nov,6-Dec
+Ohio,OH,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,26-Sep,2-Oct,25-Oct,6-Nov,28-Jun,2-Jul,17-Jul,20-Jul,,,28-Jun,2-Jul,17-Jul,20-Jul,27-Sep,11-Oct,20-Nov,1-Dec
+Oklahoma,OK,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,3-Sep,15-Sep,22-Oct,6-Nov,1-Jun,6-Jun,27-Jun,3-Jul,,,1-Jun,6-Jun,27-Jun,3-Jul,9-Sep,26-Sep,21-Nov,2-Dec
+Oregon,OR,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,15-Sep,10-Oct,10-Nov,1-Dec,10-Jul,17-Jul,15-Aug,23-Aug,,,10-Jul,17-Jul,15-Aug,23-Aug,10-Oct,20-Oct,20-Nov,5-Dec
+Pennsylvannia,PA,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,30-Aug,15-Sep,15-Oct,30-Oct,5-Jul,10-Jul,30-Jul,10-Aug,,,5-Jul,10-Jul,30-Jul,10-Aug,25-Sep,15-Oct,20-Nov,10-Dec
+Rhode Island,RI,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+South Carolina,SC,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,25-Sep,11-Nov,15-Dec,31-Dec,26-May,6-Jun,25-Jun,1-Jul,,,26-May,6-Jun,25-Jun,1-Jul,25-Jul,20-Aug,25-Sep,10-Oct
+South Dakota,SD,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,1-Sep,9-Sep,5-Oct,16-Oct,8-Jul,14-Jul,5-Aug,13-Aug,,,8-Jul,14-Jul,5-Aug,13-Aug,21-Sep,1-Oct,6-Nov,17-Nov
+Tennessee,TN,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,5-Jun,10-Jun,30-Jun,5-Jul,25-Aug,1-Aug,10-Oct,30-Oct
+Texas,TX,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,25-May,1-Jun,2-Jul,12-Jul,25-Jun,8-Jul,16-Nov,6-Dec
+Utah,UT,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,20-Aug,25-Aug,5-Oct,10-Nov,10-Jul,25-Jul,10-Aug,25-Aug,,,10-Jul,25-Jul,10-Aug,25-Aug,25-Sep,10-Oct,30-Oct,10-Dec
+Vermont,VT,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,,,,,,,,,,,,,,,5-Sep,14-Sep,16-Oct,26-Oct
+Virginia,VA,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,25-Sep,10-Oct,21-Nov,1-Dec,9-Jun,16-Jun,5-Jul,12-Jul,,,9-Jun,16-Jun,5-Jul,12-Jul,31-Aug,6-Sep,28-Oct,9-Nov
+Washington,WA,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,30-Aug,1-Sep,10-Oct,20-Oct,15-Jul,25-Jul,20-Aug,30-Aug,,,15-Jul,25-Jul,20-Aug,30-Aug,25-Sep,5-Oct,15-Nov,25-Nov
+West Virginia,WV,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,5-Sep,15-Sep,5-Nov,10-Nov,10-Jun,25-Jun,25-Jul,5-Aug,,,10-Jun,25-Jun,25-Jul,5-Aug,15-Sep,30-Sep,20-Nov,1-Dec
+Wisconsin,WI,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,30-Sep,5-Oct,10-Oct,15-Oct,17-Jul,21-Jul,11-Aug,19-Aug,,,17-Jul,21-Jul,11-Aug,19-Aug,2-Oct,14-Oct,17-Nov,28-Nov
+Wyoming,WY,236,24,4,Winter Wheat/Sorghum,Winter Wheat,Sorghum,,,25-Aug,4-Sep,20-Sep,28-Sep,13-Jul,22-Jul,15-Aug,22-Aug,,,13-Jul,22-Jul,15-Aug,22-Aug,5-Oct,18-Oct,24-Nov,10-Dec
+Alabama,AL,237,21,1,Barley/Corn,Barley,Corn,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,1-May,25-May,25-Jun,1-Jul,2-Aug,11-Aug,20-Sep,15-Oct
+Arizona,AZ,237,21,1,Barley/Corn,Barley,Corn,,,10-Nov,1-Dec,30-Dec,10-Feb,10-May,30-May,20-Jun,10-Jul,,,10-May,30-May,20-Jun,10-Jul,1-Sep,1-Oct,1-Nov,1-Dec
+Arkansas,AR,237,21,1,Barley/Corn,Barley,Corn,,,3-Oct,13-Oct,20-Nov,1-Dec,1-Jun,6-Jun,25-Jun,2-Jul,,,1-Jun,6-Jun,25-Jun,2-Jul,16-Aug,23-Aug,23-Sep,6-Oct
+California,CA,237,21,1,Barley/Corn,Barley,Corn,,,15-Sep,1-Oct,15-Apr,30-Apr,15-May,4-Jun,20-Jun,15-Aug,,,15-May,4-Jun,20-Jun,15-Aug,1-Sep,1-Oct,1-Nov,15-Nov
+Colorado,CO,237,21,1,Barley/Corn,Barley,Corn,,,14-Mar,26-Mar,5-May,16-May,20-Jul,29-Jul,6-Sep,14-Sep,,,20-Jul,29-Jul,6-Sep,14-Sep,28-Sep,8-Oct,13-Nov,22-Nov
+Connecticut,CT,237,21,1,Barley/Corn,Barley,Corn,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Delaware,DE,237,21,1,Barley/Corn,Barley,Corn,,,27-Sep,9-Oct,27-Oct,10-Nov,5-Jun,12-Jun,28-Jun,3-Jul,,,5-Jun,12-Jun,28-Jun,3-Jul,10-Sep,20-Sep,15-Oct,5-Nov
+Florida,FL,237,21,1,Barley/Corn,Barley,Corn,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,1-May,15-May,31-May,15-Jun,15-Jul,1-Aug,10-Sep,1-Oct
+Georgia,GA,237,21,1,Barley/Corn,Barley,Corn,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,24-May,30-May,18-Jun,27-Jun,6-Aug,16-Aug,22-Sep,7-Oct
+Idaho,ID,237,21,1,Barley/Corn,Barley,Corn,,,24-Mar,7-Apr,5-May,26-May,28-Jul,11-Aug,8-Sep,29-Sep,,,28-Jul,11-Aug,8-Sep,29-Sep,29-Sep,20-Oct,10-Nov,24-Nov
+Illinois,IL,237,21,1,Barley/Corn,Barley,Corn,,,28-Sep,5-Oct,29-Oct,9-Nov,15-Jun,19-Jun,11-Jul,19-Jul,,,15-Jun,19-Jun,11-Jul,19-Jul,14-Sep,23-Sep,5-Nov,20-Nov
+Indiana,IN,237,21,1,Barley/Corn,Barley,Corn,,,25-Sep,1-Oct,1-Nov,5-Nov,15-Jun,25-Jun,15-Jul,25-Jul,,,15-Jun,25-Jun,15-Jul,25-Jul,15-Sep,1-Oct,10-Nov,25-Nov
+Iowa,IA,237,21,1,Barley/Corn,Barley,Corn,,,6-Sep,26-Sep,15-Oct,30-Oct,24-Jun,6-Jul,22-Jul,7-Aug,,,24-Jun,6-Jul,22-Jul,7-Aug,21-Sep,5-Oct,9-Nov,21-Nov
+Kansas,KS,237,21,1,Barley/Corn,Barley,Corn,,,15-Sep,1-Oct,15-Oct,1-Nov,20-Jun,15-Jun,28-Jun,5-Jul,,,20-Jun,15-Jun,28-Jun,5-Jul,1-Sep,10-Sep,25-Oct,10-Nov
+Kentucky,KY,237,21,1,Barley/Corn,Barley,Corn,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,10-Jun,15-Jun,4-Jul,10-Jul,1-Sep,9-Sep,24-Oct,10-Nov
+Louisana,LA,237,21,1,Barley/Corn,Barley,Corn,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,14-May,21-May,7-Jun,14-Jun,31-Jul,9-Aug,5-Sep,12-Sep
+Maine,ME,237,21,1,Barley/Corn,Barley,Corn,,,4-May,9-May,30-May,6-Jun,9-Aug,18-Aug,18-Sep,30-Sep,,,9-Aug,18-Aug,18-Sep,30-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Maryland,MD,237,21,1,Barley/Corn,Barley,Corn,,,17-Sep,1-Oct,21-Oct,7-Nov,12-Jun,16-Jun,28-Jun,8-Jul,,,12-Jun,16-Jun,28-Jun,8-Jul,9-Sep,22-Sep,22-Oct,17-Nov
+Massachusetts,MA,237,21,1,Barley/Corn,Barley,Corn,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Michigan,MI,237,21,1,Barley/Corn,Barley,Corn,,,10-Apr,13-Apr,20-May,27-May,26-Jul,3-Aug,19-Aug,31-Aug,,,26-Jul,3-Aug,19-Aug,31-Aug,5-Sep,10-Oct,25-Nov,10-Dec
+Minnesota,MN,237,21,1,Barley/Corn,Barley,Corn,,,15-Apr,23-Apr,25-May,3-Jun,26-Jul,1-Aug,3-Sep,18-Sep,,,26-Jul,1-Aug,3-Sep,18-Sep,27-Sep,8-Oct,8-Nov,23-Nov
+Mississippi,MS,237,21,1,Barley/Corn,Barley,Corn,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,28-May,2-Jun,21-Jun,1-Jul,11-Aug,23-Aug,23-Sep,7-Oct
+Missouri,MO,237,21,1,Barley/Corn,Barley,Corn,,,24-Sep,4-Oct,10-Nov,27-Nov,11-Jun,16-Jun,10-Jul,18-Jul,,,11-Jun,16-Jun,10-Jul,18-Jul,29-Aug,8-Sep,3-Nov,22-Dec
+Montana,MT,237,21,1,Barley/Corn,Barley,Corn,,,3-Apr,13-Apr,11-May,20-May,27-Jul,3-Aug,2-Sep,10-Sep,,,27-Jul,3-Aug,2-Sep,10-Sep,4-Oct,25-Oct,3-Dec,8-Dec
+Nebraska,NE,237,21,1,Barley/Corn,Barley,Corn,,,3-Sep,9-Sep,2-Oct,12-Oct,28-Jun,3-Jul,21-Jul,27-Jul,,,28-Jun,3-Jul,21-Jul,27-Jul,18-Sep,4-Oct,10-Nov,20-Nov
+Nevada,NV,237,21,1,Barley/Corn,Barley,Corn,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,15-Jul,20-Jul,20-Aug,25-Aug,25-Sep,10-Oct,30-Oct,10-Dec
+New Hampshire,NH,237,21,1,Barley/Corn,Barley,Corn,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+New Jersey,NJ,237,21,1,Barley/Corn,Barley,Corn,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,25-Jun,1-Jul,10-Jul,15-Jul,25-Sep,10-Oct,1-Nov,15-Nov
+New Mexico,NM,237,21,1,Barley/Corn,Barley,Corn,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,15-Jun,20-Jun,10-Jul,15-Jul,25-Sep,1-Oct,30-Oct,20-Nov
+New York,NY,237,21,1,Barley/Corn,Barley,Corn,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,7-Oct,14-Oct,14-Nov,25-Nov
+North Carolina,NC,237,21,1,Barley/Corn,Barley,Corn,,,25-Sep,15-Oct,10-Nov,1-Dec,25-May,10-Jun,30-Jun,25-Jul,,,25-May,10-Jun,30-Jun,25-Jul,25-Aug,10-Sep,10-Oct,1-Nov
+North Dakota,ND,237,21,1,Barley/Corn,Barley,Corn,,,19-Apr,26-Apr,25-May,3-Jun,28-Jul,4-Aug,3-Sep,16-Sep,,,28-Jul,4-Aug,3-Sep,16-Sep,28-Sep,8-Oct,19-Nov,6-Dec
+Ohio,OH,237,21,1,Barley/Corn,Barley,Corn,,,26-Sep,2-Oct,25-Oct,6-Nov,28-Jun,2-Jul,17-Jul,20-Jul,,,28-Jun,2-Jul,17-Jul,20-Jul,27-Sep,11-Oct,20-Nov,1-Dec
+Oklahoma,OK,237,21,1,Barley/Corn,Barley,Corn,,,3-Sep,15-Sep,22-Oct,6-Nov,1-Jun,6-Jun,27-Jun,3-Jul,,,1-Jun,6-Jun,27-Jun,3-Jul,20-Aug,29-Aug,9-Oct,20-Oct
+Oregon,OR,237,21,1,Barley/Corn,Barley,Corn,,,1-Mar,30-Mar,15-May,25-May,10-Jul,21-Jul,1-Sep,8-Sep,,,10-Jul,21-Jul,1-Sep,8-Sep,10-Oct,20-Oct,20-Nov,5-Dec
+Pennsylvannia,PA,237,21,1,Barley/Corn,Barley,Corn,,,25-Aug,15-Sep,15-Oct,25-Oct,20-Jun,25-Jun,20-Jul,10-Aug,,,20-Jun,25-Jun,20-Jul,10-Aug,25-Sep,15-Oct,20-Nov,10-Dec
+Rhode Island,RI,237,21,1,Barley/Corn,Barley,Corn,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+South Carolina,SC,237,21,1,Barley/Corn,Barley,Corn,,,25-Sep,11-Nov,15-Dec,31-Dec,26-May,6-Jun,25-Jun,1-Jul,,,26-May,6-Jun,25-Jun,1-Jul,25-Jul,20-Aug,25-Sep,10-Oct
+South Dakota,SD,237,21,1,Barley/Corn,Barley,Corn,,,6-Apr,14-Apr,17-May,24-May,20-Jul,27-Jul,19-Aug,27-Aug,,,20-Jul,27-Jul,19-Aug,27-Aug,24-Sep,6-Oct,16-Nov,3-Dec
+Tennessee,TN,237,21,1,Barley/Corn,Barley,Corn,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,5-Jun,10-Jun,30-Jun,5-Jul,25-Aug,1-Aug,10-Oct,30-Oct
+Texas,TX,237,21,1,Barley/Corn,Barley,Corn,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,25-May,1-Jun,2-Jul,12-Jul,18-Jul,1-Aug,11-Oct,8-Nov
+Utah,UT,237,21,1,Barley/Corn,Barley,Corn,,,20-Mar,1-Apr,20-Apr,10-May,15-Jul,25-Jul,15-Aug,1-Sep,,,15-Jul,25-Jul,15-Aug,1-Sep,25-Sep,10-Oct,30-Oct,10-Dec
+Vermont,VT,237,21,1,Barley/Corn,Barley,Corn,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,5-Sep,14-Sep,16-Oct,26-Oct
+Virginia,VA,237,21,1,Barley/Corn,Barley,Corn,,,18-Sep,26-Sep,29-Oct,8-Nov,28-May,6-Jun,25-Jun,1-Jul,,,28-May,6-Jun,25-Jun,1-Jul,31-Aug,6-Sep,28-Oct,9-Nov
+Washington,WA,237,21,1,Barley/Corn,Barley,Corn,,,20-Mar,30-Mar,5-May,10-May,25-Jul,1-Aug,30-Aug,5-Sep,,,25-Jul,1-Aug,30-Aug,5-Sep,25-Sep,5-Oct,15-Nov,25-Nov
+West Virginia,WV,237,21,1,Barley/Corn,Barley,Corn,,,5-Sep,15-Sep,5-Nov,10-Nov,10-Jun,25-Jun,25-Jul,5-Aug,,,10-Jun,25-Jun,25-Jul,5-Aug,15-Sep,30-Sep,20-Nov,1-Dec
+Wisconsin,WI,237,21,1,Barley/Corn,Barley,Corn,,,5-Apr,10-Apr,20-Apr,30-Apr,1-Aug,5-Aug,15-Aug,20-Aug,,,1-Aug,5-Aug,15-Aug,20-Aug,2-Oct,14-Oct,17-Nov,28-Nov
+Wyoming,WY,237,21,1,Barley/Corn,Barley,Corn,,,18-Mar,26-Mar,2-May,2-Jun,24-Jul,5-Aug,26-Aug,17-Sep,,,24-Jul,5-Aug,26-Aug,17-Sep,5-Oct,18-Oct,24-Nov,10-Dec
+Alabama,AL,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,1-May,25-May,25-Jun,1-Jul,5-Sep,20-Sep,20-Oct,1-Dec
+Arizona,AZ,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,10-Nov,1-Dec,30-Dec,1-Feb,15-May,30-May,15-Jun,1-Jul,,,15-May,30-May,15-Jun,1-Jul,15-Sep,10-Oct,10-Nov,25-Dec
+Arkansas,AR,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,3-Oct,13-Oct,20-Nov,1-Dec,1-Jun,6-Jun,25-Jun,2-Jul,,,1-Jun,6-Jun,25-Jun,2-Jul,20-Sep,29-Sep,6-Nov,20-Nov
+California,CA,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,25-Sep,20-Oct,1-Jan,1-Feb,20-May,1-Jun,5-Jul,15-Jul,,,20-May,1-Jun,5-Jul,15-Jul,5-Oct,10-Oct,1-Nov,20-Nov
+Colorado,CO,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,1-Sep,11-Sep,2-Oct,11-Oct,27-Jun,2-Jul,21-Jul,29-Jul,,,27-Jun,2-Jul,21-Jul,29-Jul,,,,
+Connecticut,CT,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,8-Oct,19-Oct,8-Nov,21-Nov,22-Jun,26-Jun,8-Jul,17-Jul,,,22-Jun,26-Jun,8-Jul,17-Jul,,,,
+Florida,FL,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,1-May,15-May,31-May,15-Jun,20-Sep,1-Oct,20-Nov,15-Dec
+Georgia,GA,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,24-May,30-May,18-Jun,27-Jun,23-Sep,10-Oct,2-Dec,18-Dec
+Idaho,ID,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,8-Sep,22-Sep,13-Oct,3-Nov,23-Jul,4-Aug,25-Aug,14-Sep,,,23-Jul,4-Aug,25-Aug,14-Sep,,,,
+Illinois,IL,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,28-Sep,5-Oct,29-Oct,9-Nov,15-Jun,19-Jun,11-Jul,19-Jul,,,15-Jun,19-Jun,11-Jul,19-Jul,,,,
+Indiana,IN,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,25-Sep,1-Oct,1-Nov,5-Nov,15-Jun,25-Jun,15-Jul,25-Jul,,,15-Jun,25-Jun,15-Jul,25-Jul,,,,
+Iowa,IA,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,6-Sep,26-Sep,15-Oct,30-Oct,24-Jun,6-Jul,22-Jul,7-Aug,,,24-Jun,6-Jul,22-Jul,7-Aug,,,,
+Kansas,KS,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,10-Sep,15-Sep,20-Oct,1-Nov,15-Jun,20-Jun,5-Jul,15-Jul,,,15-Jun,20-Jun,5-Jul,15-Jul,15-Oct,25-Oct,15-Dec,30-Dec
+Kentucky,KY,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,10-Jun,15-Jun,4-Jul,10-Jul,,,,
+Louisana,LA,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,14-May,21-May,7-Jun,14-Jun,14-Sep,23-Sep,23-Oct,6-Nov
+Maine,ME,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,,,,,,,,,,,,,,,,,,
+Maryland,MD,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,5-Oct,17-Oct,6-Nov,19-Nov,22-Jun,28-Jun,12-Jul,20-Jul,,,22-Jun,28-Jun,12-Jul,20-Jul,,,,
+Massachusetts,MA,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,10-Jul,17-Jul,7-Aug,14-Aug,,,,
+Michigan,MI,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,13-Sep,22-Sep,22-Oct,1-Nov,6-Jul,11-Jul,29-Jul,5-Aug,,,6-Jul,11-Jul,29-Jul,5-Aug,,,,
+Minnesota,MN,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,25-Aug,1-Sep,20-Sep,25-Sep,20-Jul,1-Aug,25-Aug,10-Sep,,,20-Jul,1-Aug,25-Aug,10-Sep,,,,
+Mississippi,MS,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,28-May,2-Jun,21-Jun,1-Jul,15-Sep,27-Sep,29-Oct,12-Nov
+Missouri,MO,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,24-Sep,4-Oct,10-Nov,27-Nov,11-Jun,16-Jun,10-Jul,18-Jul,,,11-Jun,16-Jun,10-Jul,18-Jul,17-Sep,27-Sep,9-Nov,24-Nov
+Montana,MT,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,6-Sep,12-Sep,7-Oct,16-Oct,22-Jul,26-Jul,12-Aug,17-Aug,,,22-Jul,26-Jul,12-Aug,17-Aug,,,,
+Nebraska,NE,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,3-Sep,9-Sep,2-Oct,12-Oct,28-Jun,3-Jul,21-Jul,27-Jul,,,28-Jun,3-Jul,21-Jul,27-Jul,,,,
+Nevada,NV,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,15-Jul,20-Jul,20-Aug,25-Aug,,,,
+New Hampshire,NH,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,25-Jun,1-Jul,10-Jul,15-Jul,,,,
+New Mexico,NM,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,15-Jun,20-Jun,10-Jul,15-Jul,10-Oct,25-Oct,30-Nov,20-Dec
+New York,NY,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,10-Sep,15-Sep,5-Oct,1-Nov,10-Jul,17-Jul,7-Aug,14-Aug,,,10-Jul,17-Jul,7-Aug,14-Aug,,,,
+North Carolina,NC,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,20-Sep,15-Oct,20-Nov,20-Dec,30-May,10-Jun,30-Jun,25-Jul,,,30-May,10-Jun,30-Jun,25-Jul,30-Sep,10-Oct,15-Nov,15-Dec
+North Dakota,ND,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,6-Sep,10-Sep,25-Sep,2-Oct,15-Jul,20-Jul,29-Jul,10-Aug,,,15-Jul,20-Jul,29-Jul,10-Aug,,,,
+Ohio,OH,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,26-Sep,2-Oct,25-Oct,6-Nov,28-Jun,2-Jul,17-Jul,20-Jul,,,28-Jun,2-Jul,17-Jul,20-Jul,,,,
+Oklahoma,OK,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,3-Sep,15-Sep,22-Oct,6-Nov,1-Jun,6-Jun,27-Jun,3-Jul,,,1-Jun,6-Jun,27-Jun,3-Jul,4-Oct,15-Oct,9-Dec,24-Dec
+Oregon,OR,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,15-Sep,10-Oct,10-Nov,1-Dec,10-Jul,17-Jul,15-Aug,23-Aug,,,10-Jul,17-Jul,15-Aug,23-Aug,,,,
+Pennsylvannia,PA,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,30-Aug,15-Sep,15-Oct,30-Oct,5-Jul,10-Jul,30-Jul,10-Aug,,,5-Jul,10-Jul,30-Jul,10-Aug,,,,
+Rhode Island,RI,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,25-Sep,11-Nov,15-Dec,31-Dec,26-May,6-Jun,25-Jun,1-Jul,,,26-May,6-Jun,25-Jun,1-Jul,23-Sep,15-Oct,13-Nov,5-Dec
+South Dakota,SD,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,1-Sep,9-Sep,5-Oct,16-Oct,8-Jul,14-Jul,5-Aug,13-Aug,,,8-Jul,14-Jul,5-Aug,13-Aug,,,,
+Tennessee,TN,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,5-Jun,10-Jun,30-Jun,5-Jul,20-Sep,30-Sep,10-Nov,25-Nov
+Texas,TX,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,25-May,1-Jun,2-Jul,12-Jul,10-Aug,13-Sep,21-Dec,11-Jan
+Utah,UT,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,20-Aug,25-Aug,5-Oct,10-Nov,10-Jul,25-Jul,10-Aug,25-Aug,,,10-Jul,25-Jul,10-Aug,25-Aug,,,,
+Vermont,VT,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,,,,,,,,,,,,,,,,,,
+Virginia,VA,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,25-Sep,10-Oct,21-Nov,1-Dec,9-Jun,16-Jun,5-Jul,12-Jul,,,9-Jun,16-Jun,5-Jul,12-Jul,30-Sep,8-Oct,20-Nov,27-Nov
+Washington,WA,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,30-Aug,1-Sep,10-Oct,20-Oct,15-Jul,25-Jul,20-Aug,30-Aug,,,15-Jul,25-Jul,20-Aug,30-Aug,,,,
+West Virginia,WV,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,5-Sep,15-Sep,5-Nov,10-Nov,10-Jun,25-Jun,25-Jul,5-Aug,,,10-Jun,25-Jun,25-Jul,5-Aug,,,,
+Wisconsin,WI,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,30-Sep,5-Oct,10-Oct,15-Oct,17-Jul,21-Jul,11-Aug,19-Aug,,,17-Jul,21-Jul,11-Aug,19-Aug,,,,
+Wyoming,WY,238,24,2,Winter Wheat/Cotton,Winter Wheat,Cotton,,,25-Aug,4-Sep,20-Sep,28-Sep,13-Jul,22-Jul,15-Aug,22-Aug,,,13-Jul,22-Jul,15-Aug,22-Aug,,,,
+Alabama,AL,239,5,2,Soybean/Cotton,Soybean,Cotton,,,15-Apr,25-May,25-Jun,3-Jul,3-Sep,28-Oct,28-Nov,15-Dec,,,3-Sep,28-Oct,28-Nov,15-Dec,5-Sep,20-Sep,20-Oct,1-Dec
+Arizona,AZ,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+Arkansas,AR,239,5,2,Soybean/Cotton,Soybean,Cotton,,,19-Apr,5-May,22-Jun,5-Jul,10-Sep,29-Sep,13-Nov,26-Nov,,,10-Sep,29-Sep,13-Nov,26-Nov,20-Sep,29-Sep,6-Nov,20-Nov
+California,CA,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+Colorado,CO,239,5,2,Soybean/Cotton,Soybean,Cotton,,,5-May,15-May,20-Jun,1-Jul,20-Sep,1-Oct,1-Nov,15-Nov,,,20-Sep,1-Oct,1-Nov,15-Nov,,,,
+Connecticut,CT,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+Delaware,DE,239,5,2,Soybean/Cotton,Soybean,Cotton,,,11-May,30-May,28-Jun,11-Jul,5-Oct,22-Oct,14-Nov,25-Nov,,,5-Oct,22-Oct,14-Nov,25-Nov,,,,
+Florida,FL,239,5,2,Soybean/Cotton,Soybean,Cotton,,,20-Apr,1-May,15-Jun,1-Jul,1-Oct,15-Oct,25-Nov,1-Dec,,,1-Oct,15-Oct,25-Nov,1-Dec,20-Sep,1-Oct,20-Nov,15-Dec
+Georgia,GA,239,5,2,Soybean/Cotton,Soybean,Cotton,,,5-May,17-May,26-Jun,5-Jul,11-Oct,25-Oct,8-Dec,17-Dec,,,11-Oct,25-Oct,8-Dec,17-Dec,23-Sep,10-Oct,2-Dec,18-Dec
+Idaho,ID,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+Illinois,IL,239,5,2,Soybean/Cotton,Soybean,Cotton,,,2-May,8-May,12-Jun,24-Jun,19-Sep,26-Sep,26-Oct,7-Nov,,,19-Sep,26-Sep,26-Oct,7-Nov,,,,
+Indiana,IN,239,5,2,Soybean/Cotton,Soybean,Cotton,,,1-May,5-May,10-Jun,25-Jun,20-Sep,1-Oct,1-Nov,10-Nov,,,20-Sep,1-Oct,1-Nov,10-Nov,,,,
+Iowa,IA,239,5,2,Soybean/Cotton,Soybean,Cotton,,,2-May,8-May,2-Jun,16-Jun,21-Sep,28-Sep,20-Oct,31-Oct,,,21-Sep,28-Sep,20-Oct,31-Oct,,,,
+Kansas,KS,239,5,2,Soybean/Cotton,Soybean,Cotton,,,5-May,15-May,20-Jun,1-Jul,20-Sep,1-Oct,1-Nov,15-Nov,,,20-Sep,1-Oct,1-Nov,15-Nov,15-Oct,25-Oct,15-Dec,30-Dec
+Kentucky,KY,239,5,2,Soybean/Cotton,Soybean,Cotton,,,4-May,16-May,27-Jun,7-Jul,25-Sep,10-Oct,14-Nov,25-Nov,,,25-Sep,10-Oct,14-Nov,25-Nov,,,,
+Louisana,LA,239,5,2,Soybean/Cotton,Soybean,Cotton,,,18-Apr,23-Apr,4-Jun,16-Jun,28-Aug,3-Sep,25-Oct,31-Oct,,,28-Aug,3-Sep,25-Oct,31-Oct,14-Sep,23-Sep,23-Oct,6-Nov
+Maine,ME,239,5,2,Soybean/Cotton,Soybean,Cotton,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,27-Sep,7-Oct,14-Nov,20-Nov,,,,
+Maryland,MD,239,5,2,Soybean/Cotton,Soybean,Cotton,,,11-May,28-May,26-Jun,16-Jul,5-Oct,18-Oct,15-Nov,1-Dec,,,5-Oct,18-Oct,15-Nov,1-Dec,,,,
+Massachusetts,MA,239,5,2,Soybean/Cotton,Soybean,Cotton,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,27-Sep,7-Oct,14-Nov,20-Nov,,,,
+Michigan,MI,239,5,2,Soybean/Cotton,Soybean,Cotton,,,2-May,11-May,9-Jun,18-Jun,25-Sep,3-Oct,3-Nov,13-Nov,,,25-Sep,3-Oct,3-Nov,13-Nov,,,,
+Minnesota,MN,239,5,2,Soybean/Cotton,Soybean,Cotton,,,2-May,8-May,2-Jun,13-Jun,20-Sep,27-Sep,20-Oct,31-Oct,,,20-Sep,27-Sep,20-Oct,31-Oct,,,,
+Mississippi,MS,239,5,2,Soybean/Cotton,Soybean,Cotton,,,19-Apr,26-Apr,31-May,17-Jun,10-Sep,13-Sep,31-Oct,9-Nov,,,10-Sep,13-Sep,31-Oct,9-Nov,15-Sep,27-Sep,29-Oct,12-Nov
+Missouri,MO,239,5,2,Soybean/Cotton,Soybean,Cotton,,,2-May,13-May,24-Jun,4-Jul,25-Sep,3-Oct,8-Nov,23-Nov,,,25-Sep,3-Oct,8-Nov,23-Nov,17-Sep,27-Sep,9-Nov,24-Nov
+Montana,MT,239,5,2,Soybean/Cotton,Soybean,Cotton,,,7-May,14-May,3-Jun,11-Jun,17-Sep,24-Sep,21-Oct,5-Nov,,,17-Sep,24-Sep,21-Oct,5-Nov,,,,
+Nebraska,NE,239,5,2,Soybean/Cotton,Soybean,Cotton,,,5-May,11-May,31-May,8-Jun,23-Sep,29-Sep,24-Oct,2-Nov,,,23-Sep,29-Sep,24-Oct,2-Nov,,,,
+Nevada,NV,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+New Hampshire,NH,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+New Jersey,NJ,239,5,2,Soybean/Cotton,Soybean,Cotton,,,10-May,20-May,1-Jun,10-Jun,1-Oct,20-Oct,10-Nov,15-Nov,,,1-Oct,20-Oct,10-Nov,15-Nov,,,,
+New Mexico,NM,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,10-Oct,25-Oct,30-Nov,20-Dec
+New York,NY,239,5,2,Soybean/Cotton,Soybean,Cotton,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,27-Sep,7-Oct,14-Nov,20-Nov,,,,
+North Carolina,NC,239,5,2,Soybean/Cotton,Soybean,Cotton,,,1-May,20-May,30-Jun,20-Jul,10-Oct,10-Nov,5-Dec,20-Dec,,,10-Oct,10-Nov,5-Dec,20-Dec,30-Sep,10-Oct,15-Nov,15-Dec
+North Dakota,ND,239,5,2,Soybean/Cotton,Soybean,Cotton,,,7-May,14-May,3-Jun,11-Jun,17-Sep,24-Sep,21-Oct,5-Nov,,,17-Sep,24-Sep,21-Oct,5-Nov,,,,
+Ohio,OH,239,5,2,Soybean/Cotton,Soybean,Cotton,,,26-Apr,3-May,30-May,10-Jun,23-Sep,30-Sep,31-Oct,12-Nov,,,23-Sep,30-Sep,31-Oct,12-Nov,,,,
+Oklahoma,OK,239,5,2,Soybean/Cotton,Soybean,Cotton,,,15-Apr,27-Apr,27-Jun,9-Jul,9-Sep,22-Sep,20-Nov,1-Dec,,,9-Sep,22-Sep,20-Nov,1-Dec,4-Oct,15-Oct,9-Dec,24-Dec
+Oregon,OR,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+Pennsylvannia,PA,239,5,2,Soybean/Cotton,Soybean,Cotton,,,10-May,20-May,10-Jun,5-Jul,5-Oct,20-Oct,10-Nov,30-Nov,,,5-Oct,20-Oct,10-Nov,30-Nov,,,,
+Rhode Island,RI,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+South Carolina,SC,239,5,2,Soybean/Cotton,Soybean,Cotton,,,10-May,27-May,27-Jun,11-Jul,20-Oct,10-Nov,10-Dec,30-Dec,,,20-Oct,10-Nov,10-Dec,30-Dec,23-Sep,15-Oct,13-Nov,5-Dec
+South Dakota,SD,239,5,2,Soybean/Cotton,Soybean,Cotton,,,8-May,15-May,11-Jun,21-Jun,22-Sep,28-Sep,24-Oct,3-Nov,,,22-Sep,28-Sep,24-Oct,3-Nov,,,,
+Tennessee,TN,239,5,2,Soybean/Cotton,Soybean,Cotton,,,5-May,15-May,25-Jun,5-Jul,25-Sep,5-Oct,20-Nov,30-Nov,,,25-Sep,5-Oct,20-Nov,30-Nov,20-Sep,30-Sep,10-Nov,25-Nov
+Texas,TX,239,5,2,Soybean/Cotton,Soybean,Cotton,,,24-Mar,30-Mar,30-May,12-Jun,18-Aug,22-Aug,17-Oct,7-Nov,,,18-Aug,22-Aug,17-Oct,7-Nov,10-Aug,13-Sep,21-Dec,11-Jan
+Utah,UT,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+Vermont,VT,239,5,2,Soybean/Cotton,Soybean,Cotton,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,27-Sep,7-Oct,14-Nov,20-Nov,,,,
+Virginia,VA,239,5,2,Soybean/Cotton,Soybean,Cotton,,,5-May,15-May,3-Jul,9-Jul,4-Oct,16-Oct,28-Nov,4-Dec,,,4-Oct,16-Oct,28-Nov,4-Dec,30-Sep,8-Oct,20-Nov,27-Nov
+Washington,WA,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+West Virginia,WV,239,5,2,Soybean/Cotton,Soybean,Cotton,,,5-May,10-May,30-Jun,5-Jul,25-Sep,5-Oct,30-Nov,1-Dec,,,25-Sep,5-Oct,30-Nov,1-Dec,,,,
+Wisconsin,WI,239,5,2,Soybean/Cotton,Soybean,Cotton,,,7-May,12-May,5-Jun,14-Jun,29-Sep,4-Oct,29-Oct,8-Nov,,,29-Sep,4-Oct,29-Oct,8-Nov,,,,
+Wyoming,WY,239,5,2,Soybean/Cotton,Soybean,Cotton,,,,,,,,,,,,,,,,,,,,
+Alabama,AL,240,5,28,Soybean/Oats,Soybean,Oats,,,15-Apr,25-May,25-Jun,3-Jul,3-Sep,28-Oct,28-Nov,15-Dec,,,3-Sep,28-Oct,28-Nov,15-Dec,1-May,25-May,25-Jun,1-Jul
+Arizona,AZ,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,15-May,30-May,15-Jun,1-Jul
+Arkansas,AR,240,5,28,Soybean/Oats,Soybean,Oats,,,19-Apr,5-May,22-Jun,5-Jul,10-Sep,29-Sep,13-Nov,26-Nov,,,10-Sep,29-Sep,13-Nov,26-Nov,15-May,25-May,15-Jun,1-Jul
+California,CA,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,15-Jun,15-Jul,1-Sep,15-Sep
+Colorado,CO,240,5,28,Soybean/Oats,Soybean,Oats,,,5-May,15-May,20-Jun,1-Jul,20-Sep,1-Oct,1-Nov,15-Nov,,,20-Sep,1-Oct,1-Nov,15-Nov,13-Jul,19-Jul,13-Sep,25-Sep
+Connecticut,CT,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,30-Jul,4-Aug,24-Aug,9-Sep
+Delaware,DE,240,5,28,Soybean/Oats,Soybean,Oats,,,11-May,30-May,28-Jun,11-Jul,5-Oct,22-Oct,14-Nov,25-Nov,,,5-Oct,22-Oct,14-Nov,25-Nov,22-Jun,26-Jun,8-Jul,17-Jul
+Florida,FL,240,5,28,Soybean/Oats,Soybean,Oats,,,20-Apr,1-May,15-Jun,1-Jul,1-Oct,15-Oct,25-Nov,1-Dec,,,1-Oct,15-Oct,25-Nov,1-Dec,1-May,15-May,31-May,15-Jun
+Georgia,GA,240,5,28,Soybean/Oats,Soybean,Oats,,,5-May,17-May,26-Jun,5-Jul,11-Oct,25-Oct,8-Dec,17-Dec,,,11-Oct,25-Oct,8-Dec,17-Dec,25-May,1-Jun,22-Jun,3-Jul
+Idaho,ID,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,21-Jul,11-Aug,8-Sep,29-Sep
+Illinois,IL,240,5,28,Soybean/Oats,Soybean,Oats,,,2-May,8-May,12-Jun,24-Jun,19-Sep,26-Sep,26-Oct,7-Nov,,,19-Sep,26-Sep,26-Oct,7-Nov,4-Jul,14-Jul,7-Aug,13-Aug
+Indiana,IN,240,5,28,Soybean/Oats,Soybean,Oats,,,1-May,5-May,10-Jun,25-Jun,20-Sep,1-Oct,1-Nov,10-Nov,,,20-Sep,1-Oct,1-Nov,10-Nov,10-Jul,15-Jul,5-Aug,10-Aug
+Iowa,IA,240,5,28,Soybean/Oats,Soybean,Oats,,,2-May,8-May,2-Jun,16-Jun,21-Sep,28-Sep,20-Oct,31-Oct,,,21-Sep,28-Sep,20-Oct,31-Oct,9-Jul,17-Jul,5-Aug,11-Aug
+Kansas,KS,240,5,28,Soybean/Oats,Soybean,Oats,,,5-May,15-May,20-Jun,1-Jul,20-Sep,1-Oct,1-Nov,15-Nov,,,20-Sep,1-Oct,1-Nov,15-Nov,10-Jul,15-Jul,1-Aug,10-Aug
+Kentucky,KY,240,5,28,Soybean/Oats,Soybean,Oats,,,4-May,16-May,27-Jun,7-Jul,25-Sep,10-Oct,14-Nov,25-Nov,,,25-Sep,10-Oct,14-Nov,25-Nov,10-Jun,15-Jun,4-Jul,10-Jul
+Louisana,LA,240,5,28,Soybean/Oats,Soybean,Oats,,,18-Apr,23-Apr,4-Jun,16-Jun,28-Aug,3-Sep,25-Oct,31-Oct,,,28-Aug,3-Sep,25-Oct,31-Oct,14-May,21-May,7-Jun,14-Jun
+Maine,ME,240,5,28,Soybean/Oats,Soybean,Oats,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,27-Sep,7-Oct,14-Nov,20-Nov,11-Aug,21-Aug,22-Sep,4-Oct
+Maryland,MD,240,5,28,Soybean/Oats,Soybean,Oats,,,11-May,28-May,26-Jun,16-Jul,5-Oct,18-Oct,15-Nov,1-Dec,,,5-Oct,18-Oct,15-Nov,1-Dec,22-Jun,28-Jun,12-Jul,20-Jul
+Massachusetts,MA,240,5,28,Soybean/Oats,Soybean,Oats,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,27-Sep,7-Oct,14-Nov,20-Nov,30-Jul,4-Aug,24-Aug,9-Sep
+Michigan,MI,240,5,28,Soybean/Oats,Soybean,Oats,,,2-May,11-May,9-Jun,18-Jun,25-Sep,3-Oct,3-Nov,13-Nov,,,25-Sep,3-Oct,3-Nov,13-Nov,19-Jul,28-Jul,24-Aug,2-Sep
+Minnesota,MN,240,5,28,Soybean/Oats,Soybean,Oats,,,2-May,8-May,2-Jun,13-Jun,20-Sep,27-Sep,20-Oct,31-Oct,,,20-Sep,27-Sep,20-Oct,31-Oct,21-Jul,26-Jul,24-Aug,4-Sep
+Mississippi,MS,240,5,28,Soybean/Oats,Soybean,Oats,,,19-Apr,26-Apr,31-May,17-Jun,10-Sep,13-Sep,31-Oct,9-Nov,,,10-Sep,13-Sep,31-Oct,9-Nov,28-May,2-Jun,21-Jun,1-Jul
+Missouri,MO,240,5,28,Soybean/Oats,Soybean,Oats,,,2-May,13-May,24-Jun,4-Jul,25-Sep,3-Oct,8-Nov,23-Nov,,,25-Sep,3-Oct,8-Nov,23-Nov,20-Jun,1-Jul,25-Jul,1-Aug
+Montana,MT,240,5,28,Soybean/Oats,Soybean,Oats,,,7-May,14-May,3-Jun,11-Jun,17-Sep,24-Sep,21-Oct,5-Nov,,,17-Sep,24-Sep,21-Oct,5-Nov,8-Aug,15-Aug,9-Sep,22-Sep
+Nebraska,NE,240,5,28,Soybean/Oats,Soybean,Oats,,,5-May,11-May,31-May,8-Jun,23-Sep,29-Sep,24-Oct,2-Nov,,,23-Sep,29-Sep,24-Oct,2-Nov,4-Jul,10-Jul,30-Jul,7-Aug
+Nevada,NV,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,15-Jul,20-Jul,20-Aug,25-Aug
+New Hampshire,NH,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,30-Jul,4-Aug,24-Aug,9-Sep
+New Jersey,NJ,240,5,28,Soybean/Oats,Soybean,Oats,,,10-May,20-May,1-Jun,10-Jun,1-Oct,20-Oct,10-Nov,15-Nov,,,1-Oct,20-Oct,10-Nov,15-Nov,25-Jun,1-Jul,10-Jul,15-Jul
+New Mexico,NM,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,15-Jun,20-Jun,10-Jul,15-Jul
+New York,NY,240,5,28,Soybean/Oats,Soybean,Oats,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,27-Sep,7-Oct,14-Nov,20-Nov,30-Jul,4-Aug,24-Aug,9-Sep
+North Carolina,NC,240,5,28,Soybean/Oats,Soybean,Oats,,,1-May,20-May,30-Jun,20-Jul,10-Oct,10-Nov,5-Dec,20-Dec,,,10-Oct,10-Nov,5-Dec,20-Dec,30-May,10-Jun,30-Jun,25-Jul
+North Dakota,ND,240,5,28,Soybean/Oats,Soybean,Oats,,,7-May,14-May,3-Jun,11-Jun,17-Sep,24-Sep,21-Oct,5-Nov,,,17-Sep,24-Sep,21-Oct,5-Nov,28-Jul,5-Aug,5-Sep,18-Sep
+Ohio,OH,240,5,28,Soybean/Oats,Soybean,Oats,,,26-Apr,3-May,30-May,10-Jun,23-Sep,30-Sep,31-Oct,12-Nov,,,23-Sep,30-Sep,31-Oct,12-Nov,13-Jul,20-Jul,7-Aug,11-Aug
+Oklahoma,OK,240,5,28,Soybean/Oats,Soybean,Oats,,,15-Apr,27-Apr,27-Jun,9-Jul,9-Sep,22-Sep,20-Nov,1-Dec,,,9-Sep,22-Sep,20-Nov,1-Dec,4-Jun,10-Jun,4-Jul,13-Jul
+Oregon,OR,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,10-Jul,10-Aug,20-Aug,1-Sep
+Pennsylvannia,PA,240,5,28,Soybean/Oats,Soybean,Oats,,,10-May,20-May,10-Jun,5-Jul,5-Oct,20-Oct,10-Nov,30-Nov,,,5-Oct,20-Oct,10-Nov,30-Nov,20-Jul,25-Jul,20-Aug,30-Aug
+Rhode Island,RI,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,30-Jul,4-Aug,24-Aug,9-Sep
+South Carolina,SC,240,5,28,Soybean/Oats,Soybean,Oats,,,10-May,27-May,27-Jun,11-Jul,20-Oct,10-Nov,10-Dec,30-Dec,,,20-Oct,10-Nov,10-Dec,30-Dec,25-May,3-Jun,20-Jun,3-Jul
+South Dakota,SD,240,5,28,Soybean/Oats,Soybean,Oats,,,8-May,15-May,11-Jun,21-Jun,22-Sep,28-Sep,24-Oct,3-Nov,,,22-Sep,28-Sep,24-Oct,3-Nov,14-Jul,21-Jul,15-Aug,23-Aug
+Tennessee,TN,240,5,28,Soybean/Oats,Soybean,Oats,,,5-May,15-May,25-Jun,5-Jul,25-Sep,5-Oct,20-Nov,30-Nov,,,25-Sep,5-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul
+Texas,TX,240,5,28,Soybean/Oats,Soybean,Oats,,,24-Mar,30-Mar,30-May,12-Jun,18-Aug,22-Aug,17-Oct,7-Nov,,,18-Aug,22-Aug,17-Oct,7-Nov,13-May,23-May,22-Jun,4-Jul
+Utah,UT,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,25-Jul,15-Aug,10-Sep,30-Sep
+Vermont,VT,240,5,28,Soybean/Oats,Soybean,Oats,,,12-May,19-May,22-Jun,29-Jun,27-Sep,7-Oct,14-Nov,20-Nov,,,27-Sep,7-Oct,14-Nov,20-Nov,30-Jul,4-Aug,24-Aug,9-Sep
+Virginia,VA,240,5,28,Soybean/Oats,Soybean,Oats,,,5-May,15-May,3-Jul,9-Jul,4-Oct,16-Oct,28-Nov,4-Dec,,,4-Oct,16-Oct,28-Nov,4-Dec,28-May,9-Jun,3-Jul,20-Jul
+Washington,WA,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,15-Jul,1-Aug,30-Aug,10-Sep
+West Virginia,WV,240,5,28,Soybean/Oats,Soybean,Oats,,,5-May,10-May,30-Jun,5-Jul,25-Sep,5-Oct,30-Nov,1-Dec,,,25-Sep,5-Oct,30-Nov,1-Dec,9-Jun,16-Jun,5-Jul,12-Jul
+Wisconsin,WI,240,5,28,Soybean/Oats,Soybean,Oats,,,7-May,12-May,5-Jun,14-Jun,29-Sep,4-Oct,29-Oct,8-Nov,,,29-Sep,4-Oct,29-Oct,8-Nov,22-Jul,28-Jul,24-Aug,30-Aug
+Wyoming,WY,240,5,28,Soybean/Oats,Soybean,Oats,,,,,,,,,,,,,,,,,18-Jul,23-Jul,1-Sep,15-Sep
+Alabama,AL,241,1,5,Corn/Soybean,Corn,Soybean,,,16-Mar,26-Mar,26-Apr,19-May,2-Aug,11-Aug,20-Sep,15-Oct,,,2-Aug,11-Aug,20-Sep,15-Oct,3-Sep,28-Oct,28-Nov,15-Dec
+Arizona,AZ,241,1,5,Corn/Soybean,Corn,Soybean,,,11-Mar,2-Apr,16-May,2-Jun,1-Sep,1-Oct,1-Nov,1-Dec,,,1-Sep,1-Oct,1-Nov,1-Dec,,,,
+Arkansas,AR,241,1,5,Corn/Soybean,Corn,Soybean,,,27-Mar,2-Apr,27-Apr,10-May,16-Aug,23-Aug,23-Sep,6-Oct,,,16-Aug,23-Aug,23-Sep,6-Oct,10-Sep,29-Sep,13-Nov,26-Nov
+California,CA,241,1,5,Corn/Soybean,Corn,Soybean,,,16-Mar,2-Apr,2-Jul,16-Jul,1-Sep,1-Oct,1-Nov,15-Nov,,,1-Sep,1-Oct,1-Nov,15-Nov,,,,
+Colorado,CO,241,1,5,Corn/Soybean,Corn,Soybean,,,20-Apr,29-Apr,21-May,30-May,28-Sep,8-Oct,13-Nov,22-Nov,,,28-Sep,8-Oct,13-Nov,22-Nov,20-Sep,1-Oct,1-Nov,15-Nov
+Connecticut,CT,241,1,5,Corn/Soybean,Corn,Soybean,,,6-May,13-May,10-Jun,23-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,5-Sep,14-Sep,16-Oct,26-Oct,,,,
+Delaware,DE,241,1,5,Corn/Soybean,Corn,Soybean,,,13-Apr,1-May,17-May,29-May,10-Sep,20-Sep,15-Oct,5-Nov,,,10-Sep,20-Sep,15-Oct,5-Nov,5-Oct,22-Oct,14-Nov,25-Nov
+Florida,FL,241,1,5,Corn/Soybean,Corn,Soybean,,,2-Mar,16-Mar,26-Apr,6-May,15-Jul,1-Aug,10-Sep,1-Oct,,,15-Jul,1-Aug,10-Sep,1-Oct,1-Oct,15-Oct,25-Nov,1-Dec
+Georgia,GA,241,1,5,Corn/Soybean,Corn,Soybean,,,15-Mar,23-Mar,22-Apr,5-May,6-Aug,16-Aug,22-Sep,7-Oct,,,6-Aug,16-Aug,22-Sep,7-Oct,11-Oct,25-Oct,8-Dec,17-Dec
+Idaho,ID,241,1,5,Corn/Soybean,Corn,Soybean,,,22-Apr,6-May,27-May,10-Jun,29-Sep,20-Oct,10-Nov,24-Nov,,,29-Sep,20-Oct,10-Nov,24-Nov,,,,
+Illinois,IL,241,1,5,Corn/Soybean,Corn,Soybean,,,15-Apr,22-Apr,24-May,6-Jun,14-Sep,23-Sep,5-Nov,20-Nov,,,14-Sep,23-Sep,5-Nov,20-Nov,19-Sep,26-Sep,26-Oct,7-Nov
+Indiana,IN,241,1,5,Corn/Soybean,Corn,Soybean,,,21-Apr,2-May,2-Jun,11-Jun,15-Sep,1-Oct,10-Nov,25-Nov,,,15-Sep,1-Oct,10-Nov,25-Nov,20-Sep,1-Oct,1-Nov,10-Nov
+Iowa,IA,241,1,5,Corn/Soybean,Corn,Soybean,,,21-Apr,26-Apr,19-May,28-May,21-Sep,5-Oct,9-Nov,21-Nov,,,21-Sep,5-Oct,9-Nov,21-Nov,21-Sep,28-Sep,20-Oct,31-Oct
+Kansas,KS,241,1,5,Corn/Soybean,Corn,Soybean,,,6-Apr,16-Apr,16-May,26-May,1-Sep,10-Sep,25-Oct,10-Nov,,,1-Sep,10-Sep,25-Oct,10-Nov,20-Sep,1-Oct,1-Nov,15-Nov
+Kentucky,KY,241,1,5,Corn/Soybean,Corn,Soybean,,,7-Apr,15-Apr,25-May,9-Jun,1-Sep,9-Sep,24-Oct,10-Nov,,,1-Sep,9-Sep,24-Oct,10-Nov,25-Sep,10-Oct,14-Nov,25-Nov
+Louisana,LA,241,1,5,Corn/Soybean,Corn,Soybean,,,14-Mar,20-Mar,9-Apr,17-Apr,31-Jul,9-Aug,5-Sep,12-Sep,,,31-Jul,9-Aug,5-Sep,12-Sep,28-Aug,3-Sep,25-Oct,31-Oct
+Maine,ME,241,1,5,Corn/Soybean,Corn,Soybean,,,6-May,13-May,10-Jun,23-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,5-Sep,14-Sep,16-Oct,26-Oct,,,,
+Maryland,MD,241,1,5,Corn/Soybean,Corn,Soybean,,,21-Apr,1-May,21-May,8-Jun,9-Sep,22-Sep,22-Oct,17-Nov,,,9-Sep,22-Sep,22-Oct,17-Nov,5-Oct,18-Oct,15-Nov,1-Dec
+Massachusetts,MA,241,1,5,Corn/Soybean,Corn,Soybean,,,6-May,13-May,10-Jun,23-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,5-Sep,14-Sep,16-Oct,26-Oct,27-Sep,7-Oct,14-Nov,20-Nov
+Michigan,MI,241,1,5,Corn/Soybean,Corn,Soybean,,,22-Apr,2-May,28-May,7-Jun,5-Sep,10-Oct,25-Nov,10-Dec,,,5-Sep,10-Oct,25-Nov,10-Dec,25-Sep,3-Oct,3-Nov,13-Nov
+Minnesota,MN,241,1,5,Corn/Soybean,Corn,Soybean,,,23-Apr,27-Apr,20-May,30-May,27-Sep,8-Oct,8-Nov,23-Nov,,,27-Sep,8-Oct,8-Nov,23-Nov,20-Sep,27-Sep,20-Oct,31-Oct
+Mississippi,MS,241,1,5,Corn/Soybean,Corn,Soybean,,,18-Mar,25-Mar,28-Apr,5-May,11-Aug,23-Aug,23-Sep,7-Oct,,,11-Aug,23-Aug,23-Sep,7-Oct,10-Sep,13-Sep,31-Oct,9-Nov
+Missouri,MO,241,1,5,Corn/Soybean,Corn,Soybean,,,4-Apr,12-Apr,28-May,13-Jun,29-Aug,8-Sep,3-Nov,22-Dec,,,29-Aug,8-Sep,3-Nov,22-Dec,25-Sep,3-Oct,8-Nov,23-Nov
+Montana,MT,241,1,5,Corn/Soybean,Corn,Soybean,,,27-Apr,5-May,29-May,5-Jun,4-Oct,25-Oct,3-Dec,8-Dec,,,4-Oct,25-Oct,3-Dec,8-Dec,,,,
+Nebraska,NE,241,1,5,Corn/Soybean,Corn,Soybean,,,20-Apr,28-Apr,16-May,22-May,18-Sep,4-Oct,10-Nov,20-Nov,,,18-Sep,4-Oct,10-Nov,20-Nov,23-Sep,29-Sep,24-Oct,2-Nov
+Nevada,NV,241,1,5,Corn/Soybean,Corn,Soybean,,,16-Apr,1-May,21-May,6-Jun,25-Sep,10-Oct,30-Oct,10-Dec,,,25-Sep,10-Oct,30-Oct,10-Dec,,,,
+New Hampshire,NH,241,1,5,Corn/Soybean,Corn,Soybean,,,6-May,13-May,10-Jun,23-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,5-Sep,14-Sep,16-Oct,26-Oct,,,,
+New Jersey,NJ,241,1,5,Corn/Soybean,Corn,Soybean,,,16-Apr,2-May,21-May,16-Jun,25-Sep,10-Oct,1-Nov,15-Nov,,,25-Sep,10-Oct,1-Nov,15-Nov,1-Oct,20-Oct,10-Nov,15-Nov
+New Mexico,NM,241,1,5,Corn/Soybean,Corn,Soybean,,,16-Apr,21-Apr,11-May,21-May,25-Sep,1-Oct,30-Oct,20-Nov,,,25-Sep,1-Oct,30-Oct,20-Nov,,,,
+New York,NY,241,1,5,Corn/Soybean,Corn,Soybean,,,21-Apr,5-May,14-Jun,21-Jun,7-Oct,14-Oct,14-Nov,25-Nov,,,7-Oct,14-Oct,14-Nov,25-Nov,27-Sep,7-Oct,14-Nov,20-Nov
+North Carolina,NC,241,1,5,Corn/Soybean,Corn,Soybean,,,2-Apr,11-Apr,26-Apr,16-May,25-Aug,10-Sep,10-Oct,1-Nov,,,25-Aug,10-Sep,10-Oct,1-Nov,10-Oct,10-Nov,5-Dec,20-Dec
+North Dakota,ND,241,1,5,Corn/Soybean,Corn,Soybean,,,27-Apr,3-May,29-May,5-Jun,28-Sep,8-Oct,19-Nov,6-Dec,,,28-Sep,8-Oct,19-Nov,6-Dec,17-Sep,24-Sep,21-Oct,5-Nov
+Ohio,OH,241,1,5,Corn/Soybean,Corn,Soybean,,,19-Apr,25-Apr,25-May,31-May,27-Sep,11-Oct,20-Nov,1-Dec,,,27-Sep,11-Oct,20-Nov,1-Dec,23-Sep,30-Sep,31-Oct,12-Nov
+Oklahoma,OK,241,1,5,Corn/Soybean,Corn,Soybean,,,22-Mar,3-Apr,9-May,18-May,20-Aug,29-Aug,9-Oct,20-Oct,,,20-Aug,29-Aug,9-Oct,20-Oct,9-Sep,22-Sep,20-Nov,1-Dec
+Oregon,OR,241,1,5,Corn/Soybean,Corn,Soybean,,,26-Mar,26-Apr,6-Jun,16-Jun,10-Oct,20-Oct,20-Nov,5-Dec,,,10-Oct,20-Oct,20-Nov,5-Dec,,,,
+Pennsylvannia,PA,241,1,5,Corn/Soybean,Corn,Soybean,,,1-May,11-May,26-May,16-Jun,25-Sep,15-Oct,20-Nov,10-Dec,,,25-Sep,15-Oct,20-Nov,10-Dec,5-Oct,20-Oct,10-Nov,30-Nov
+Rhode Island,RI,241,1,5,Corn/Soybean,Corn,Soybean,,,6-May,13-May,10-Jun,23-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,5-Sep,14-Sep,16-Oct,26-Oct,,,,
+South Carolina,SC,241,1,5,Corn/Soybean,Corn,Soybean,,,11-Mar,21-Mar,21-Apr,16-May,25-Jul,20-Aug,25-Sep,10-Oct,,,25-Jul,20-Aug,25-Sep,10-Oct,20-Oct,10-Nov,10-Dec,30-Dec
+South Dakota,SD,241,1,5,Corn/Soybean,Corn,Soybean,,,27-Apr,3-May,28-May,11-Jun,24-Sep,6-Oct,16-Nov,3-Dec,,,24-Sep,6-Oct,16-Nov,3-Dec,22-Sep,28-Sep,24-Oct,3-Nov
+Tennessee,TN,241,1,5,Corn/Soybean,Corn,Soybean,,,2-Apr,6-Apr,11-May,26-May,25-Aug,1-Aug,10-Oct,30-Oct,,,25-Aug,1-Aug,10-Oct,30-Oct,25-Sep,5-Oct,20-Nov,30-Nov
+Texas,TX,241,1,5,Corn/Soybean,Corn,Soybean,,,2-Mar,9-Mar,8-May,18-May,18-Jul,1-Aug,11-Oct,8-Nov,,,18-Jul,1-Aug,11-Oct,8-Nov,18-Aug,22-Aug,17-Oct,7-Nov
+Utah,UT,241,1,5,Corn/Soybean,Corn,Soybean,,,16-Apr,1-May,21-May,6-Jun,25-Sep,10-Oct,30-Oct,10-Dec,,,25-Sep,10-Oct,30-Oct,10-Dec,,,,
+Vermont,VT,241,1,5,Corn/Soybean,Corn,Soybean,,,6-May,13-May,10-Jun,23-Jun,5-Sep,14-Sep,16-Oct,26-Oct,,,5-Sep,14-Sep,16-Oct,26-Oct,27-Sep,7-Oct,14-Nov,20-Nov
+Virginia,VA,241,1,5,Corn/Soybean,Corn,Soybean,,,6-Apr,12-Apr,21-May,30-May,31-Aug,6-Sep,28-Oct,9-Nov,,,31-Aug,6-Sep,28-Oct,9-Nov,4-Oct,16-Oct,28-Nov,4-Dec
+Washington,WA,241,1,5,Corn/Soybean,Corn,Soybean,,,11-Apr,21-Apr,21-May,2-Jun,25-Sep,5-Oct,15-Nov,25-Nov,,,25-Sep,5-Oct,15-Nov,25-Nov,,,,
+West Virginia,WV,241,1,5,Corn/Soybean,Corn,Soybean,,,21-Apr,2-May,6-Jun,21-Jun,15-Sep,30-Sep,20-Nov,1-Dec,,,15-Sep,30-Sep,20-Nov,1-Dec,25-Sep,5-Oct,30-Nov,1-Dec
+Wisconsin,WI,241,1,5,Corn/Soybean,Corn,Soybean,,,27-Apr,3-May,28-May,5-Jun,2-Oct,14-Oct,17-Nov,28-Nov,,,2-Oct,14-Oct,17-Nov,28-Nov,29-Sep,4-Oct,29-Oct,8-Nov
+Wyoming,WY,241,1,5,Corn/Soybean,Corn,Soybean,,,25-Apr,4-May,22-May,7-Jun,5-Oct,18-Oct,24-Nov,10-Dec,,,5-Oct,18-Oct,24-Nov,10-Dec,,,,
+Alabama,AL,254,21,5,Barley/Soybean,Barley,Soybean,,,2-Oct,21-Oct,21-Nov,12-Dec,1-May,25-May,25-Jun,1-Jul,,,1-May,25-May,25-Jun,1-Jul,3-Sep,28-Oct,28-Nov,15-Dec
+Arizona,AZ,254,21,5,Barley/Soybean,Barley,Soybean,,,10-Nov,1-Dec,30-Dec,10-Feb,10-May,30-May,20-Jun,10-Jul,,,10-May,30-May,20-Jun,10-Jul,,,,
+Arkansas,AR,254,21,5,Barley/Soybean,Barley,Soybean,,,3-Oct,13-Oct,20-Nov,1-Dec,1-Jun,6-Jun,25-Jun,2-Jul,,,1-Jun,6-Jun,25-Jun,2-Jul,10-Sep,29-Sep,13-Nov,26-Nov
+California,CA,254,21,5,Barley/Soybean,Barley,Soybean,,,15-Sep,1-Oct,15-Apr,30-Apr,15-May,4-Jun,20-Jun,15-Aug,,,15-May,4-Jun,20-Jun,15-Aug,,,,
+Colorado,CO,254,21,5,Barley/Soybean,Barley,Soybean,,,14-Mar,26-Mar,5-May,16-May,20-Jul,29-Jul,6-Sep,14-Sep,,,20-Jul,29-Jul,6-Sep,14-Sep,20-Sep,1-Oct,1-Nov,15-Nov
+Connecticut,CT,254,21,5,Barley/Soybean,Barley,Soybean,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,,,,
+Delaware,DE,254,21,5,Barley/Soybean,Barley,Soybean,,,27-Sep,9-Oct,27-Oct,10-Nov,5-Jun,12-Jun,28-Jun,3-Jul,,,5-Jun,12-Jun,28-Jun,3-Jul,5-Oct,22-Oct,14-Nov,25-Nov
+Florida,FL,254,21,5,Barley/Soybean,Barley,Soybean,,,15-Oct,15-Nov,15-Dec,30-Dec,1-May,15-May,31-May,15-Jun,,,1-May,15-May,31-May,15-Jun,1-Oct,15-Oct,25-Nov,1-Dec
+Georgia,GA,254,21,5,Barley/Soybean,Barley,Soybean,,,12-Oct,3-Nov,15-Dec,22-Dec,24-May,30-May,18-Jun,27-Jun,,,24-May,30-May,18-Jun,27-Jun,11-Oct,25-Oct,8-Dec,17-Dec
+Idaho,ID,254,21,5,Barley/Soybean,Barley,Soybean,,,24-Mar,7-Apr,5-May,26-May,28-Jul,11-Aug,8-Sep,29-Sep,,,28-Jul,11-Aug,8-Sep,29-Sep,,,,
+Illinois,IL,254,21,5,Barley/Soybean,Barley,Soybean,,,28-Sep,5-Oct,29-Oct,9-Nov,15-Jun,19-Jun,11-Jul,19-Jul,,,15-Jun,19-Jun,11-Jul,19-Jul,19-Sep,26-Sep,26-Oct,7-Nov
+Indiana,IN,254,21,5,Barley/Soybean,Barley,Soybean,,,25-Sep,1-Oct,1-Nov,5-Nov,15-Jun,25-Jun,15-Jul,25-Jul,,,15-Jun,25-Jun,15-Jul,25-Jul,20-Sep,1-Oct,1-Nov,10-Nov
+Iowa,IA,254,21,5,Barley/Soybean,Barley,Soybean,,,6-Sep,26-Sep,15-Oct,30-Oct,24-Jun,6-Jul,22-Jul,7-Aug,,,24-Jun,6-Jul,22-Jul,7-Aug,21-Sep,28-Sep,20-Oct,31-Oct
+Kansas,KS,254,21,5,Barley/Soybean,Barley,Soybean,,,15-Sep,1-Oct,15-Oct,1-Nov,20-Jun,15-Jun,28-Jun,5-Jul,,,20-Jun,15-Jun,28-Jun,5-Jul,20-Sep,1-Oct,1-Nov,15-Nov
+Kentucky,KY,254,21,5,Barley/Soybean,Barley,Soybean,,,27-Sep,6-Oct,12-Nov,21-Nov,10-Jun,15-Jun,4-Jul,10-Jul,,,10-Jun,15-Jun,4-Jul,10-Jul,25-Sep,10-Oct,14-Nov,25-Nov
+Louisana,LA,254,21,5,Barley/Soybean,Barley,Soybean,,,16-Oct,27-Oct,1-Dec,7-Dec,14-May,21-May,7-Jun,14-Jun,,,14-May,21-May,7-Jun,14-Jun,28-Aug,3-Sep,25-Oct,31-Oct
+Maine,ME,254,21,5,Barley/Soybean,Barley,Soybean,,,4-May,9-May,30-May,6-Jun,9-Aug,18-Aug,18-Sep,30-Sep,,,9-Aug,18-Aug,18-Sep,30-Sep,,,,
+Maryland,MD,254,21,5,Barley/Soybean,Barley,Soybean,,,17-Sep,1-Oct,21-Oct,7-Nov,12-Jun,16-Jun,28-Jun,8-Jul,,,12-Jun,16-Jun,28-Jun,8-Jul,5-Oct,18-Oct,15-Nov,1-Dec
+Massachusetts,MA,254,21,5,Barley/Soybean,Barley,Soybean,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,27-Sep,7-Oct,14-Nov,20-Nov
+Michigan,MI,254,21,5,Barley/Soybean,Barley,Soybean,,,10-Apr,13-Apr,20-May,27-May,26-Jul,3-Aug,19-Aug,31-Aug,,,26-Jul,3-Aug,19-Aug,31-Aug,25-Sep,3-Oct,3-Nov,13-Nov
+Minnesota,MN,254,21,5,Barley/Soybean,Barley,Soybean,,,15-Apr,23-Apr,25-May,3-Jun,26-Jul,1-Aug,3-Sep,18-Sep,,,26-Jul,1-Aug,3-Sep,18-Sep,20-Sep,27-Sep,20-Oct,31-Oct
+Mississippi,MS,254,21,5,Barley/Soybean,Barley,Soybean,,,26-Sep,10-Oct,18-Nov,30-Nov,28-May,2-Jun,21-Jun,1-Jul,,,28-May,2-Jun,21-Jun,1-Jul,10-Sep,13-Sep,31-Oct,9-Nov
+Missouri,MO,254,21,5,Barley/Soybean,Barley,Soybean,,,24-Sep,4-Oct,10-Nov,27-Nov,11-Jun,16-Jun,10-Jul,18-Jul,,,11-Jun,16-Jun,10-Jul,18-Jul,25-Sep,3-Oct,8-Nov,23-Nov
+Montana,MT,254,21,5,Barley/Soybean,Barley,Soybean,,,3-Apr,13-Apr,11-May,20-May,27-Jul,3-Aug,2-Sep,10-Sep,,,27-Jul,3-Aug,2-Sep,10-Sep,,,,
+Nebraska,NE,254,21,5,Barley/Soybean,Barley,Soybean,,,3-Sep,9-Sep,2-Oct,12-Oct,28-Jun,3-Jul,21-Jul,27-Jul,,,28-Jun,3-Jul,21-Jul,27-Jul,23-Sep,29-Sep,24-Oct,2-Nov
+Nevada,NV,254,21,5,Barley/Soybean,Barley,Soybean,,,5-Sep,15-Sep,10-Oct,20-Oct,15-Jul,20-Jul,20-Aug,25-Aug,,,15-Jul,20-Jul,20-Aug,25-Aug,,,,
+New Hampshire,NH,254,21,5,Barley/Soybean,Barley,Soybean,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,,,,
+New Jersey,NJ,254,21,5,Barley/Soybean,Barley,Soybean,,,30-Sep,5-Oct,20-Oct,1-Nov,25-Jun,1-Jul,10-Jul,15-Jul,,,25-Jun,1-Jul,10-Jul,15-Jul,1-Oct,20-Oct,10-Nov,15-Nov
+New Mexico,NM,254,21,5,Barley/Soybean,Barley,Soybean,,,25-Aug,10-Sep,24-Sep,15-Oct,15-Jun,20-Jun,10-Jul,15-Jul,,,15-Jun,20-Jun,10-Jul,15-Jul,,,,
+New York,NY,254,21,5,Barley/Soybean,Barley,Soybean,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,27-Sep,7-Oct,14-Nov,20-Nov
+North Carolina,NC,254,21,5,Barley/Soybean,Barley,Soybean,,,25-Sep,15-Oct,10-Nov,1-Dec,25-May,10-Jun,30-Jun,25-Jul,,,25-May,10-Jun,30-Jun,25-Jul,10-Oct,10-Nov,5-Dec,20-Dec
+North Dakota,ND,254,21,5,Barley/Soybean,Barley,Soybean,,,19-Apr,26-Apr,25-May,3-Jun,28-Jul,4-Aug,3-Sep,16-Sep,,,28-Jul,4-Aug,3-Sep,16-Sep,17-Sep,24-Sep,21-Oct,5-Nov
+Ohio,OH,254,21,5,Barley/Soybean,Barley,Soybean,,,26-Sep,2-Oct,25-Oct,6-Nov,28-Jun,2-Jul,17-Jul,20-Jul,,,28-Jun,2-Jul,17-Jul,20-Jul,23-Sep,30-Sep,31-Oct,12-Nov
+Oklahoma,OK,254,21,5,Barley/Soybean,Barley,Soybean,,,3-Sep,15-Sep,22-Oct,6-Nov,1-Jun,6-Jun,27-Jun,3-Jul,,,1-Jun,6-Jun,27-Jun,3-Jul,9-Sep,22-Sep,20-Nov,1-Dec
+Oregon,OR,254,21,5,Barley/Soybean,Barley,Soybean,,,1-Mar,30-Mar,15-May,25-May,10-Jul,21-Jul,1-Sep,8-Sep,,,10-Jul,21-Jul,1-Sep,8-Sep,,,,
+Pennsylvannia,PA,254,21,5,Barley/Soybean,Barley,Soybean,,,25-Aug,15-Sep,15-Oct,25-Oct,20-Jun,25-Jun,20-Jul,10-Aug,,,20-Jun,25-Jun,20-Jul,10-Aug,5-Oct,20-Oct,10-Nov,30-Nov
+Rhode Island,RI,254,21,5,Barley/Soybean,Barley,Soybean,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,,,,
+South Carolina,SC,254,21,5,Barley/Soybean,Barley,Soybean,,,25-Sep,11-Nov,15-Dec,31-Dec,26-May,6-Jun,25-Jun,1-Jul,,,26-May,6-Jun,25-Jun,1-Jul,20-Oct,10-Nov,10-Dec,30-Dec
+South Dakota,SD,254,21,5,Barley/Soybean,Barley,Soybean,,,6-Apr,14-Apr,17-May,24-May,20-Jul,27-Jul,19-Aug,27-Aug,,,20-Jul,27-Jul,19-Aug,27-Aug,22-Sep,28-Sep,24-Oct,3-Nov
+Tennessee,TN,254,21,5,Barley/Soybean,Barley,Soybean,,,25-Sep,10-Oct,20-Nov,30-Nov,5-Jun,10-Jun,30-Jun,5-Jul,,,5-Jun,10-Jun,30-Jun,5-Jul,25-Sep,5-Oct,20-Nov,30-Nov
+Texas,TX,254,21,5,Barley/Soybean,Barley,Soybean,,,4-Sep,12-Sep,3-Nov,23-Nov,25-May,1-Jun,2-Jul,12-Jul,,,25-May,1-Jun,2-Jul,12-Jul,18-Aug,22-Aug,17-Oct,7-Nov
+Utah,UT,254,21,5,Barley/Soybean,Barley,Soybean,,,20-Mar,1-Apr,20-Apr,10-May,15-Jul,25-Jul,15-Aug,1-Sep,,,15-Jul,25-Jul,15-Aug,1-Sep,,,,
+Vermont,VT,254,21,5,Barley/Soybean,Barley,Soybean,,,1-Apr,7-Apr,29-Apr,29-May,1-Aug,7-Aug,27-Aug,12-Sep,,,1-Aug,7-Aug,27-Aug,12-Sep,27-Sep,7-Oct,14-Nov,20-Nov
+Virginia,VA,254,21,5,Barley/Soybean,Barley,Soybean,,,18-Sep,26-Sep,29-Oct,8-Nov,28-May,6-Jun,25-Jun,1-Jul,,,28-May,6-Jun,25-Jun,1-Jul,4-Oct,16-Oct,28-Nov,4-Dec
+Washington,WA,254,21,5,Barley/Soybean,Barley,Soybean,,,20-Mar,30-Mar,5-May,10-May,25-Jul,1-Aug,30-Aug,5-Sep,,,25-Jul,1-Aug,30-Aug,5-Sep,,,,
+West Virginia,WV,254,21,5,Barley/Soybean,Barley,Soybean,,,5-Sep,15-Sep,5-Nov,10-Nov,10-Jun,25-Jun,25-Jul,5-Aug,,,10-Jun,25-Jun,25-Jul,5-Aug,25-Sep,5-Oct,30-Nov,1-Dec
+Wisconsin,WI,254,21,5,Barley/Soybean,Barley,Soybean,,,5-Apr,10-Apr,20-Apr,30-Apr,1-Aug,5-Aug,15-Aug,20-Aug,,,1-Aug,5-Aug,15-Aug,20-Aug,29-Sep,4-Oct,29-Oct,8-Nov
+Wyoming,WY,254,21,5,Barley/Soybean,Barley,Soybean,,,18-Mar,26-Mar,2-May,2-Jun,24-Jul,5-Aug,26-Aug,17-Sep,,,24-Jul,5-Aug,26-Aug,17-Sep,,,,

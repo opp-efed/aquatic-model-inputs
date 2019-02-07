@@ -1,25 +1,13 @@
 .idea
 # Data files
-bin/Input/LakeMorphometry/*
-bin/Input/MetData/*
-bin/Input/Political/*
-bin/Intermediate/Combinations/*
-bin/Intermediate/CustomNHD/*
-bin/Intermediate/CustomSSURGO/*
-bin/Intermediate/ProcessedSoils/PWC/*
-bin/Intermediate/ProcessedSoils/SAM_Aggregated/*
-bin/Intermediate/ProcessedSoils/SAM_Unaggregated/*
-bin/Intermediate/ProjectedLayers/CDL/*
-bin/Intermediate/ProjectedLayers/NHD_Catchments/*
-bin/Intermediate/ProjectedLayers/SSURGO/*
-bin/Intermediate/ProjectedLayers/WeatherGrid/*
-bin/Intermediate/Weather/*
+bin/Input/*
+bin/Intermediate/*
 bin/Production/HydroFiles/*
+bin/Production/PwcMetfiles/*
+bin/Production/PwcScenarios/*
 bin/Production/RecipeFiles/*
 bin/Production/ScenarioMatrices/*
 bin/Production/WeatherFiles/*
-bin/Production/PwcScenarios/*
-bin/Production/PwcMetfiles/*
 
 dev/*
 

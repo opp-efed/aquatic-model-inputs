@@ -1,6 +1,9 @@
 import numpy as np
 from collections import OrderedDict
 
+# Raster cell size
+cell_size = 30
+
 # Hydrologic soil groups
 hydro_soil_groups = ['A', 'A/D', 'B', 'B/D', 'C', 'C/D', 'D']
 hsg_cultivated = ['A', 'A', 'B', 'B', 'C', 'C', 'D']

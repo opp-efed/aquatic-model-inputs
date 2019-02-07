@@ -1,6 +1,8 @@
-import os
-import numpy as np
 import datetime as dt
+import os
+import re
+
+import numpy as np
 import pandas as pd
 
 from paths import uslels_path, fields_and_qc_path
@@ -60,13 +62,21 @@ class FieldMatrix(object):
             setattr(self, condition, True)
 
     def fetch_field(self, item, field):
+        def extract_num(field_name):
+            match = re.search("(\d{1,2})$", field_name)
+            if match:
+                return float(match.group(1)) / 100.
+            else:
+                return 0.
+
         for column in 'data_source', 'source_table':
             if item in self.matrix[column].values:
                 return self.matrix[self.matrix[column] == item][field].tolist()
         if item in self.matrix.columns:
             selected = self.matrix[self.matrix[item] > 0]
-            if selected[item].max() > 1:
-                selected = selected.sort_values(item)
+            if selected[item].max() > 1:  # field order is given
+                selected['order'] = selected[item] + np.array([extract_num(f) for f in selected[field]])
+                selected = selected.sort_values('order')
             return selected[field].tolist()
         else:
             print("Unrecognized sub-table '{}'".format(item))
@@ -209,6 +219,68 @@ class CropMatrix(pd.DataFrame):
         return self.matrix['cultivated_' + mode].unique()
 
 
+class WeatherCube(object):
+    def __init__(self, weather_path, region):
+        self.path = weather_path.format(region)
+        self.storage_path = os.path.join(self.path, 'weather_cube.dat')
+        self.points_path = os.path.join(self.path, 'weather_grid.csv')
+        self.key_path = os.path.join(self.path, "key.csv")
+
+        self._points = None
+        self._dates = None
+
+        self.years, self.columns, self.points = self.load_key()
+
+    def fetch(self, point_num):
+        array = np.memmap(self.storage_path, mode='r', dtype=np.float32, shape=self.shape)
+        index = self.get_index(point_num)
+        if index is not None:
+            out_array = array[self.get_index(point_num)]
+            del array
+            return pd.DataFrame(data=out_array.T, columns=self.columns, index=self.dates)
+        else:
+            del array
+
+    def write(self, point, data):
+        array = np.memmap(self.storage_path, mode='r+', dtype=np.float32, shape=self.shape)
+        index = self.get_index(point)
+        if index is not None:
+            array[index] = data
+        del array
+
+    def get_index(self, point):
+        try:
+            return np.where(self.points.index == point)[0][0]
+        except IndexError:
+            print("Point {} not found in array".format(point))
+            return None
+
+    def load_key(self):
+        with open(self.key_path) as f:
+            years = list(map(int, next(f).split(",")))
+            cols = next(f).split(",")
+        points = pd.read_csv(self.points_path, index_col=[0])
+        return years, cols, points
+
+    @property
+    def dates(self):
+        if self._dates is None:
+            self._dates = pd.date_range(self.start_date, self.end_date)
+        return self._dates
+
+    @property
+    def start_date(self):
+        return dt.date(self.years[0], 1, 1)
+
+    @property
+    def end_date(self):
+        return dt.date(self.years[-1], 12, 31)
+
+    @property
+    def shape(self):
+        return (self.points.shape[0], len(self.columns), (self.end_date - self.start_date).days + 1)
+
+
 def read_gdb(dbf_file, table_name, input_fields=None):
     """Reads the contents of a dbf table """
     import ogr
@@ -268,3 +340,12 @@ crops = CropMatrix()
 # See Table 2 in SAM Scenario Input Parameter documentation. Only lengths up to 150 ft are included in the matrix.
 # Source: PRZM 3 manual (Carousel et al, 2005).
 uslels_matrix = pd.read_csv(uslels_path, index_col=0).astype(np.float32)
+
+
+def calculate_uslels(df):
+    row = (uslels_matrix.index.values.astype(np.int32) < df.slope).sum()
+    col = (uslels_matrix.columns.values.astype(np.int32) < df.slope_length).sum()
+    try:
+        return uslels_matrix.iloc[row, col]
+    except IndexError:
+        return np.nan

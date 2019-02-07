@@ -1,7 +1,10 @@
 import os
+from collections import defaultdict
+
 import arcpy
 import numpy as np
-from collections import defaultdict
+
+from parameters import vpus_nhd
 
 
 def overlay_rasters(*rasters):
@@ -29,9 +32,9 @@ def save_table(table, outfile):
 
 
 def main():
-    from parameters import nhd_regions, states_nhd
+    from parameters import states_nhd
 
-    from paths import projected_nhd_path, projected_soil_path, projected_met_path, projected_cdl_path, combo_path
+    from paths import nhd_raster_path, soil_raster_path, weather_raster_path, cdl_path, combo_path
 
     years = [2010]  # range(2010, 2016)
     arcpy.CheckOutExtension("Spatial")
@@ -43,20 +46,19 @@ def main():
         os.makedirs(os.path.dirname(combo_path))
 
     # Initialize weather raster
-    weather_raster = projected_met_path
-
     nhd_regions = ['07']
 
     # Iterate through year/region combinations
-    for year in years:
-        cdl_raster = projected_cdl_path.format(year)
-        for region in nhd_regions:
-            nhd_raster = projected_nhd_path.format(region)
+
+    for region in nhd_regions:
+        nhd_raster = nhd_raster_path.format(vpus_nhd[region], region)
+        for year in years:
+            cdl_raster = cdl_path.format(region, year)
             master_array = np.zeros((0, 5))
             for state in states_nhd[region]:
                 print("Performing overlay for {}, {}, {}".format(year, region, state))
-                ssurgo_raster = projected_soil_path.format(state.lower())
-                table = overlay_rasters(nhd_raster, weather_raster, cdl_raster, ssurgo_raster)
+                ssurgo_raster = soil_raster_path.format(state.lower())
+                table = overlay_rasters(nhd_raster, weather_raster_path, cdl_raster, ssurgo_raster)
                 master_array = np.concatenate((master_array, table))
             out_array = condense_array(master_array, cell_size)
             save_table(out_array, combo_path.format(region, year))

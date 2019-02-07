@@ -8,9 +8,10 @@ intermediate_dir = os.path.join(root_dir, "Intermediate")
 production_dir = os.path.join(root_dir, "Production")
 staged_dir = os.path.join(root_dir, "Staged")
 scratch_dir = os.path.join(root_dir, "Scratch")
+tower_input = r"C:\Users\Admin\Documents\NationalData"  # temporary
 
 # Raw input data
-nhd_path = os.path.join(input_dir, "NHDPlusV21", "NHDPlus{}", "NHDPlus{}")  # vpu, region
+nhd_path = os.path.join(tower_input, "NHDPlusV21", "NHDPlus{}", "NHDPlus{}")  # vpu, region
 soil_path = os.path.join(input_dir, "SSURGO", "gSSURGO_{}.gdb")  # state
 cdl_path = os.path.join(input_dir, "CDL", "r{}_{}")  # region, year
 weather_path = os.path.join(input_dir, "WeatherFiles", "region{}")  # region
@@ -36,7 +37,7 @@ projected_layers_path = os.path.join(scratch_dir, "{}.tif")
 # Table paths
 crop_params_path = os.path.join(table_dir, "cdl_params.csv")
 genclass_params_path = os.path.join(table_dir, "genclass_params.csv")
-crop_dates_path = os.path.join(table_dir, "dummy_dates_092818.csv")
+crop_dates_path = os.path.join(table_dir, "crop_dates_110318.csv")
 crop_group_path = os.path.join(table_dir, "crop_groups_082418.csv")
 met_attributes_path = os.path.join(table_dir, "met_params.csv")
 fields_and_qc_path = os.path.join(table_dir, "fields_and_qc.csv")
@@ -54,11 +55,15 @@ hydro_file_path = os.path.join(production_dir, "HydroFiles", "region_{}_{{}}.npz
 recipe_path = os.path.join(production_dir, "RecipeFiles", "r{}_{}.npz")  # region, year
 scenario_matrix_path = os.path.join(production_dir, "ScenarioMatrices", "{}", "r{}.csv")  # mode, region
 
+# PWC Selections
+pwc_scenario_path = os.path.join(production_dir, "PwcScenarios", "r{}_{}_{}.csv")
+pwc_metfile_path = os.path.join(production_dir, "PwcMetfiles", "s{}.csv")
+
 # Remote production data
 remote_metfile_path = os.altsep.join(("WeatherArray", "region{}"))
 remote_hydrofile_path = os.altsep.join(("HydroFiles",))
 remote_recipe_path = os.altsep.join(("Recipes", "region_{}_{}.npz"))
 remote_scenario_path = os.altsep.join(("Scenarios", "region_{}.csv"))
 
-for i in range(0, 2000000, 500000):
-    print(i, i + 500000)
+# Temporary
+condensed_soil_path = r"C:\Users\Admin\Documents\NationalData\CustomSSURGO"
