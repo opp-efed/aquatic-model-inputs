@@ -2,14 +2,9 @@
 # Data files
 bin/Input/*
 bin/Intermediate/*
-bin/Production/HydroFiles/*
-bin/Production/PwcMetfiles/*
-bin/Production/PwcScenarios/*
-bin/Production/RecipeFiles/*
-bin/Production/ScenarioMatrices/*
-bin/Production/WeatherFiles/*
-
-dev/*
+bin/Production/*
+bin/Tables/*
+dev
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

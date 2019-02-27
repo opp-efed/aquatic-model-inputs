@@ -18,6 +18,7 @@ class FieldMatrix(object):
         self.extended_monthly = False
         self.depth_weighted = False
         self.horizons_expanded = False
+        self.double_crop = False
         self._qc_table = None
         self._convert = None
 
@@ -29,9 +30,11 @@ class FieldMatrix(object):
             data_types = self.matrix.set_index(index_col).loc[fields].data_type.values
         return np.array(list(map(eval, data_types)))
 
-    def expand(self, mode='depth'):
+    def expand(self, mode='depth', n_horizons=None):
 
         from parameters import depth_bins, erom_months, max_horizons
+        if n_horizons is not None:
+            max_horizons = n_horizons
         try:
             condition, select_field, numbers = \
                 {'depth': ('depth_weighted', 'depth_weight', depth_bins),
@@ -39,13 +42,15 @@ class FieldMatrix(object):
                  'monthly': ('extended_monthly', 'monthly', erom_months)}[mode]
 
         except KeyError as e:
-            message = "Invalid expansion mode '{}' specified: must be in ('depth', 'horizon', 'monthly')".format(mode)
+            message = "Invalid expansion mode '{}' specified: must be in ('depth', 'horizon', 'monthly')".format(
+                mode)
             raise Exception(message) from e
 
         # Test to make sure it hasn't already been done
         if not getattr(self, condition):
 
             # Find each row that applies, duplicate, and append to the matrix
+            self.matrix[condition] = 0
             new_rows = []
             for _, row in self.matrix[self.matrix[select_field] == 1].iterrows():
                 for i in numbers:
@@ -54,9 +59,11 @@ class FieldMatrix(object):
                     new_row[condition] = 1
                     new_rows.append(new_row)
 
+            new_rows = pd.concat(new_rows, axis=1).T
+
             # Filter out the old rows and add the new ones
             self.matrix = self.matrix[~self.matrix.internal_name.isin(self.fetch(select_field))]
-            self.matrix = pd.concat([self.matrix, pd.concat(new_rows, axis=1).T], axis=0)
+            self.matrix = pd.concat([self.matrix, new_rows], axis=0)
 
             # Record that the duplication has occurred
             setattr(self, condition, True)
@@ -75,14 +82,11 @@ class FieldMatrix(object):
         if item in self.matrix.columns:
             selected = self.matrix[self.matrix[item] > 0]
             if selected[item].max() > 1:  # field order is given
-                selected['order'] = selected[item] + np.array([extract_num(f) for f in selected[field]])
+                selected.loc[:, 'order'] = selected[item] + np.array([extract_num(f) for f in selected[field]])
                 selected = selected.sort_values('order')
             return selected[field].tolist()
         else:
             print("Unrecognized sub-table '{}'".format(item))
-
-    def fetch_old(self, item):
-        return self.fetch_field(item, 'external_name')
 
     def fetch(self, item):
         return self.fetch_field(item, 'internal_name')
@@ -112,15 +116,19 @@ class FieldMatrix(object):
         qc_table = self.qc_table.loc[active_fields]
 
         # Flag missing data
+        # Note - if this fails, check for fields with no flag or fill attributes
         flags = pd.isnull(other)[qc_table.index.values].mul(qc_table.blank_flag)
 
         # Flag out-of-range data
         for test in ('general', 'range'):
             ranges = qc_table[[test + "_min", test + "_max", test + "_flag"]].dropna()
             for param, (param_min, param_max, flag) in ranges.iterrows():
-                out_of_range = (other[param] < param_min) | (other[param] > param_max)
-                if out_of_range.any():
-                    flags.loc[out_of_range, param] = np.maximum(flags.loc[out_of_range, param].values, flag)
+                try:
+                    out_of_range = (other[param] < param_min) | (other[param] > param_max)
+                    if out_of_range.any():
+                        flags.loc[out_of_range, param] = np.maximum(flags.loc[out_of_range, param].values, flag)
+                except TypeError as e:
+                    print("Can't evaluate validity of field '{}': {}".format(param, e))
 
         # Write QC file
         if outfile is not None:
@@ -190,33 +198,6 @@ class Navigator(object):
         if verbose and warning is not None:
             print(warning)
         return output[0] if len(output) == 1 else output
-
-
-class CropMatrix(pd.DataFrame):
-    def __init__(self):
-        # TODO: is it necessary to have CropParams and other internally-controlled tables in fields matrix?
-        super().__init__(self.merge_tables())
-        self._double_crops = None
-
-    @staticmethod
-    def merge_tables():
-        """ Merge all parameter tables linked to crop class """
-        from paths import crop_group_path, crop_dates_path, crop_params_path, genclass_params_path, irrigation_path
-        return pd.read_csv(crop_group_path) \
-            .merge(pd.read_csv(crop_params_path), on='cdl', how='left') \
-            .merge(pd.read_csv(crop_dates_path), on='cdl', how='left') \
-            .merge(pd.read_csv(irrigation_path), on=['cdl', 'state'], how='left') \
-            .merge(pd.read_csv(genclass_params_path), on='gen_class', how='left', suffixes=('_cdl', '_gen'))
-
-    @property
-    def double_crops(self):
-        if self._double_crops is None:
-            self._double_crops = self[~np.isnan(self.double_crop_a)].drop_duplicates(
-                ['cdl'])[['cdl', 'double_crop_a', 'double_crop_b']].astype(np.int16)
-        return self._double_crops
-
-    def cultivated(self, mode='cdl'):
-        return self.matrix['cultivated_' + mode].unique()
 
 
 class WeatherCube(object):
@@ -331,21 +312,3 @@ def read_dbf(dbf_file, fields='all'):
 
 # Initialize field matrix
 fields = FieldMatrix()
-
-# Initialize crops matrix
-crops = CropMatrix()
-
-# The Universal Soil Loss Equation (USLE) Length/Steepness (LS) Factor lookup matrix (uslels_matrix.csv)
-# USLE LS is based on the slope length (columns) and slope % (rows)
-# See Table 2 in SAM Scenario Input Parameter documentation. Only lengths up to 150 ft are included in the matrix.
-# Source: PRZM 3 manual (Carousel et al, 2005).
-uslels_matrix = pd.read_csv(uslels_path, index_col=0).astype(np.float32)
-
-
-def calculate_uslels(df):
-    row = (uslels_matrix.index.values.astype(np.int32) < df.slope).sum()
-    col = (uslels_matrix.columns.values.astype(np.int32) < df.slope_length).sum()
-    try:
-        return uslels_matrix.iloc[row, col]
-    except IndexError:
-        return np.nan

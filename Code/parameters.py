@@ -1,6 +1,13 @@
 import numpy as np
 from collections import OrderedDict
 
+# PWC scenario selection parameters
+pwc_selection_field = 'cdl'
+pwc_sample_size = 10000
+
+# Chunk size for reading scenarios
+chunk_size = 100000
+
 # Raster cell size
 cell_size = 30
 
@@ -8,6 +15,9 @@ cell_size = 30
 hydro_soil_groups = ['A', 'A/D', 'B', 'B/D', 'C', 'C/D', 'D']
 hsg_cultivated = ['A', 'A', 'B', 'B', 'C', 'C', 'D']
 hsg_non_cultivated = ['A', 'D', 'B', 'D', 'C', 'D', 'D']
+
+# USLE LS m values
+usle_m_vals = np.array([0.2, 0.3, 0.35, 0.4, 0.45, 0.5])
 
 # Soil depth bins;
 depth_bins = np.array([5, 20, 50, 100])
@@ -24,7 +34,8 @@ uslep_values = [0.6, 0.5, 0.5, 0.6, 0.8, 0.9]
 bins = {'slope': [0, 2, 5, 10, 15, 25, 200],
         'orgC_5': [0, 0.5, 1, 1.5, 2, 3, 4, 5, 6, 12, 20, 100],
         'sand_5': [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
-        'clay_5': [0, 5, 10, 15, 20, 25, 30, 40, 60, 80, 100]}
+        'clay_5': [0, 5, 10, 15, 20, 25, 30, 40, 60, 80, 100],
+        'usle_m': [0, 1, 3, 3.5, 4.5, 5, 100]}
 
 erom_months = [str(x).zfill(2) for x in range(1, 13)] + ['ma']
 
